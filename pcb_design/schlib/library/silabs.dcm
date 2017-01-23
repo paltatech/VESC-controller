@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CP2104
+D Interface USB UART [QFN-24]
+$ENDCMP
+#
+$CMP CP2130
+D Interface USB SPI [QFN-24]
+$ENDCMP
+#
+$CMP SI8661-SOIC
+D Five-in, one-out digital isolator
+$ENDCMP
+#
+$CMP Si501-PKG-B
+D 4-pin oscillator module
+F mod_pdf/OSC-4PIN-*
+$ENDCMP
+#
+#End Doc Library

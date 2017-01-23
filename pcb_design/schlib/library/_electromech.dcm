@@ -1,0 +1,97 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMMETER
+D Ammeter
+$ENDCMP
+#
+$CMP DPDT
+D Switch, DPDT
+$ENDCMP
+#
+$CMP DPST
+D Switch, DPST
+$ENDCMP
+#
+$CMP MVOLTMETER
+D Millivoltmeter
+$ENDCMP
+#
+$CMP PUSH
+D Switch, pushbutton
+$ENDCMP
+#
+$CMP RELAY_DPDT
+D Relay, DPDT
+$ENDCMP
+#
+$CMP RELAY_DPDT_DIODE
+D Relay, DPDT, with diode
+$ENDCMP
+#
+$CMP RELAY_SPDT
+D Relay, SPDT
+$ENDCMP
+#
+$CMP RELAY_SPDT_DIODE
+D Relay, SPDT, with diode
+F mod_pdf/RELAY-SPDT-*
+$ENDCMP
+#
+$CMP RELAY_SPST
+D Relay, SPST
+F mod_pdf/RELAY-SPDT-*
+$ENDCMP
+#
+$CMP RELAY_SPST_DIODE
+D Relay, SPST
+$ENDCMP
+#
+$CMP ROTARY_PUSH
+D Rotary encoder with pushbutton
+$ENDCMP
+#
+$CMP SP3T
+D Switch, SP3T
+$ENDCMP
+#
+$CMP SP4T
+D Switch, SPDT
+$ENDCMP
+#
+$CMP SPDT
+D Switch, SPDT
+$ENDCMP
+#
+$CMP SPST
+D Switch, SPST
+$ENDCMP
+#
+$CMP SW-DIP-4
+D SPST.4 [DIP-8]
+$ENDCMP
+#
+$CMP SW-DIP-6
+D SPST.6 [DIP-12]
+$ENDCMP
+#
+$CMP SW-DIP-8
+D SPST.8 [DIP-16]
+$ENDCMP
+#
+$CMP SW-MOM-OFF-MOM
+D Switch, MOM-OFF-MOM
+$ENDCMP
+#
+$CMP TACT
+D Switch, SPST tactile
+$ENDCMP
+#
+$CMP UAMMETER
+D Microammeter
+$ENDCMP
+#
+$CMP VOLTMETER
+D Voltmeter
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN-5145154-1-PCI
+D Connector, PCI 32-bit
+$ENDCMP
+#
+$CMP CONN-BNC-1-1337543-0
+D BNC, female, right angle, panel mount, through hole
+$ENDCMP
+#
+$CMP CONN-SMA-5-1814400-1
+D BNC, female, right angle, panel mount, through hole
+$ENDCMP
+#
+$CMP CONN-TE-1-1337543-0
+D CONN BNC JACK R/A 50 OHM
+$ENDCMP
+#
+$CMP CONN-TE-CT-2-292173-8-SMD-RT-M-8
+D Conn, 8 pos, 2mm pitch, SMD, CT series
+$ENDCMP
+#
+#End Doc Library

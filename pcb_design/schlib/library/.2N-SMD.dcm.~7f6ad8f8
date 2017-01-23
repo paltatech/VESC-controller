@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ng-csp ie ie6 lte9 lte8 lte7"><![endif]-->
+<!--[if IE 7]><html class="ng-csp ie ie7 lte9 lte8 lte7"><![endif]-->
+<!--[if IE 8]><html class="ng-csp ie ie8 lte9 lte8"><![endif]-->
+<!--[if IE 9]><html class="ng-csp ie ie9 lte9"><![endif]-->
+<!--[if gt IE 9]><html class="ng-csp ie"><![endif]-->
+<!--[if !IE]><!--><html class="ng-csp"><!--<![endif]-->
+
+	<head data-requesttoken="98c761800ed8dd3bde8f">
+		<title>
+		ownCloud		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-itunes-app" content="app-id=543672169">
+		<link rel="shortcut icon" href="/owncloud/core/img/favicon.png" />
+		<link rel="apple-touch-icon-precomposed" href="/owncloud/core/img/favicon-touch.png" />
+					<link rel="stylesheet" href="/owncloud/core/css/styles.css?v=b56ea7b6aa77f6f9008bc9362fab3597" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/icons.css?v=b56ea7b6aa77f6f9008bc9362fab3597" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/apps.css?v=b56ea7b6aa77f6f9008bc9362fab3597" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/fixes.css?v=b56ea7b6aa77f6f9008bc9362fab3597" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/multiselect.css?v=b56ea7b6aa77f6f9008bc9362fab3597" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/jquery-ui-1.10.0.custom.css?v=b56ea7b6aa77f6f9008bc9362fab3597" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/jquery-tipsy.css?v=b56ea7b6aa77f6f9008bc9362fab3597" type="text/css" media="screen" />
+					<link rel="stylesheet" href="/owncloud/core/css/jquery.ocdialog.css?v=b56ea7b6aa77f6f9008bc9362fab3597" type="text/css" media="screen" />
+							<script type="text/javascript" src="/owncloud/core/js/jquery-1.10.0.min.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery-migrate-1.2.1.min.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery-ui-1.10.0.custom.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery-showpassword.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery.infieldlabel.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery.placeholder.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery-tipsy.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/compatibility.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery.ocdialog.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/oc-dialogs.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/js.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/octemplate.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/eventsource.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/config.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/search/js/result.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/router.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/oc-requesttoken.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/placeholder.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/3rdparty/js/md5/md5.min.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/jquery.avatar.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+					<script type="text/javascript" src="/owncloud/core/js/avatar.js?v=b56ea7b6aa77f6f9008bc9362fab3597"></script>
+		
+			</head>
+
+	<body id="body-login">
+		<div class="wrapper"><!-- for sticky footer -->
+			<header><div id="header">
+				<img src="/owncloud/core/img/logo.svg" class="svg" alt="ownCloud" />
+				<div id="logo-claim" style="display:none;"></div>
+			</div></header>
+
+			<ul class="error-wide">
+			<li class='error'>
+			An exception occurred while executing &#039;SELECT &quot;appid&quot; FROM &quot;oc_appconfig&quot; WHERE &quot;configkey&quot; = &#039;enabled&#039; AND &quot;configvalue&quot;=&#039;yes&#039;&#039;:
+
+SQLSTATE[HY000]: General error: 5 database is locked<br/>
+			<p class='hint'></p>
+		</li>
+	</ul>
+
+			<div class="push"></div><!-- for sticky footer -->
+		</div>
+
+		<footer>
+			<p class="info">
+				<a href="http://owncloud.org" target="_blank">ownCloud</a> – web services under your control			</p>
+		</footer>
+	</body>
+</html>
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre_DAV_Exception_RequestedRangeNotSatisfiable</s:exception>
+  <s:message>The start offset (5373) exceeded the size of the entity (2616)</s:message>
+  <s:sabredav-version>1.7.6</s:sabredav-version>
+</d:error>
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre_DAV_Exception_RequestedRangeNotSatisfiable</s:exception>
+  <s:message>The start offset (5696) exceeded the size of the entity (2616)</s:message>
+  <s:sabredav-version>1.7.6</s:sabredav-version>
+</d:error>
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre_DAV_Exception_RequestedRangeNotSatisfiable</s:exception>
+  <s:message>The start offset (6019) exceeded the size of the entity (2616)</s:message>
+  <s:sabredav-version>1.7.6</s:sabredav-version>
+</d:error>

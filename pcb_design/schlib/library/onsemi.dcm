@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC1496D
+D ModDemod 300MHz Gilbert [SOIC-14]
+$ENDCMP
+#
+$CMP MC33078D
+D OpAmp.2 16MHz LowVos LowIB LowNoise [SOIC-8]
+$ENDCMP
+#
+$CMP MC33078P
+D OpAmp.2 16MHz LowVos LowIB LowNoise [DIP-8]
+$ENDCMP
+#
+$CMP MC33079D
+D OpAmp.4 16MHz LowVos LowIB LowNoise [SOIC-14]
+$ENDCMP
+#
+$CMP MC33079P
+D OpAmp.4 16MHz LowVos LowIB LowNoise [DIP-14]
+$ENDCMP
+#
+$CMP MC34063D
+D Reg Multi in:40V AdjV 1.5A 100kHz [SOIC-8]
+$ENDCMP
+#
+$CMP MC34063P
+D Reg Multi in:40V AdjV 1.5A 100kHz [DIP-8]
+$ENDCMP
+#
+$CMP MC79MvvCDT
+D Reg Lin -500mA [TO-252]
+$ENDCMP
+#
+$CMP NCP565D2T
+D Reg LDO 1.5A Adj [TO-263]
+$ENDCMP
+#
+$CMP NUF2042XV6
+D InputProt RC+TVS 22ohm 42pF USB [SOT-563]
+$ENDCMP
+#
+#End Doc Library

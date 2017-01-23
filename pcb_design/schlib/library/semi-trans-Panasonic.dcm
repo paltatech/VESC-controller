@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FK3303010L
+D NMOS 30V 100mA 3-6R 1Vth [SOT-23]
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,248 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BRIDGE
+D Diode.4 Bridge voltage current [footprint]
+$ENDCMP
+#
+$CMP BRIDGE-SCH
+D Schottky.4 Bridge voltage current [footprint]
+$ENDCMP
+#
+$CMP DIAC
+D DIAC [footprint]
+$ENDCMP
+#
+$CMP DIODE
+D Diode voltage current [footprint]
+$ENDCMP
+#
+$CMP DIODE-CA
+D Diode.2 CA voltage current [footprint]
+$ENDCMP
+#
+$CMP DIODE-CK
+D Diode.2 CK voltage current [footprint]
+$ENDCMP
+#
+$CMP DIODE-SERIES
+D Diode.2 Series voltage current [footprint]
+$ENDCMP
+#
+$CMP DPIN
+D Diode PIN voltage current [footprint]
+$ENDCMP
+#
+$CMP IGBT
+D IGBT voltage current (power) [footprint]
+$ENDCMP
+#
+$CMP LED
+D LED color wavelength voltage current [footprint]
+$ENDCMP
+#
+$CMP NJF
+D NJF (semi) voltage Idss [footprint]
+$ENDCMP
+#
+$CMP NJFC
+D NJF (semi) voltage Idss [footprint]
+$ENDCMP
+#
+$CMP NJFCSYM
+D NJF (semi) voltage Idss [footprint]
+$ENDCMP
+#
+$CMP NJFSYM
+D NJF (semi) voltage Idss [footprint]
+$ENDCMP
+#
+$CMP NMOS
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP NMOS-2D
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP NMOS-4D-3S
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP NMOS2G
+D NMOS DG (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP NMOS4
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP NMOS4SYM
+D NMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP NMOSDEP
+D NMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP NMOSDEP2G
+D NMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP NPN
+D NPN (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP NPN-2C
+D NPN (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP NPNDARL
+D NPN Darl (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP NPNDARL-2C
+D NPN Darl (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP NPNDUAL
+D NPN.2 (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP NPNLTP
+D NPN.2 CE (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP OPTO-FET
+D OPTO-FET voltage current [footprint]
+$ENDCMP
+#
+$CMP OPTO-NPN
+D OPTO-NPN voltage current [footprint]
+$ENDCMP
+#
+$CMP OPTO-PD
+D OPTO-PD voltage current [footprint]
+$ENDCMP
+#
+$CMP OPTO-PD-LIN
+D OPTO-PD Linearized voltage current [footprint]
+$ENDCMP
+#
+$CMP PJF
+D PJF (semi) voltage Idss [footprint]
+$ENDCMP
+#
+$CMP PJFC
+D PJF (semi) voltage Idss [footprint]
+$ENDCMP
+#
+$CMP PJFCSYM
+D PJF (semi) voltage Idss [footprint]
+$ENDCMP
+#
+$CMP PJFSYM
+D PJF (semi) voltage Idss [footprint]
+$ENDCMP
+#
+$CMP PMOS
+D PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP PMOS-2D
+D PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP PMOS-4D-3S
+D PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP PMOS4
+D PMOS (semi) voltage current (Rdson) (Vgsth) [footprint]
+$ENDCMP
+#
+$CMP PMOSDEP
+D PMOS DEP (semi) voltage current (Rdson) (Vgsth) [footprint]
+F mod_pdf/TO-*
+$ENDCMP
+#
+$CMP PNP
+D PNP (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP PNP-2C
+D PNP (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP PNPDARL
+D PNP Darl (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP PNPDARL-2C
+D PNP (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP PNPDUAL
+D PNP.2 (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP PNPLTP
+D PNP.2 CE (semi) voltage current (power) (ft) [footprint]
+$ENDCMP
+#
+$CMP PUT
+D PUT voltage power (I_TRM) [footprint]
+$ENDCMP
+#
+$CMP SCHOTTKY
+D Schottky voltage current [footprint]
+$ENDCMP
+#
+$CMP SCHOTTKY-CA
+D Schottky.2 CA voltage current [footprint]
+$ENDCMP
+#
+$CMP SCHOTTKY-CK
+D Schottky.2 CK voltage current [footprint]
+$ENDCMP
+#
+$CMP SCHOTTKY-SERIES
+D Schottky.2 Series voltage current [footprint]
+$ENDCMP
+#
+$CMP SCR
+D SCR voltage current (I_TSM) [footprint]
+$ENDCMP
+#
+$CMP TRIAC
+D TRIAC [footprint]
+$ENDCMP
+#
+$CMP TUNNEL
+D DTunnel [footprint]
+$ENDCMP
+#
+$CMP TVS-THYRISTOR
+D TVS Thy voltage (pulse) [footprint]
+$ENDCMP
+#
+$CMP TVS_BI
+D TVS Bidi voltage (pulse) (Cj) [footprint]
+$ENDCMP
+#
+$CMP TVS_THY
+D TVS voltage power Iz:zenertestcurrent Thyristor [footprint]
+$ENDCMP
+#
+$CMP UJT
+D UJT voltage power [footprint]
+$ENDCMP
+#
+$CMP VARICAP
+D Varicap voltage Cjrange [footprint]
+$ENDCMP
+#
+$CMP ZENER
+D Zener voltage power Iz:zenertestcurrent [footprint]
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,99 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AND-Quad
+D Logic AND.4
+$ENDCMP
+#
+$CMP AND3-Triple
+D Logic AND3.3
+$ENDCMP
+#
+$CMP BUF-Hex
+D Logic BUF.6
+$ENDCMP
+#
+$CMP BUF-OpenColl-Hex
+D Logic BUF.6 OpenColl
+$ENDCMP
+#
+$CMP BUF-Schmitt-Hex
+D Logic BUF.6 Schmitt
+$ENDCMP
+#
+$CMP Flipflop-D-SchmittClock-Dual
+D Logic DFF.2 SchmittClock
+$ENDCMP
+#
+$CMP Flipflop-JK-Dual
+D Logic JKFF.2
+$ENDCMP
+#
+$CMP Flipflop-JK-InvClock-Dual
+D Logic JKFF.2 InvClock
+$ENDCMP
+#
+$CMP Flipflop-JK-SchmittClock-Dual
+D Logic JKFF.2 SchmittClock
+$ENDCMP
+#
+$CMP MagComp-4bit-Expand
+D Logic MagComp 4bit Expandable
+$ENDCMP
+#
+$CMP Mux-4bit-DualGanged
+D Logic Mux 4bit-2gang
+$ENDCMP
+#
+$CMP NAND-Quad
+D Logic NAND.4
+$ENDCMP
+#
+$CMP NAND3-Triple
+D Logic NAND3.3
+$ENDCMP
+#
+$CMP NOR-Quad
+D Logic OR.4
+$ENDCMP
+#
+$CMP NOT-Hex
+D Logic NOT.6
+$ENDCMP
+#
+$CMP NOT-OpenColl-7
+D Logic NOT.7 OpenColl
+$ENDCMP
+#
+$CMP NOT-OpenColl-Hex
+D Logic NOT.6 OpenColl
+$ENDCMP
+#
+$CMP NOT-Schmitt-Hex
+D Logic NOT.6 Schmitt
+$ENDCMP
+#
+$CMP OR-Quad
+D Logic OR.4
+$ENDCMP
+#
+$CMP Shift-SIPO-8bit-InputAND
+D Logic Shift-SIPO-8bit
+$ENDCMP
+#
+$CMP Shift-SISPO-8bit-TrisLatch
+D Logic Shift-SISPO-8bit TrisLatch
+$ENDCMP
+#
+$CMP Shift-SPISO-8bit-ClockEn
+D Logic Shift-SPISO-8bit
+$ENDCMP
+#
+$CMP XNOR-Quad
+D Logic XNOR.4
+$ENDCMP
+#
+$CMP XOR-Quad
+D Logic XOR.4
+$ENDCMP
+#
+#End Doc Library

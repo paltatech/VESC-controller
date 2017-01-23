@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AOZ1037
+D Reg Buck in:18V AdjV 5A 500kHz Synch [SOIC-8-TP]
+$ENDCMP
+#
+$CMP AOZ1282
+D Reg Buck in:36V AdjV 1.2A 450kHz [SOT-23-6]
+$ENDCMP
+#
+#End Doc Library

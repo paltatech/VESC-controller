@@ -1,0 +1,148 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# IRF510
+#
+DEF IRF510 Q 0 0 Y N 1 F N
+F0 "Q" 250 50 50 H V C CNN
+F1 "IRF510" 250 -50 50 H V C CNN
+F2 "pth-semi:TO-220" 0 -250 60 H I C CNN
+F3 "http://www.vishay.com/docs/91015/sihf510.pdf" 0 -150 60 H I C CNN
+F4 "NMOS IRF510" 0 -350 60 H I C CNN "BOM"
+DRAW
+C 50 -60 10 0 1 0 F
+P 2 0 1 0  -20 50  -20 -50 N
+P 2 0 1 0  0 -60  50 -60 N
+P 2 0 1 0  0 -40  0 -80 N
+P 2 0 1 0  0 -20  0 20 N
+P 2 0 1 0  0 40  0 80 N
+P 2 0 1 0  0 60  50 60 N
+P 3 0 1 0  30 0  50 0  50 -60 N
+P 5 0 1 0  0 0  40 20  30 0  40 -20  0 0 F
+X G 1 -50 -50 30 R 40 50 1 1 P
+X D 2 50 100 40 D 40 50 1 1 P
+X S 3 50 -100 40 U 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IRF630
+#
+DEF IRF630 Q 0 0 Y N 1 F N
+F0 "Q" 250 50 50 H V C CNN
+F1 "IRF630" 250 -50 50 H V C CNN
+F2 "pth-semi:TO-220" 0 -250 60 H I C CNN
+F3 "http://www.irf.com/product-info/datasheets/data/irf630npbf.pdf" 0 -150 60 H I C CNN
+F4 "NMOS IRF630" 0 -350 60 H I C CNN "BOM"
+DRAW
+C 50 -60 10 0 1 0 F
+P 2 0 1 0  -20 50  -20 -50 N
+P 2 0 1 0  0 -60  50 -60 N
+P 2 0 1 0  0 -40  0 -80 N
+P 2 0 1 0  0 -20  0 20 N
+P 2 0 1 0  0 40  0 80 N
+P 2 0 1 0  0 60  50 60 N
+P 3 0 1 0  30 0  50 0  50 -60 N
+P 5 0 1 0  0 0  40 20  30 0  40 -20  0 0 F
+X G 1 -50 -50 30 R 40 50 1 1 P
+X D 2 50 100 40 D 40 50 1 1 P
+X S 3 50 -100 40 U 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IRF640
+#
+DEF IRF640 Q 0 0 Y N 1 F N
+F0 "Q" 250 50 50 H V C CNN
+F1 "IRF640" 250 -50 50 H V C CNN
+F2 "pth-semi:TO-220" 0 -250 60 H I C CNN
+F3 "http://www.irf.com/product-info/datasheets/data/irf640npbf.pdf" 0 -150 60 H I C CNN
+F4 "NMOS IRF640" 0 -350 60 H I C CNN "BOM"
+DRAW
+C 50 -60 10 0 1 0 F
+P 2 0 1 0  -20 50  -20 -50 N
+P 2 0 1 0  0 -60  50 -60 N
+P 2 0 1 0  0 -40  0 -80 N
+P 2 0 1 0  0 -20  0 20 N
+P 2 0 1 0  0 40  0 80 N
+P 2 0 1 0  0 60  50 60 N
+P 3 0 1 0  30 0  50 0  50 -60 N
+P 5 0 1 0  0 0  40 20  30 0  40 -20  0 0 F
+X G 1 -50 -50 30 R 40 50 1 1 P
+X D 2 50 100 40 D 40 50 1 1 P
+X S 3 50 -100 40 U 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IRF740
+#
+DEF IRF740 Q 0 0 Y N 1 F N
+F0 "Q" 250 50 50 H V C CNN
+F1 "IRF740" 250 -50 50 H V C CNN
+F2 "pth-semi:TO-220" 0 -250 60 H I C CNN
+F3 "http://www.vishay.com/docs/91054/91054.pdf" 0 -150 60 H I C CNN
+F4 "NMOS IRF740" 0 -350 60 H I C CNN "BOM"
+DRAW
+C 50 -60 10 0 1 0 F
+P 2 0 1 0  -20 50  -20 -50 N
+P 2 0 1 0  0 -60  50 -60 N
+P 2 0 1 0  0 -40  0 -80 N
+P 2 0 1 0  0 -20  0 20 N
+P 2 0 1 0  0 40  0 80 N
+P 2 0 1 0  0 60  50 60 N
+P 3 0 1 0  30 0  50 0  50 -60 N
+P 5 0 1 0  0 0  40 20  30 0  40 -20  0 0 F
+X G 1 -50 -50 30 R 40 50 1 1 P
+X D 2 50 100 40 D 40 50 1 1 P
+X S 3 50 -100 40 U 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IRF9540
+#
+DEF IRF9540 Q 0 0 Y N 1 F N
+F0 "Q" 300 50 50 H V C CNN
+F1 "IRF9540" 300 -50 50 H V C CNN
+F2 "pth-semi:TO-220" 0 -250 60 H I C CNN
+F3 "http://www.vishay.com/docs/91078/91078.pdf" 0 -150 60 H I C CNN
+F4 "PMOS IRF9540" 0 -350 60 H I C CNN "BOM"
+DRAW
+C 50 60 10 0 1 0 F
+P 2 0 1 0  -20 -50  -20 50 N
+P 2 0 1 0  0 -40  0 -80 N
+P 2 0 1 0  0 20  0 -20 N
+P 2 0 1 0  0 40  0 80 N
+P 2 0 1 0  0 60  50 60 N
+P 3 0 1 0  50 -80  50 -60  0 -60 N
+P 3 0 1 0  50 80  50 0  0 0 N
+P 5 0 1 0  50 0  10 -20  20 0  10 20  50 0 F
+X G 1 -50 50 30 R 40 50 1 1 P
+X D 2 50 -100 25 U 40 50 1 1 P
+X S 3 50 100 25 D 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IRFP9240
+#
+DEF IRFP9240 Q 0 0 Y N 1 F N
+F0 "Q" 300 50 50 H V C CNN
+F1 "IRFP9240" 300 -50 50 H V C CNN
+F2 "pth-semi:TO-247" 0 -250 60 H I C CNN
+F3 "http://www.vishay.com/docs/91239/sihfp924.pdf" 0 -150 60 H I C CNN
+F4 "PMOS IRFP9240" 0 -350 60 H I C CNN "BOM"
+DRAW
+C 50 60 10 0 1 0 F
+P 2 0 1 0  -20 -50  -20 50 N
+P 2 0 1 0  0 -40  0 -80 N
+P 2 0 1 0  0 20  0 -20 N
+P 2 0 1 0  0 40  0 80 N
+P 2 0 1 0  0 60  50 60 N
+P 3 0 1 0  50 -80  50 -60  0 -60 N
+P 3 0 1 0  50 80  50 0  0 0 N
+P 5 0 1 0  50 0  10 -20  20 0  10 20  50 0 F
+X G 1 -50 50 30 R 40 50 1 1 P
+X S 2 50 100 25 D 40 50 1 1 P
+X D 3 50 -100 25 U 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

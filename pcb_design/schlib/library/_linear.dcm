@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3WSENSOR
+D Sensor (Type) (range) (accuracy) (interface) [footprint]
+$ENDCMP
+#
+$CMP OA_DUAL
+D OpAmp.2/InAmp.2/Comp.2 <GBW (slew)>/<(delay)> (iorange) <(intech)>/<(outtech)> (extras) [footprint]
+$ENDCMP
+#
+$CMP OA_QUAD
+D OpAmp.4/InAmp.4/Comp.4 <GBW (slew)>/<(delay)> (iorange) <(intech)>/<(outtech)> (extras) [footprint]
+$ENDCMP
+#
+$CMP OA_SINGLE
+D OpAmp/IInAmp/Comp <GBW (slew)>/<(delay)> (iorange) <(intech)>/<(outtech)> (extras) [footprint]
+$ENDCMP
+#
+$CMP OSCILLATOR
+D Osc freq (tech) outtype (extras) [footprint]
+$ENDCMP
+#
+$CMP VREG_ADJ
+D Reg Lin/LDO AdjV current [footprint]
+$ENDCMP
+#
+$CMP VREG_ADJ-2ADJ
+D Reg Lin/LDO AdjV current [footprint]
+$ENDCMP
+#
+$CMP VREG_ADJ-2IN
+D Reg Lin/LDO AdjV current [footprint]
+$ENDCMP
+#
+$CMP VREG_ADJ-2OUT
+D Reg Lin/LDO AdjV current [footprint]
+$ENDCMP
+#
+$CMP VREG_FIXED
+D Reg Lin/LDO voltage current [footprint]
+$ENDCMP
+#
+$CMP VREG_FIXED-2GND
+D Reg Lin/LDO voltage current [footprint]
+$ENDCMP
+#
+$CMP VREG_FIXED-2IN
+D Reg Lin/LDO voltage current [footprint]
+$ENDCMP
+#
+$CMP VREG_FIXED-2OUT
+D Reg Lin/LDO voltage current [footprint]
+$ENDCMP
+#
+$CMP ZENERISH
+D VRef Shunt voltage tolerance ppm/K [footprint]
+$ENDCMP
+#
+$CMP ZENERISH_ADJ
+D VRef Shunt AdjV tolerance ppm/K [footprint]
+$ENDCMP
+#
+#End Doc Library

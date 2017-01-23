@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SCREW
+D Screw
+F mod_pdf/SCREW-*
+$ENDCMP
+#
+#End Doc Library

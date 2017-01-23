@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN-CONSMA001
+D SMA, female, through-hole
+$ENDCMP
+#
+$CMP CONN-CONSMA001-SMD
+D SMA, female, SMD
+$ENDCMP
+#
+#End Doc Library

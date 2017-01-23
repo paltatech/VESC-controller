@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABRACON-ASDMB
+D 4-pin oscillator module
+F mod_pdf/OSC-4PIN-*
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX-M8
+D GNSS GPS Module I2C UART
+$ENDCMP
+#
+#End Doc Library

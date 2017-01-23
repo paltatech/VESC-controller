@@ -1,0 +1,1053 @@
+mod: CAPAE330X540
+3dmod: smd_cap/c_elec_3x5_3.wrl
+rotz: 180
+
+mod: CAPAE330X550
+3dmod: smd_cap/c_elec_3x5_3.wrl
+rotz: 180
+
+mod: CAPAE430X460
+3dmod: smd_cap/c_elec_4x4_5.wrl
+rotz: 180
+
+mod: CAPAE430X540
+3dmod: smd_cap/c_elec_4x4_5.wrl
+rotz: 180
+
+mod: CAPAE430X550
+3dmod: smd_cap/c_elec_4x4_5.wrl
+rotz: 180
+
+mod: CAPAE430X600
+3dmod: smd_cap/c_elec_4x4_5.wrl
+rotz: 180
+
+mod: CAPAE530X460
+3dmod: smd_cap/c_elec_5x4_5.wrl
+rotz: 180
+
+mod: CAPAE530X540
+3dmod: smd_cap/c_elec_5x4_5.wrl
+rotz: 180
+
+mod: CAPAE530X550
+3dmod: smd_cap/c_elec_5x4_5.wrl
+rotz: 180
+
+mod: CAPAE530X600
+3dmod: smd_cap/c_elec_5x4_5.wrl
+rotz: 180
+
+mod: CAPAE530X610
+3dmod: smd_cap/c_elec_5x4_5.wrl
+rotz: 180
+
+mod: CAPAE660X460
+3dmod: smd_cap/c_elec_6_3x4_5.wrl
+rotz: 180
+
+mod: CAPAE660X540
+3dmod: smd_cap/c_elec_6_3x4_5.wrl
+rotz: 180
+
+mod: CAPAE660X550
+3dmod: smd_cap/c_elec_6_3x4_5.wrl
+rotz: 180
+
+mod: CAPAE660X570
+3dmod: smd_cap/c_elec_6_3x4_5.wrl
+rotz: 180
+
+mod: CAPAE660X600
+3dmod: smd_cap/c_elec_6_3x4_5.wrl
+rotz: 180
+
+mod: CAPAE660X790
+3dmod: smd_cap/c_elec_6_3x4_5.wrl
+rotz: 180
+
+mod: CAPAE830X620
+3dmod: smd_cap/c_elec_8x6_7.wrl
+rotz: 180
+
+mod: CAPAE830X680
+3dmod: smd_cap/c_elec_8x6_7.wrl
+rotz: 180
+
+mod: CAPAE830X1020
+3dmod: smd_cap/c_elec_8x6_7.wrl
+rotz: 180
+
+mod: CAPAE830X1050
+3dmod: smd_cap/c_elec_8x6_7.wrl
+rotz: 180
+
+mod: CAPAE1030X1020
+3dmod: smd_cap/c_elec_10x7_7.wrl
+rotz: 180
+
+mod: CAPAE1030X1050
+3dmod: smd_cap/c_elec_10x7_7.wrl
+rotz: 180
+
+mod: CAPAE1030X1250
+3dmod: smd_cap/c_elec_10x7_7.wrl
+rotz: 180
+
+mod: CAPAE1030X1350
+3dmod: smd_cap/c_elec_10x7_7.wrl
+rotz: 180
+
+mod: CAPAE1030X1750
+3dmod: smd_cap/c_elec_10x7_7.wrl
+rotz: 180
+
+mod: CAPAE1350X1350
+3dmod: smd_cap/c_elec_12_5x13_5.wrl
+rotz: 180
+
+mod: CAPAE1350X1650
+3dmod: smd_cap/c_elec_12_5x13_5.wrl
+rotz: 180
+
+mod: CAPAE1700X1900
+3dmod: smd_cap/c_elec_16x16_5.wrl
+rotz: 180
+
+mod: CAPAE1920X1650
+3dmod: smd_cap/c_elec_16x16_5.wrl
+scax: 1.2
+scay: 1.2
+rotz: 180
+
+
+
+mod: CAPC0603X33
+3dmod: smd_cap/c_0402.wrl
+scax: 0.7
+scay: 0.7
+scaz: 0.7
+
+mod: CAPC0816X61
+3dmod: smd_cap/c_0402.wrl
+scax: 0.8
+scay: 3.0
+
+mod: CAPC1005X55
+3dmod: smd_cap/c_0402.wrl
+
+mod: CAPC1005X56
+3dmod: smd_cap/c_0402.wrl
+
+mod: CAPC1005X60
+3dmod: smd_cap/c_0402.wrl
+
+mod: CAPC1220X107
+3dmod: smd_cap/c_0603.wrl
+scax: 0.7
+scay: 2.5
+
+mod: CAPC1320X76
+3dmod: smd_cap/c_0603.wrl
+scax: 0.7
+scay: 2.6
+
+mod: CAPC1508X65
+3dmod: smd_cap/c_0603.wrl
+
+mod: CAPC1608X55
+3dmod: smd_cap/c_0603.wrl
+
+mod: CAPC1608X86
+3dmod: smd_cap/c_0603.wrl
+
+mod: CAPC1608X87
+3dmod: smd_cap/c_0603.wrl
+
+mod: CAPC1608X90
+3dmod: smd_cap/c_0603.wrl
+
+mod: CAPC1608X92
+3dmod: smd_cap/c_0603.wrl
+
+mod: CAPC1608X95
+3dmod: smd_cap/c_0603.wrl
+
+mod: CAPC1632X76
+3dmod: smd_cap/c_0805.wrl
+scax: 0.7
+scay: 2.3
+scaz: 0.7
+
+mod: CAPC1632X168
+3dmod: smd_cap/c_0805.wrl
+scax: 0.7
+scay: 2.3
+scaz: 1.4
+
+mod: CAPC2012X70
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X71
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X88
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X90
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X94
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X95
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X100
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X100A
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X120
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X127
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X130
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X135
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X140
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X145
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2012X145A
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC2013X140
+3dmod: smd_cap/c_0805.wrl
+
+mod: CAPC3215X168
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X70
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X90
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X94
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X95
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X105
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X125
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X127
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X130
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X130A
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X140
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X152
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X175
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X178
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X180
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3216X190
+3dmod: smd_cap/c_1206.wrl
+
+mod: CAPC3225X88
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X94
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X100
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X105
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X110
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X120
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X127
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X130
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X140
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X150
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X152
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X155
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X160
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X168
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X178
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X180
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X190
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X200
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X205
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X220
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X229
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X230
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X245
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X270
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3225X279
+3dmod: smd_cap/c_1210.wrl
+
+mod: CAPC3813X130
+3dmod: smd_cap/c_0805.wrl
+scax: 2.2
+
+mod: CAPC4520X130
+3dmod: smd_cap/c_1808.wrl
+
+mod: CAPC4520X168
+3dmod: smd_cap/c_1808.wrl
+
+mod: CAPC4532X102
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X110
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X120
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X127
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X140
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X150
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X152
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X155
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X160
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X165
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X178
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X180
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X185
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X190
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X200
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X210
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X218
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X220
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X270
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4532X279
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4564X125
+3dmod: smd_cap/c_1825.wrl
+
+mod: CAPC4564X127
+3dmod: smd_cap/c_1825.wrl
+
+mod: CAPC4564X130
+3dmod: smd_cap/c_1825.wrl
+
+mod: CAPC4564X145
+3dmod: smd_cap/c_1825.wrl
+
+mod: CAPC4564X155
+3dmod: smd_cap/c_1825.wrl
+
+mod: CAPC4564X160
+3dmod: smd_cap/c_1825.wrl
+
+mod: CAPC4564X218
+3dmod: smd_cap/c_1825.wrl
+
+mod: CAPC4612X140
+3dmod: smd_cap/c_0805.wrl
+scax: 2.6
+
+mod: CAPC4620X203
+3dmod: smd_cap/c_1808.wrl
+scax: 1.1
+
+mod: CAPC4632X203
+3dmod: smd_cap/c_1812.wrl
+
+mod: CAPC4664X203
+3dmod: smd_cap/c_1812.wrl
+scay: 2.0
+
+mod: CAPC4665X150
+3dmod: smd_cap/c_1812.wrl
+scay: 2.0
+
+mod: CAPC4833X280
+3dmod: smd_cap/c_1812.wrl
+scax: 1.15
+
+mod: CAPC5025X71
+3dmod: smd_cap/c_1808.wrl
+scax: 1.2
+scay: 1.2
+
+mod: CAPC5650X115
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5650X125
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5650X145
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5650X155
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5650X165
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5651X218
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5663X115
+3dmod: smd_cap/c_2225.wrl
+
+mod: CAPC5663X125
+3dmod: smd_cap/c_2225.wrl
+
+mod: CAPC5663X145
+3dmod: smd_cap/c_2225.wrl
+
+mod: CAPC5663X155
+3dmod: smd_cap/c_2225.wrl
+
+mod: CAPC5664X200
+3dmod: smd_cap/c_2225.wrl
+
+mod: CAPC5664X218
+3dmod: smd_cap/c_2225.wrl
+
+mod: CAPC5750X200
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5750X229
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5750X230
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5750X279
+3dmod: smd_cap/c_2220.wrl
+
+mod: CAPC5757X203
+3dmod: smd_cap/c_2220.wrl
+scay: 1.1
+
+mod: CAPC5764X127
+3dmod: smd_cap/c_2225.wrl
+
+mod: CAPC5764X152
+3dmod: smd_cap/c_2225.wrl
+
+mod: CAPC6041X320
+3dmod: smd_cap/c_2220.wrl
+scax: 1.15
+scay: 0.8
+
+mod: CAPC6332X71
+3dmod: smd_cap/c_1812.wrl
+scax: 1.5
+
+mod: CAPC9198X218
+3dmod: smd_cap/c_2225.wrl
+scax: 1.8
+scay: 1.5
+
+mod: CAPCP1709X105
+3dmod: smd_cap/c_tant_A.wrl
+scax: 0.6
+scay: 0.6
+scaz: 0.6
+rotz: 180
+
+mod: CAPCP2014X145
+3dmod: smd_cap/c_tant_A.wrl
+scax: 0.6
+rotz: 180
+
+mod: CAPMP2013X120
+3dmod: smd_cap/c_tant_R.wrl
+rotz: 180
+
+mod: CAPMP3216X120
+3dmod: smd_cap/c_tant_S.wrl
+rotz: 180
+
+mod: CAPMP3216X180
+3dmod: smd_cap/c_tant_S.wrl
+rotz: 180
+
+mod: CAPMP3528X120
+3dmod: smd_cap/c_tant_T.wrl
+rotz: 180
+
+mod: CAPMP3528X210
+3dmod: smd_cap/c_tant_B.wrl
+rotz: 180
+
+mod: CAPMP4726X230
+3dmod: smd_cap/c_tant_U.wrl
+scax: 0.85
+scay: 0.65
+rotz: 180
+
+mod: CAPMP4945X270
+3dmod: smd_cap/c_tant_U.wrl
+scax: 0.9
+rotz: 180
+
+mod: CAPMP4955X270
+3dmod: smd_cap/c_tant_U.wrl
+scax: 0.9
+scay: 1.3
+rotz: 180
+
+mod: CAPMP5846X340
+3dmod: smd_cap/c_tant_U.wrl
+scay: 1.3
+rotz: 180
+
+mod: CAPMP6032X150
+3dmod: smd_cap/c_tant_U.wrl
+rotz: 180
+
+mod: CAPMP6032X250
+3dmod: smd_cap/c_tant_C.wrl
+rotz: 180
+
+mod: CAPMP6032X280
+3dmod: smd_cap/c_tant_C.wrl
+rotz: 180
+
+mod: CAPMP7243X430
+3dmod: smd_cap/c_tant_V.wrl
+rotz: 180
+
+mod: CAPMP7343X200
+3dmod: smd_cap/c_tant_V.wrl
+rotz: 180
+
+mod: CAPMP7343X280
+3dmod: smd_cap/c_tant_V.wrl
+rotz: 180
+
+mod: CAPMP7343X310
+3dmod: smd_cap/c_tant_V.wrl
+rotz: 180
+
+mod: CAPMP7343X430
+3dmod: smd_cap/c_tant_V.wrl
+rotz: 180
+
+mod: CAPMP7350X340
+3dmod: smd_cap/c_tant_V.wrl
+scay: 1.2
+rotz: 180
+
+mod: CAPMP7355X270
+3dmod: smd_cap/c_tant_E.wrl
+rotz: 180
+
+mod: CAPMP7360X370
+3dmod: smd_cap/c_tant_E.wrl
+rotz: 180
+
+mod: CAPMP7360X380
+3dmod: smd_cap/c_tant_E.wrl
+rotz: 180
+
+mod: CAPMP7365X370
+3dmod: smd_cap/c_tant_E.wrl
+scay: 1.08
+rotz: 180
+
+mod: CAPMP7370X440
+3dmod: smd_cap/c_tant_E.wrl
+scay: 1.17
+rotz: 180
+
+mod: CAPMP9675X490
+3dmod: smd_cap/c_tant_E.wrl
+scax: 1.32
+scay: 1.25
+rotz: 180
+
+mod: DIOM2012X160
+3dmod: smd_diode/sod123.wrl
+scax: 0.6
+scay: 0.6
+scaz: 0.6
+rotz: 180
+
+mod: DIOM5025X231
+3dmod: smd_diode/do214ac.wrl
+rotz: 180
+
+mod: DIOM5027X244
+3dmod: smd_diode/do214ac.wrl
+rotz: 180
+
+mod: DIOM5127X229
+3dmod: smd_diode/do214ac.wrl
+rotz: 180
+
+mod: DIOM5226X203
+3dmod: smd_diode/do214ac.wrl
+rotz: 180
+
+mod: DIOM5226X262
+3dmod: smd_diode/do214ac.wrl
+rotz: 180
+
+mod: DIOM5326X230
+3dmod: smd_diode/do214ac.wrl
+rotz: 180
+
+mod: DIOM5326X292
+3dmod: smd_diode/do214ac.wrl
+rotz: 180
+
+mod: DIOM5336X240
+3dmod: smd_diode/do214aa.wrl
+rotz: 180
+
+mod: DIOM5336X244
+3dmod: smd_diode/do214aa.wrl
+rotz: 180
+
+mod: DIOM5336X262
+3dmod: smd_diode/do214aa.wrl
+rotz: 180
+
+mod: DIOM5426X300
+3dmod: smd_diode/do214ac.wrl
+scay: 1.1
+rotz: 180
+
+mod: DIOM5427X295
+3dmod: smd_diode/do214ac.wrl
+rotz: 180
+
+mod: DIOM5436X241
+3dmod: smd_diode/do214aa.wrl
+rotz: 180
+
+mod: DIOM5436X244
+3dmod: smd_diode/do214aa.wrl
+rotz: 180
+
+mod: DIOM5436X265
+3dmod: smd_diode/do214aa.wrl
+rotz: 180
+
+mod: DIOM5436X295
+3dmod: smd_diode/do214aa.wrl
+rotz: 180
+
+mod: DIOM5538X262
+3dmod: smd_diode/do214aa.wrl
+rotz: 180
+
+mod: DIOM7959X241
+3dmod: smd_diode/do214aa.wrl
+scax: 1.6
+scay: 1.8
+rotz: 180
+
+mod: DIOM7959X262
+3dmod: smd_diode/do214aa.wrl
+scax: 1.6
+scay: 1.8
+rotz: 180
+
+mod: DIOM7959X265
+3dmod: smd_diode/do214aa.wrl
+scax: 1.6
+scay: 1.8
+rotz: 180
+
+mod: DIOM7960X216
+3dmod: smd_diode/do214aa.wrl
+scax: 1.6
+scay: 1.8
+rotz: 180
+
+mod: DIOMELF1911
+3dmod: smd_diode/micromelf.wrl
+rotz: 180
+
+mod: DIOMELF3414
+3dmod: smd_diode/micromelf.wrl
+scax: 1.79
+scay: 1.27
+scaz: 1.27
+rotz: 180
+
+mod: DIOMELF3515
+3dmod: smd_diode/micromelf.wrl
+scax: 1.84
+scay: 1.27
+scaz: 1.27
+rotz: 180
+
+mod: DIOMELF3516
+3dmod: smd_diode/micromelf.wrl
+scax: 1.84
+scay: 1.45
+scaz: 1.45
+rotz: 180
+
+mod: DIOMELF3520
+3dmod: smd_diode/micromelf.wrl
+scax: 1.84
+scay: 1.30
+scaz: 1.30
+rotz: 180
+
+mod: INDC1005X60
+3dmod: smd_resistors/r_0402.wrl
+
+mod: INDC1608X95
+3dmod: smd_resistors/r_0603.wrl
+
+mod: INDC2012X130
+3dmod: smd_resistors/r_0805.wrl
+
+mod: INDC2520X220
+3dmod: smd_resistors/r_1206.wrl
+scay: 1.2
+
+mod: INDC3225X135
+3dmod: smd_resistors/r_1210.wrl
+
+mod: INDC4509X190
+3dmod: smd_resistors/r_0603.wrl
+scax: 3.2
+scay: 1.2
+
+mod: INDC4516X160
+3dmod: smd_resistors/r_0805.wrl
+scax: 2.5
+scay: 1.2
+
+mod: INDC4532X175
+3dmod: smd_resistors/r_2010.wrl
+scay: 1.2
+
+mod: INDC4648X310
+3dmod: smd_resistors/r_0805.wrl
+scax: 2.0
+scay: 3.4
+
+mod: INDC5750X180
+3dmod: smd_resistors/r_2512.wrl
+scax: 0.9
+scay: 1.6
+
+mod: INDC6350X200
+3dmod: smd_resistors/r_2512.wrl
+scay: 1.6
+
+mod: INDCAF80P160X320X100-8
+3dmod: smd_resistors/r_cat16_4.wrl
+scax: 1.2
+
+mod: INDM2116X140
+3dmod: smd_resistors/r_0805.wrl
+
+mod: INDM2520X160
+3dmod: smd_resistors/r_1206.wrl
+
+mod: INDM3230X240
+3dmod: smd_resistors/r_1210.wrl
+
+mod: INDM4030X250
+3dmod: smd_resistors/r_2010.wrl
+scaz: 1.8
+
+mod: INDM5134X407
+3dmod: smd_resistors/r_2512.wrl
+scax: 0.9
+scay: 1.2
+scaz: 2.5
+
+mod: INDM5650X530
+3dmod: smd_resistors/r_2512.wrl
+scax: 0.9
+scay: 1.4
+scaz: 3.0
+
+mod: INDM8531X267
+3dmod: smd_resistors/r_2512.wrl
+scax: 1.4
+scay: 0.4
+scaz: 2.0
+
+mod: PLCC127P1752X1752X368-44
+3dmod: smd_plcc/plcc44.wrl
+rotz: 180
+
+mod: SOP65P640X110-16
+3dmod: smd_dil/tssop-16.wrl
+rotz: 90
+
+mod: SOP65P640X110-14
+3dmod: smd_dil/tssop-14.wrl
+rotz: 90
+
+mod: SOP65P640X120-14
+3dmod: smd_dil/tssop-14.wrl
+rotz: 90
+
+mod: SOP65P640X110-8
+3dmod: smd_dil/tssop-8.wrl
+rotz: 90
+
+mod: SOIC127P600X175-9
+3dmod: smd_dil/so-8.wrl
+rotz: 90
+
+mod: SOIC127P600X175-8
+3dmod: smd_dil/so-8.wrl
+rotz: 90
+
+mod: SOP65P640X120-8
+3dmod: smd_dil/tssop-8.wrl
+rotz: 90
+
+mod: SOIC127P600X175-14
+3dmod: smd_dil/so-14.wrl
+rotz: 90
+
+mod: SOP65P490X110-8
+3dmod: smd_dil/msoic-8.wrl
+rotz: 90
+
+mod: SOP65P490X109-8
+3dmod: smd_dil/msoic-8.wrl
+rotz: 90
+
+mod: QFP80P900X900X120-32
+3dmod: smd_lqfp/lqfp-32.wrl
+rotz: 90
+
+mod: RESC1005X40
+3dmod: smd_resistors/r_0402.wrl
+
+mod: RESC1608X50
+3dmod: smd_resistors/r_0603.wrl
+
+mod: RESC2012X50
+3dmod: smd_resistors/r_0805.wrl
+
+mod: SOIC127P600X150-16
+3dmod: smd_dil/so-16.wrl
+rotz: 90
+
+mod: QFP80P1200X1200X120-44
+3dmod: smd_lqfp/lqfp-44.wrl
+rotz: 90
+
+mod: QFN65P800X800X100-45V2
+3dmod: smd_qfn/qfn-44.wrl
+rotz: 90
+
+mod: SOP50P490X110-10
+3dmod: smd_dil/msoic-10.wrl
+rotz: 90
+
+mod: RESCAXE80P160X320X70-8
+3dmod: smd_resistors/r_cat16-4.wrl
+scax: 1.5
+
+mod: RESCAV80P160X320X70-8
+3dmod: smd_resistors/r_cat16-4.wrl
+scax: 1.5
+
+mod: QFP50P900X900X160-48
+3dmod: smd_lqfp/lqfp-48.wrl
+rotz: 90
+
+mod: PQFN50P400X400X100-25
+3dmod: smd_qfn/qfn-24.wrl
+rotz: 90
+
+mod: SOP65P780X200-20
+3dmod: smd_dil/tssop-20.wrl
+scay: 1.2
+rotz: 90
+
+mod: QFP50P1600X1600X160-100
+3dmod: smd_lqfp/tqfp-100.wrl
+scaz: 1.4
+rotz: 90
+
+mod: QFP50P1600X1600X120-100
+3dmod: smd_lqfp/tqfp-100.wrl
+rotz: 90
+
+mod: RESC6432X70
+3dmod: smd_resistors/r_2512.wrl
+
+mod: SOP65P640X110-17
+3dmod: smd_dil/tssop-16.wrl
+rotz: 90
+
+mod: SOP65P640X110-21
+3dmod: smd_dil/tssop-20.wrl
+rotz: 90
+
+mod: SOP63P600X160-16
+3dmod: smd_dil/tssop-16.wrl
+scax: 0.969
+rotz: 90
+
+mod: RESC3216X60
+3dmod: smd_resistors/r_1206.wrl
+
+mod: SOP65P490X110-9A
+3dmod: smd_dil/msoic-8_pp.wrl
+
+mod: XTAL1200X480X460
+3dmod: crystal/crystal_hc-49-smd.wrl
+
+mod: RESC3225X60
+3dmod: smd_resistors/r_1210.wrl
+
+mod: QFN50P900X900X100-65
+3dmod: smd_qfn/qfn-64.wrl
+rotz: 90
+
+mod: QFN50P300X300X100-17
+3dmod: smd_qfn/qfn-16.wrl
+scax: 0.6
+scay: 0.6
+rotz: 90
+
+mod: QFP50P1600X1600X100-100
+3dmod: smd_lqfp/tqfp-100.wrl
+rotz: 90
+
+mod: SOP65P640X110-20
+3dmod: smd_dil/tssop-20.wrl
+rotz: 90
+
+mod: QFP80P900X900X160-32
+3dmod: smd_lqfp/lqfp-32.wrl
+rotz: 90
+
+mod: SOIC254P1016X460-4
+3dmod: smd_dil/mdip_4.wrl
+rotz: 90
+
+mod: QFN50P700X700X100-49
+3dmod: smd_qfn/s-pvqfn-n48.wrl
+rotz: 90
+
+mod: QFN65P400X400X80-17
+3dmod: smd_qfn/qfn-16.wrl
+scax: 0.812
+scay: 0.812
+rotz: 90
+
+mod: SOJ127P1118X375-28
+3dmod: smd_dil/soic-28.wrl
+rotz: 90
+
+mod: SOIC127P600X170-9
+3dmod: smd_dil/so-8.wrl
+rotz: 90

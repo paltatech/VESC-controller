@@ -1,0 +1,207 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C-0201
+D Chip capacitor, EIA 0402, metric 1005
+$ENDCMP
+#
+$CMP C-0306
+D Chip capacitor, EIA 0306, metric 0816
+$ENDCMP
+#
+$CMP C-0402
+D Chip capacitor, EIA 0402, metric 1005
+$ENDCMP
+#
+$CMP C-0508
+D Chip capacitor, EIA 0508, metric 1220
+$ENDCMP
+#
+$CMP C-0603
+D Chip capacitor, EIA 0603, metric 1608
+$ENDCMP
+#
+$CMP C-0805
+D Chip capacitor, EIA 0805, metric 2012
+$ENDCMP
+#
+$CMP C-1111
+D Chip capacitor, EIA 1206, metric 3216
+$ENDCMP
+#
+$CMP C-1206
+D Chip capacitor, EIA 1206, metric 3216
+$ENDCMP
+#
+$CMP C-1210
+D Chip capacitor, EIA 1210, metric 3225
+$ENDCMP
+#
+$CMP C-1808
+D Chip capacitor, EIA 1808, metric 4520
+$ENDCMP
+#
+$CMP C-1812
+D Chip capacitor, EIA 1812, metric 4532
+$ENDCMP
+#
+$CMP C-2220
+D Chip capacitor, EIA 2220, metric 5750
+$ENDCMP
+#
+$CMP C-ALUM-1030
+D Aluminum capacitor, 10.3mm, Pana. G, ChemiC. J
+$ENDCMP
+#
+$CMP C-ALUM-10mm
+D Aluminum capacitor, 10mm diameter, 5mm L.S.
+$ENDCMP
+#
+$CMP C-ALUM-12.5mm
+D Aluminum capacitor, 12.5mm diameter, 5mm L.S.
+$ENDCMP
+#
+$CMP C-ALUM-1350
+D Aluminum capacitor, 13.5mm, Pana. H, ChemiC. K
+$ENDCMP
+#
+$CMP C-ALUM-16mm
+D Aluminum capacitor, 16mm diameter, 7.5mm L.S.
+$ENDCMP
+#
+$CMP C-ALUM-18mm
+D Aluminum capacitor, 18mm diameter, 7.5mm L.S.
+$ENDCMP
+#
+$CMP C-ALUM-22mm
+D Aluminum capacitor, 22mm diameter, 10mm L.S., snap leads
+$ENDCMP
+#
+$CMP C-ALUM-25mm
+D Aluminum capacitor, 25mm diameter, 10mm L.S., snap leads
+$ENDCMP
+#
+$CMP C-ALUM-330
+D Aluminum capacitor, 3.3mm, Pana. A, ChemiC. B
+$ENDCMP
+#
+$CMP C-ALUM-430
+D Aluminum capacitor, 4.3mm, Pana. B, ChemiC. D
+$ENDCMP
+#
+$CMP C-ALUM-530
+D Aluminum capacitor, 5.3mm, Pana. C, ChemiC. E
+$ENDCMP
+#
+$CMP C-ALUM-5mm
+D Aluminum capacitor, 5mm diameter, 2mm L.S.
+$ENDCMP
+#
+$CMP C-ALUM-6.3mm
+D Aluminum capacitor, 6.3mm diameter, 2.5mm L.S.
+$ENDCMP
+#
+$CMP C-ALUM-660
+D Aluminum capacitor, 3.3mm, Pana. D, ChemiC. F
+$ENDCMP
+#
+$CMP C-ALUM-830
+D Aluminum capacitor, 8.3mm, Pana. E, ChemiC. H
+$ENDCMP
+#
+$CMP C-ALUM-830-1020
+D Aluminum capacitor, 8.3mm, 10.2mm high, Pana. F
+$ENDCMP
+#
+$CMP C-ALUM-8mm
+D Aluminum capacitor, 8mm diameter, 3.5mm L.S.
+$ENDCMP
+#
+$CMP C-CER-12mm
+D Ceramic capacitor, 12mm width, 400mil L.S.
+$ENDCMP
+#
+$CMP C-CER-3mm
+D Ceramic capacitor, 3mm width, 100mil L.S.
+$ENDCMP
+#
+$CMP C-CER-6mm
+D Ceramic capacitor, 6mm width, 200mil L.S.
+$ENDCMP
+#
+$CMP C-FILM-2.5mm
+D Film capacitor, 2.5mm by 7.2mm, 5mm L.S.
+$ENDCMP
+#
+$CMP C-FILM-3.5mm
+D Film capacitor, 3.5mm by 7.2mm, 5mm L.S.
+$ENDCMP
+#
+$CMP C-FILM-4.5mm
+D Film capacitor, 4.5mm by 7.2mm, 5mm L.S.
+$ENDCMP
+#
+$CMP C-FILM-5mm
+D Film capacitor, 5mm by 7.2mm, 5mm L.S.
+$ENDCMP
+#
+$CMP C-FILM-6mm
+D Film capacitor, 6mm by 7.2mm, 5mm L.S.
+$ENDCMP
+#
+$CMP C-TANT-2012-12
+D Tantalum capacitor, EIA 2012-12, Kemet/AVX R
+$ENDCMP
+#
+$CMP C-TANT-3216-10
+D Tantalum capacitor, EIA 3216-10, Kemet I, AVX K
+$ENDCMP
+#
+$CMP C-TANT-3216-12
+D Tantalum capacitor, EIA 3216-12, Kemet/AVX S
+$ENDCMP
+#
+$CMP C-TANT-3216-18
+D Tantalum capacitor, EIA 3216-18, Kemet/AVX A
+$ENDCMP
+#
+$CMP C-TANT-3528-12
+D Tantalum capacitor, EIA 3528-12, Kemet/AVX T
+$ENDCMP
+#
+$CMP C-TANT-3528-21
+D Tantalum capacitor, EIA 3528-21, Kemet/AVX B
+$ENDCMP
+#
+$CMP C-TANT-6032-15
+D Tantalum capacitor, EIA 6032-15, Kemet U, AVX W
+$ENDCMP
+#
+$CMP C-TANT-6032-28
+D Tantalum capacitor, EIA 6032-28, Kemet/AVX C
+$ENDCMP
+#
+$CMP C-TANT-7260-38
+D Tantalum capacitor, EIA 7260-38, Kemet E, AVX V
+$ENDCMP
+#
+$CMP C-TANT-7343-20
+D Tantalum capacitor, EIA 7343-20, Kemet V, AVX Y
+$ENDCMP
+#
+$CMP C-TANT-7343-31
+D Tantalum capacitor, EIA 7343-31, Kemet/AVX D
+$ENDCMP
+#
+$CMP C-TANT-7343-43
+D Tantalum capacitor, EIA 7343-43, Kemet X, AVX E
+$ENDCMP
+#
+$CMP CV-MURATA-TZC3P
+D SMD trim capacitor
+$ENDCMP
+#
+$CMP CV-TZC3P-MURATA
+D SMD trim capacitor
+$ENDCMP
+#
+#End Doc Library

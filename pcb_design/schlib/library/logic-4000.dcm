@@ -1,0 +1,111 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 40106-DIP
+D Hex inverting Schmitt trigger
+$ENDCMP
+#
+$CMP 40106-SO
+D Hex inverting Schmitt trigger
+$ENDCMP
+#
+$CMP 40106-SSOP
+D Hex inverting Schmitt trigger
+$ENDCMP
+#
+$CMP 40106-TSSOP
+D Hex inverting Schmitt trigger
+$ENDCMP
+#
+$CMP 4011-DIP
+D Quad NAND gate
+$ENDCMP
+#
+$CMP 4011-SO
+D Quad NAND gate
+$ENDCMP
+#
+$CMP 4011-SSOP
+D Quad NAND gate
+$ENDCMP
+#
+$CMP 4011-TSSOP
+D Quad NAND gate
+$ENDCMP
+#
+$CMP 4051-DIP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4051-SO
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4051-SSOP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4051-TSSOP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4052-DIP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4052-SO
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4052-SSOP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4052-TSSOP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4053-DIP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4053-SO
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4053-SSOP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4053-TSSOP
+D 8-channel analog (de)mux
+$ENDCMP
+#
+$CMP 4059-DIP
+D Programmable divide-by-n counter
+$ENDCMP
+#
+$CMP 4059-DIP-W
+D Programmable divide-by-n counter
+$ENDCMP
+#
+$CMP 4059-SO
+D Programmable divide-by-n counter
+$ENDCMP
+#
+$CMP 4066-DIP
+D Quad analog switch
+$ENDCMP
+#
+$CMP 4066-SO
+D Quad analog switch
+$ENDCMP
+#
+$CMP 4066-SSOP
+D Quad analog switch
+$ENDCMP
+#
+$CMP 4066-TSSOP
+D Quad analog switch
+$ENDCMP
+#
+#End Doc Library

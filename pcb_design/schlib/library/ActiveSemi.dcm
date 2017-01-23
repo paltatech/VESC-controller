@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACT8945A
+D PMIC 3.Buck 4.LDO [TQFN55-40]
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+( page_layout
+  (setup(textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
+  (left_margin 10)(right_margin 10)(top_margin 10)(bottom_margin 10))
+  (tbtext %Y (name text1:Text) (pos 109 20) (font bold))
+  (tbtext %C0 (name text2:Text) (pos 109 23))
+  (tbtext %C1 (name text3:Text) (pos 109 26))
+  (tbtext %C2 (name text4:Text) (pos 109 29))
+  (tbtext %C3 (name text5:Text) (pos 109 32))
+)

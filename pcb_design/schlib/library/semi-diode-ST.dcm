@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STPS10L25G
+D Schottky 25V 10A [TO-263]
+F mod_pdf/DO-*
+$ENDCMP
+#
+$CMP USBLC6-2P6
+D TVS.3 3.5pF [SOT-666]
+$ENDCMP
+#
+$CMP USBLC6-2SC6
+D TVS.3 3.5pF [SOT-23-6]
+$ENDCMP
+#
+#End Doc Library

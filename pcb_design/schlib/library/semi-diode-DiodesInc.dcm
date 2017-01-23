@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRTR5V0U2SR
+D TVS.3 5.5V 5A 1pF [SOT-143]
+$ENDCMP
+#
+#End Doc Library

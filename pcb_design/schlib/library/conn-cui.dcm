@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN-PJ-037A
+D Conn Barrel 2.1x5.5mm [PTH]
+$ENDCMP
+#
+$CMP CONN-PJ1-021
+D Barrel jack, 2.1mm ID, 5.5mm OD, 16V, 2.5A
+$ENDCMP
+#
+#End Doc Library

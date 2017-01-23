@@ -1,0 +1,56 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 1SS381
+#
+DEF 1SS381 D 0 0 Y N 1 F N
+F0 "D" 200 50 50 H V C CNN
+F1 "1SS381" 200 -50 50 H V C CNN
+F2 "smd-semi:SOD-523" 0 -300 60 H I C CNN
+F3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=2711&prodName=1SS381" 0 -200 60 H I C CNN
+F4 "DIODE TOSHIBA 1SS381" 0 -400 60 H I C CNN "BOM"
+DRAW
+S -50 -85 50 -95 0 1 10 F
+S -50 -45 50 -85 0 1 10 N
+P 4 0 1 10 0 -45 -40 45 40 45 0 -45 F
+X K 1 0 -150 50 U 40 50 1 1 P
+X A 2 0 100 50 D 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1SV305
+#
+DEF 1SV305 D 0 0 Y N 1 F N
+F0 "D" 250 50 50 H V C CNN
+F1 "1SV305" 250 -50 50 H V C CNN
+F2 "smd-semi:SOD-523" 0 -300 60 H I C CNN
+F3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=2830&prodName=1SV305" 0 -200 60 H I C CNN
+F4 "DIODE TOSHIBA 1SV305" 0 -400 60 H I C CNN "BOM"
+DRAW
+A 0 -170 112 634 1166 0 1 10 N 50 -70 -50 -70
+P 2 0 1 10 -50 -40 50 -40 N
+P 2 0 1 0 0 -70 0 -40 N
+P 4 0 1 10 0 -40 -40 50 40 50 0 -40 F
+X K 1 0 -100 30 U 40 50 1 1 P
+X A 2 0 100 50 D 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CUS10S30
+#
+DEF CUS10S30 D 0 0 Y N 1 F N
+F0 "D" 300 50 50 H V C CNN
+F1 "CUS10S30" 300 -50 50 H V C CNN
+F2 "smd-semi:SOD-323" 0 -250 50 H I C CNN
+F3 "http://www.semicon.toshiba.co.jp/info/docget.jsp?type=datasheet&lang=en&pid=CUS10S30" 0 -350 60 H I C CNN
+F4 "SCHOTTKY TOSHIBA CUS10S30" 0 -150 60 H I C CNN "BOM"
+DRAW
+P 2 0 1 0 0 -50 0 -40 N
+P 4 0 1 10 0 -40 -40 50 40 50 0 -40 F
+P 6 0 1 10 -40 -30 -50 -30 -50 -50 50 -50 50 -70 40 -70 N
+X K 1 0 -100 50 U 40 50 1 1 P
+X A 2 0 100 50 D 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

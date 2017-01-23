@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IV-21
+D Display VFD 7seg Digits:8 Muxed
+$ENDCMP
+#
+$CMP IVLM-16
+D Display VFD 7x5 Chars:16 Muxed
+$ENDCMP
+#
+$CMP KINGBRIGHT-BA56-11GWA
+D Display LED 7seg Digits:3 Muxed CA Green
+$ENDCMP
+#
+$CMP LCD-HJ1602A
+D Display LCD Alphanum Chars:16x2 Parallel
+$ENDCMP
+#
+$CMP LITEON-LTC-4627JR
+D Display LED 7seg Digits:4 Muxed CA
+$ENDCMP
+#
+$CMP LUMEX-LDS-A324RI
+D Display LED 7seg Single CA
+$ENDCMP
+#
+$CMP NHD-C0220BIZ-FSW-FBW-3V3M
+D Display LCD Alphanum Chars:20x2 I2C
+$ENDCMP
+#
+$CMP TOPLITE-A-5161BS
+D Display LED 7seg Single CA
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7400
+D Logic NAND.4
+$ENDCMP
+#
+$CMP 7404
+D Logic NOT.6
+$ENDCMP
+#
+$CMP 7414
+D Logic NOT.6 Schmitt
+$ENDCMP
+#
+$CMP 74153
+D Logic Mux 4bit-2gang
+$ENDCMP
+#
+$CMP 74165
+D Logic Shift-SPISO-8bit
+$ENDCMP
+#
+#End Doc Library

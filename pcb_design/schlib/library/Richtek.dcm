@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT7258GQW
+D Reg Buck in:24V 8A 600kHz Sync ClkSync [DFN-14]
+$ENDCMP
+#
+$CMP RT7258GSP
+D Reg Buck in:24V 8A 600kHz Sync ClkSync [SOP-8]
+$ENDCMP
+#
+$CMP RT9026GFP
+D Reg Linear DDR-Termination [MSOP-10]
+$ENDCMP
+#
+#End Doc Library

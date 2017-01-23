@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FAN4010
+D InAmp CurrentSense 600kHz 0.2% [MLP-6]
+$ENDCMP
+#
+$CMP FAN4860UMP5X
+D Reg Boost 5v 400mA 3MHz Sync
+$ENDCMP
+#
+#End Doc Library

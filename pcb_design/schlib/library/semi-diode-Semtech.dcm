@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RClamp1644T
+D TVS.4 5V 5A 0.6pF [SLP1508N5T]
+$ENDCMP
+#
+#End Doc Library

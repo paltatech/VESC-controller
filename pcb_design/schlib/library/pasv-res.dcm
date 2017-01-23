@@ -1,0 +1,95 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R-0201
+D Chip resistor, EIA 0402, metric 1005
+$ENDCMP
+#
+$CMP R-0402
+D Chip resistor, EIA 0402, metric 1005
+$ENDCMP
+#
+$CMP R-0603
+D Chip resistor, EIA 0603, metric 1608
+$ENDCMP
+#
+$CMP R-0612
+D Chip resistor, EIA 0805, metric 2012
+$ENDCMP
+#
+$CMP R-0805
+D Chip resistor, EIA 0805, metric 2012
+$ENDCMP
+#
+$CMP R-1206
+D Chip resistor, EIA 1206, metric 3216
+$ENDCMP
+#
+$CMP R-1210
+D Chip resistor, EIA 1210, metric 3225
+$ENDCMP
+#
+$CMP R-2010
+D Chip resistor, EIA 2010, metric 5025
+$ENDCMP
+#
+$CMP R-2512
+D Chip resistor, EIA 2512, metric 6432
+$ENDCMP
+#
+$CMP R-AX-1W
+D Axial resistor, 1 W
+$ENDCMP
+#
+$CMP R-AX-EW
+D Axial resistor, 1/8 W
+$ENDCMP
+#
+$CMP R-AX-HW
+D Axial resistor, 1/2 W
+$ENDCMP
+#
+$CMP R-AX-QW
+D Axial resistor, 1/4 W
+$ENDCMP
+#
+$CMP R-KOASPEER-MOS-2W
+D Axial resistor, 2 W
+$ENDCMP
+#
+$CMP R-KOASPEER-MOS-3W
+D Axial resistor, 2 W
+$ENDCMP
+#
+$CMP R-VISHAY-WSL3637-LARGE
+D Resistor (template)
+$ENDCMP
+#
+$CMP R-VISHAY-WSL3637-SMALL
+D Resistor (template)
+$ENDCMP
+#
+$CMP RESPACK-4X0603-CONC
+D Resistor pack, 4x0603 (1206) concave
+$ENDCMP
+#
+$CMP RESPACK-4X0603-CONV
+D Resistor pack, 4x0603 (1206) convex
+$ENDCMP
+#
+$CMP THERM-0603
+D Chip thermistor, EIA 0603, metric 1608
+$ENDCMP
+#
+$CMP THERM-0805
+D Chip thermistor, EIA 0805, metric 2012
+$ENDCMP
+#
+$CMP THERM-1206
+D Chip thermistor, EIA 0603, metric 1608
+$ENDCMP
+#
+$CMP THERM-1210
+D Chip thermistor, EIA 0603, metric 1608
+$ENDCMP
+#
+#End Doc Library

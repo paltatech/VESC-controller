@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Doctrine\DBAL\DBALException</s:exception>
+  <s:message>An exception occurred while executing 'SELECT "numeric_id" FROM "oc_storages" WHERE "id" = ?':
+
+SQLSTATE[HY000]: General error: 5 database is locked</s:message>
+  <s:sabredav-version>1.7.6</s:sabredav-version>
+</d:error>
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre_DAV_Exception_RequestedRangeNotSatisfiable</s:exception>
+  <s:message>The start offset (388) exceeded the size of the entity (240)</s:message>
+  <s:sabredav-version>1.7.6</s:sabredav-version>
+</d:error>
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre_DAV_Exception_RequestedRangeNotSatisfiable</s:exception>
+  <s:message>The start offset (709) exceeded the size of the entity (240)</s:message>
+  <s:sabredav-version>1.7.6</s:sabredav-version>
+</d:error>
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre_DAV_Exception_RequestedRangeNotSatisfiable</s:exception>
+  <s:message>The start offset (1030) exceeded the size of the entity (240)</s:message>
+  <s:sabredav-version>1.7.6</s:sabredav-version>
+</d:error>

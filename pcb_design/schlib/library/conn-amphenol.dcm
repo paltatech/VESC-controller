@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN-114-00841-68-MICROSD
+D Micro SD (push/pull, contacts down)
+$ENDCMP
+#
+$CMP CONN-GSB3211311WEU
+D USB-B 3.0 Receptacle
+$ENDCMP
+#
+$CMP CONN-GSB443133HR
+D USB micro-B 3.0 Receptacle
+$ENDCMP
+#
+$CMP CONN-UE27AC54100
+D USB-A
+$ENDCMP
+#
+#End Doc Library
