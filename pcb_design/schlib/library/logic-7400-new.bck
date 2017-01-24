@@ -20,8 +20,4 @@ $CMP 74165
 D Logic Shift-SPISO-8bit
 $ENDCMP
 #
-$CMP SN74ALVC08PWR
-D Logic AND.4 TSSOP
-$ENDCMP
-#
 #End Doc Library
