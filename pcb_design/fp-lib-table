@@ -16,4 +16,6 @@
   (lib (name pth-semi)(type KiCad)(uri "$(KIPRJMOD)/pcblib/pth-semi.pretty")(options "")(descr ""))
   (lib (name smd-non-ipc)(type KiCad)(uri "$(KIPRJMOD)/pcblib/smd-non-ipc.pretty")(options "")(descr ""))
   (lib (name smd-semi)(type KiCad)(uri "$(KIPRJMOD)/pcblib/smd-semi.pretty")(options "")(descr ""))
+  (lib (name CRF1)(type KiCad)(uri "$(KIPRJMOD)/pcblib/crf1.pretty")(options "")(descr ""))
+  (lib (name w_conn_jst-ph)(type KiCad)(uri "$(KIPRJMOD)/pcblib/w_conn_jst-ph.pretty")(options "")(descr ""))
 )
