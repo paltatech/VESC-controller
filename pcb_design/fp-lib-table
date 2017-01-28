@@ -18,4 +18,5 @@
   (lib (name smd-semi)(type KiCad)(uri "$(KIPRJMOD)/pcblib/smd-semi.pretty")(options "")(descr ""))
   (lib (name CRF1)(type KiCad)(uri "$(KIPRJMOD)/pcblib/crf1.pretty")(options "")(descr ""))
   (lib (name w_conn_jst-ph)(type KiCad)(uri "$(KIPRJMOD)/pcblib/w_conn_jst-ph.pretty")(options "")(descr ""))
+  (lib (name conn-phoenix)(type KiCad)(uri "$(KIPRJMOD)/pcblib/conn-phoenix.pretty")(options "")(descr ""))
 )

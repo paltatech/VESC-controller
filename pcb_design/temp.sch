@@ -105,20 +105,20 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 13
-Title "BLDC Driver 4.11"
-Date "21 aug 2015"
-Rev "4.12"
-Comp "Benjamin Vedder"
+Title "Controller temperature sensing"
+Date "2017-01-24"
+Rev "0.1"
+Comp "vedder.se + PALTA TECH S.A. + PYMCO.fr"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND-RESCUE-BLDC_4 #PWR28
+L GND-RESCUE-BLDC_4 #PWR030
 U 1 1 5426DB25
 P 4400 4200
-F 0 "#PWR28" H 4400 4200 30  0001 C CNN
+F 0 "#PWR030" H 4400 4200 30  0001 C CNN
 F 1 "GND" H 4400 4130 30  0001 C CNN
 F 2 "" H 4400 4200 60  0000 C CNN
 F 3 "" H 4400 4200 60  0000 C CNN
@@ -180,10 +180,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 4050 4150 4150
 $Comp
-L +3.3A #PWR27
+L +3.3A #PWR031
 U 1 1 588BA405
 P 4400 3350
-F 0 "#PWR27" H 0   100 30  0001 C CNN
+F 0 "#PWR031" H 0   100 30  0001 C CNN
 F 1 "+3.3A" H 4400 3483 50  0000 C CNN
 F 2 "" H 0   50  60  0000 C CNN
 F 3 "" H 0   50  60  0000 C CNN
