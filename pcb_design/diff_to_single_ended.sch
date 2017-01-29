@@ -114,9 +114,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4800 4000 0    60   Input ~ 0
+Text HLabel 4500 4000 0    60   Input ~ 0
 IN+
-Text HLabel 4800 4200 0    60   Input ~ 0
+Text HLabel 4500 4200 0    60   Input ~ 0
 IN-
 Text HLabel 7500 4100 2    60   Output ~ 0
 OUT
@@ -207,8 +207,8 @@ P 5950 4550
 AR Path="/5886DA84/588F226F" Ref="#PWR?"  Part="1" 
 AR Path="/588C2790/588F226F" Ref="#PWR?"  Part="1" 
 AR Path="/588C4E84/588F226F" Ref="#PWR?"  Part="1" 
-AR Path="/588DB05E/588F226F" Ref="#PWR0159"  Part="1" 
-F 0 "#PWR0159" H 5950 4550 30  0001 C CNN
+AR Path="/588DB05E/588F226F" Ref="#PWR160"  Part="1" 
+F 0 "#PWR160" H 5950 4550 30  0001 C CNN
 F 1 "GND" H 5950 4480 30  0001 C CNN
 F 2 "" H 5950 4550 60  0000 C CNN
 F 3 "" H 5950 4550 60  0000 C CNN
@@ -295,9 +295,9 @@ Connection ~ 5400 4000
 Text Notes 3700 3350 0    100  ~ 20
 1st order filter (TBD)
 Wire Wire Line
-	4800 4000 5000 4000
+	4500 4000 5000 4000
 Wire Wire Line
-	4800 4200 5000 4200
+	4500 4200 5000 4200
 Wire Notes Line
 	3600 3100 3600 4850
 Wire Notes Line
@@ -349,10 +349,10 @@ Wire Wire Line
 Wire Wire Line
 	7050 6050 7050 6400
 $Comp
-L GND #PWR0160
+L GND #PWR162
 U 1 1 588F3171
 P 7050 6400
-F 0 "#PWR0160" H 7100 6450 30  0001 C CNN
+F 0 "#PWR162" H 7100 6450 30  0001 C CNN
 F 1 "GND" H 0   780 30  0001 C CNN
 F 2 "" H 0   850 60  0000 C CNN
 F 3 "" H 0   850 60  0000 C CNN
@@ -361,10 +361,10 @@ F 3 "" H 0   850 60  0000 C CNN
 $EndComp
 Connection ~ 7050 6350
 $Comp
-L +3.3 #PWR0161
+L +3.3 #PWR161
 U 1 1 588F3249
 P 7050 5500
-F 0 "#PWR0161" H 7100 5550 30  0001 C CNN
+F 0 "#PWR161" H 7100 5550 30  0001 C CNN
 F 1 "+3.3" H 7050 5633 50  0000 C CNN
 F 2 "" H -50 0   60  0000 C CNN
 F 3 "" H -50 0   60  0000 C CNN
@@ -372,4 +372,22 @@ F 3 "" H -50 0   60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7050 5550
+$Comp
+L R-0603 R?
+U 1 1 588DF124
+P 4800 4100
+AR Path="/5886DA84/588DF124" Ref="R?"  Part="1" 
+AR Path="/588C2790/588DF124" Ref="R?"  Part="1" 
+AR Path="/588C4E84/588DF124" Ref="R?"  Part="1" 
+AR Path="/588DB05E/588DF124" Ref="R121"  Part="1" 
+F 0 "R121" V 4700 4100 50  0000 C CNN
+F 1 "2k" V 4800 4100 30  0000 C CNN
+F 2 "IPC7351-Nominal:RESC1608X50" H 4800 4100 50  0001 C CNN
+F 3 "" H 4800 4150 60  0000 C CNN
+F 4 "RES SMD 1k 5% [0603]" H 5550 4650 60  0001 C CNN "BOM"
+	1    4800 4100
+	-1   0    0    1   
+$EndComp
+Connection ~ 4800 4000
+Connection ~ 4800 4200
 $EndSCHEMATC
