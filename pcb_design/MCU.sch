@@ -2686,11 +2686,9 @@ $EndComp
 Text HLabel 3650 4500 0    60   Input ~ 0
 I_phase_W
 Text HLabel 3650 5400 0    60   Input ~ 0
-PC11
-Text HLabel 3650 5500 0    60   Input ~ 0
-PC12
-Text HLabel 3650 5300 0    60   Input ~ 0
-PC10
+SPI3_MISO
+Text HLabel 3650 5300 0    60   Output ~ 0
+SPI3_SCK
 Text HLabel 3650 5200 0    60   Input ~ 0
 PC9
 NoConn ~ 3650 5600
@@ -2900,4 +2898,6 @@ Text HLabel 3650 2900 0    60   Output ~ 0
 ADC_8
 Text Notes 6000 2400 0    30   ~ 0
 remember it should be\npulled down if you want\nto enter bootloader
+Text HLabel 3650 5500 0    60   Input ~ 0
+PC12
 $EndSCHEMATC
