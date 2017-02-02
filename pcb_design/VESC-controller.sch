@@ -174,10 +174,6 @@ Text Notes 2150 2600 0    40   ~ 0
 Mount 0R if used\nas USB host
 Text Notes 2200 3000 0    40   ~ 0
 ESD protection\n
-Text Label 1450 7150 0    40   ~ 0
-RX_SCL_MOSI
-Text Label 1450 6950 0    40   ~ 0
-SCK_ADC_EXT
 $Sheet
 S 2000 6550 850  200 
 U 53FFB3E2
@@ -3704,8 +3700,6 @@ F 3 "" H 1250 6950 60  0000 C CNN
 	1    1250 6950
 	-1   0    0    1   
 $EndComp
-Text Label 1450 7250 0    40   ~ 0
-MISO_RX_SCL
 $Comp
 L GND #PWR05
 U 1 1 58876637
