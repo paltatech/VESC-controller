@@ -198,7 +198,7 @@ Connection ~ 3250 2000
 Wire Wire Line
 	3400 2350 2300 2350
 Wire Wire Line
-	2300 2050 2300 2350
+	2300 2350 2300 2050
 Wire Wire Line
 	1550 2050 2400 2050
 Wire Wire Line
@@ -330,7 +330,7 @@ Connection ~ 3250 3250
 Wire Wire Line
 	3400 3600 2300 3600
 Wire Wire Line
-	2300 3300 2300 3600
+	2300 3600 2300 3300
 Wire Wire Line
 	1550 3300 2400 3300
 Wire Wire Line
@@ -448,7 +448,7 @@ Connection ~ 3250 4500
 Wire Wire Line
 	3400 4850 2300 4850
 Wire Wire Line
-	2300 4550 2300 4850
+	2300 4850 2300 4550
 Wire Wire Line
 	1550 4550 2400 4550
 Wire Wire Line
@@ -1045,10 +1045,10 @@ Connection ~ 8300 2850
 Text Notes 8950 3450 0    60   ~ 0
 Should I protect every output?\nThey are all exposed to ESD \nand a latchup event
 $Comp
-L R-0603 R?
+L R-0603 R138
 U 1 1 589403B1
 P 7900 2650
-F 0 "R?" V 8000 2600 50  0000 L CNN
+F 0 "R138" V 8000 2600 50  0000 L CNN
 F 1 "10k" V 7900 2600 30  0000 L CNN
 F 2 "IPC7351-Nominal:RESC1608X50" H 7900 2650 50  0001 C CNN
 F 3 "" H 7900 2700 60  0000 C CNN
@@ -1066,8 +1066,8 @@ P 7900 2550
 AR Path="/5886DA84/589406F0" Ref="#PWR?"  Part="1" 
 AR Path="/588C2790/589406F0" Ref="#PWR?"  Part="1" 
 AR Path="/588C4E84/589406F0" Ref="#PWR?"  Part="1" 
-AR Path="/5888D059/589406F0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7950 2600 30  0001 C CNN
+AR Path="/5888D059/589406F0" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 7950 2600 30  0001 C CNN
 F 1 "+3.3" H 7900 2683 50  0000 C CNN
 F 2 "" H 50  -2550 60  0000 C CNN
 F 3 "" H 50  -2550 60  0000 C CNN
