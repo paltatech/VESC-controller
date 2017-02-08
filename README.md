@@ -5,7 +5,7 @@ This is the hardware repository of a 3 phase inverter brain, UNTESTED but design
 * Embedded security features (overcurrent protection, pwm overlap elimination, etc)
 
 
-![Alt text](doc/images/schematic_toplevel.svg)
+![Alt text](http://cdn.rawgit.com/paltatech/VESC-controller/master/doc/images/schematic_toplevel.svg)
 ![Alt text](doc/images/pinout_drawing.png)
 
 ## Microcontroller
