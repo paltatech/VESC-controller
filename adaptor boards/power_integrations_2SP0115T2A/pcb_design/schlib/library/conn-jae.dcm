@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN-DX07P024MJ1R1500
+D USB Type C Plug
+$ENDCMP
+#
+$CMP CONN-DX07S024JJ2
+D USB Type C Receptacle
+$ENDCMP
+#
+#End Doc Library

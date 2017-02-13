@@ -1,0 +1,66 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# P0102XN
+#
+DEF P0102XN Q 0 0 Y N 1 F N
+F0 "Q" 250 50 50 H V C CNN
+F1 "P0102XN" 250 -50 50 H V C CNN
+F2 "smd-semi:SOT-223" 0 -150 60 H I C CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00217834.pdf" 0 -250 60 H I C CNN
+DRAW
+P 2 0 0 0  -50 -100  0 -40 N
+P 2 0 0 10  -50 -40  50 -40 N
+P 2 0 0 0  0 -50  0 -40 N
+P 4 0 0 10  0 -40  -40 50  40 50  0 -40 F
+P 2 0 1 0  -50 100  50 100 N
+P 2 0 1 0  0 100  0 50 N
+X K 1 0 -100 50 U 40 50 1 1 P
+X A 2 50 150 50 D 40 50 1 1 P
+X G 3 -50 -100 0 R 40 50 1 1 P
+X A 4 -50 150 50 D 40 50 1 1 P
+T 0 30 80 30 0 0 2 42  Normal 0 C C
+X K 1 0 -100 50 U 40 50 1 2 P
+X A 2 0 100 50 D 0 50 1 2 P
+X G 3 -50 -100 0 R 40 50 1 2 P
+X A 4 0 100 50 D 0 50 1 2 P
+ENDDRAW
+ENDDEF
+#
+# P010XXA
+#
+DEF P010XXA Q 0 0 Y N 1 F N
+F0 "Q" 250 50 50 H V C CNN
+F1 "P010XXA" 250 -50 50 H V C CNN
+F2 "pth-semi:TO-92" 0 -200 60 H I C CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00217834.pdf" 0 -300 60 H I C CNN
+DRAW
+P 2 0 1 0  -50 -100  0 -40 N
+P 2 0 1 10  -50 -40  50 -40 N
+P 2 0 1 0  0 -50  0 -40 N
+P 4 0 1 10  0 -40  -40 50  40 50  0 -40 F
+X K 1 0 -100 50 U 40 50 1 1 P
+X G 2 -50 -100 0 R 40 50 1 1 P
+X A 3 0 100 50 D 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# P010XXL
+#
+DEF P010XXL Q 0 0 Y N 1 F N
+F0 "Q" 250 50 50 H V C CNN
+F1 "P010XXL" 250 -50 50 H V C CNN
+F2 "smd-semi:SOT-23" 0 -200 60 H I C CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00217834.pdf" 0 -300 60 H I C CNN
+DRAW
+P 2 0 1 0  -50 -100  0 -40 N
+P 2 0 1 10  -50 -40  50 -40 N
+P 2 0 1 0  0 -50  0 -40 N
+P 4 0 1 10  0 -40  -40 50  40 50  0 -40 F
+X K 1 0 -100 50 U 40 50 1 1 P
+X G 2 -50 -100 0 R 40 50 1 1 P
+X A 3 0 100 50 D 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AAT3218IJS-v.v-T1
+D Positive regulator, fixed
+F mod_pdf/TO-220.pdf
+$ENDCMP
+#
+$CMP SKY13522-644LF
+D RFSwitch SPDT 0.7-3.0 GHz [QFN-8]
+$ENDCMP
+#
+#End Doc Library

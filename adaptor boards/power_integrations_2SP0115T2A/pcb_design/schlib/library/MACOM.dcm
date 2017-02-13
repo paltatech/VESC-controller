@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAADSS0008
+D Atten 15dB 1bit DC-2GHz GaAs [SOT-23-5]
+$ENDCMP
+#
+$CMP MASWSS0162
+D AnSwitch SPST GaAs Terminated [SOIC-8]
+$ENDCMP
+#
+#End Doc Library

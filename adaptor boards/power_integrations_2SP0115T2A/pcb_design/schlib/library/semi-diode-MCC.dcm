@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS1150-L
+D Schottky 150V 1A [SMA]
+$ENDCMP
+#
+$CMP SS1200-L
+D Schottky 200V 1A [SMA]
+$ENDCMP
+#
+#End Doc Library

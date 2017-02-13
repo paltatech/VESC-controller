@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED-LITEON-C155GEKT
+D LED.2 Red/Green 10mA [SMD-1210]
+$ENDCMP
+#
+#End Doc Library

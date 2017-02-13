@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# MT3S16U
+#
+DEF MT3S16U Q 0 0 Y N 1 F N
+F0 "Q" 250 50 50 H V C CNN
+F1 "MT3S16U" 250 -50 50 H V C CNN
+F2 "smd-semi:SC-70" 0 -150 50 H I C CNN
+F3 "http://www.semicon.toshiba.co.jp/info/docget.jsp?type=datasheet&lang=en&pid=MT3S16U" 0 -250 60 H I C CNN
+F4 "NPN TOSHIBA MT3S16U" 0 -350 60 H I C CNN "BOM"
+DRAW
+P 2 0 0 0  -50 -25  50 -75 N
+P 2 0 0 10  -50 75  -50 -75 N
+P 2 0 0 0  50 75  -50 25 N
+P 4 0 0 10  30 -65  -15 -65  5 -30  30 -65 F
+X B 1 -100 0 50 R 40 50 1 1 P
+X E 2 50 -100 25 U 40 50 1 1 P
+X C 3 50 100 25 D 40 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

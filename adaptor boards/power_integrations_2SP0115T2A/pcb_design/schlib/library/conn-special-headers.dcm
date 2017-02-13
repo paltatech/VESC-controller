@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN-CORTEX-DEBUG
+D ARM Cortex debug connector (JTAG, SWD)
+$ENDCMP
+#
+#End Doc Library

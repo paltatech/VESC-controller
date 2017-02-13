@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT3S16U
+D NPN 5V 60mA 4GHz [SC-70]
+$ENDCMP
+#
+#End Doc Library

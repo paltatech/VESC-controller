@@ -1,0 +1,86 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FIDUCIAL-1.5mm
+D Fiducial, 1.5mm copper, 3mm mask
+$ENDCMP
+#
+$CMP JUMPER
+D Two-pin jumper
+$ENDCMP
+#
+$CMP JUMPER-SOLDER
+D Solder jumper
+$ENDCMP
+#
+$CMP JUMPER-SOLDER-3
+D SPDT solder jumper
+$ENDCMP
+#
+$CMP JUMPER3
+D Three-pin jumper
+$ENDCMP
+#
+$CMP JUMPER_1OF4
+D SP4T jumper
+$ENDCMP
+#
+$CMP JUMPER_WIRE
+F mod_pdf/JUMPER-SIL2.pdf
+$ENDCMP
+#
+$CMP TESTPOINT
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT0
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT1
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT2
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT3
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT4
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT5
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT6
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT7
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT8
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+$CMP TESTPOINT9
+D Test point
+F mod_pdf/TEST.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W25X40CLSNIG
+D Mem Flash 4Mb (512Kx8, 512KB) SPI 104MHz [SOIC-8]
+$ENDCMP
+#
+#End Doc Library

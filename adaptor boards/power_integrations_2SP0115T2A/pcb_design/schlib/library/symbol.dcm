@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMP
+D Op amp symbol
+$ENDCMP
+#
+$CMP AMP-INV
+D Op amp symbol
+$ENDCMP
+#
+$CMP AMP-SMALL
+D Op amp symbol
+$ENDCMP
+#
+$CMP NET-TIE
+D Joins two nets
+$ENDCMP
+#
+$CMP OPAMP
+D Op amp symbol
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,71 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BEAD-0402
+D Chip ferrite, EIA 0402, metric 1005
+$ENDCMP
+#
+$CMP BEAD-0603
+D Chip ferrite, EIA 0603, metric 1608
+$ENDCMP
+#
+$CMP BEAD-0805
+D Chip ferrite, EIA 0805, metric 2012
+$ENDCMP
+#
+$CMP BEAD-1206
+D Chip ferrite, EIA 1206, metric 3216
+$ENDCMP
+#
+$CMP BEAD-1210
+D Chip ferrite, EIA 1210, metric 3225
+$ENDCMP
+#
+$CMP BEAD-1812
+D Chip ferrite, EIA 1210, metric 3225
+$ENDCMP
+#
+$CMP BEAD-EMC-MCZ1210
+D Common-mode filter
+$ENDCMP
+#
+$CMP L-0402
+D Chip inductor, EIA 0402, metric 1005
+$ENDCMP
+#
+$CMP L-0603
+D Chip inductor, EIA 0603, metric 1608
+$ENDCMP
+#
+$CMP L-0805
+D Chip inductor, EIA 0805, metric 2012
+$ENDCMP
+#
+$CMP L-1210
+D Chip inductor, EIA 1210, metric 3225
+$ENDCMP
+#
+$CMP L-ABRACON-AISC-1008
+D Chip inductor, proprietary 1008
+$ENDCMP
+#
+$CMP L-AISC-1008-ABRACON
+D Chip inductor, proprietary 1008
+$ENDCMP
+#
+$CMP L-BOURNS-SRR7045
+D Inductor, ferrite core
+$ENDCMP
+#
+$CMP L-MURATA-1200LRS
+D Inductor, ferrite core
+$ENDCMP
+#
+$CMP L-MURATA-3200
+D Inductor, ferrite core
+$ENDCMP
+#
+$CMP L-MURATA-LQH3NP_J0
+D Inductor, ferrite core
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,11 @@
+(module NET-TIE-0.2mm (layer F.Cu) (tedit 55B7C026)
+  (fp_text reference REF** (at 0 -1.5) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_text value NET-TIE-0.2mm (at 0 1.25) (layer F.Fab) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_line (start -0.2 0) (end 0.2 0) (layer F.Cu) (width 0.2))
+  (pad 1 smd circle (at -0.2 0) (size 0.2 0.2) (layers F.Cu))
+  (pad 2 smd circle (at 0.2 0) (size 0.2 0.2) (layers F.Cu))
+)

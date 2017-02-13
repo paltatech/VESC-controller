@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAP1321-02
+D Diode PIN 60V 100mA [SOD-523]
+$ENDCMP
+#
+$CMP PESD5V0X1ULD
+D TVS 5V [SOD-882D]
+$ENDCMP
+#
+#End Doc Library

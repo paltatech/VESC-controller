@@ -1,0 +1,14 @@
+(module SCREW-4-WITH-NUT (layer F.Cu) (tedit 54CB0CC4)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (fp_text value SCREW-4-WITH-NUT (at 0 0) (layer F.Fab) hide
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 9 9) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+  (model details/vite_2mm5.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

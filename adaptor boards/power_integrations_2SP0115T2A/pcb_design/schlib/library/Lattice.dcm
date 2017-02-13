@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICE40LP384-SG32
+D FPGA LEs:384 IOs:21 [QFN-32]
+$ENDCMP
+#
+#End Doc Library

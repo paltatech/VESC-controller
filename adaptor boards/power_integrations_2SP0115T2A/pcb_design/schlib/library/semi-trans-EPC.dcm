@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EPC2014
+D NFET GaN 40V 10A 16mR 2.5Vth [DIE]
+$ENDCMP
+#
+#End Doc Library

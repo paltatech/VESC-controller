@@ -1,0 +1,35 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4N35
+D Optocoup NPN+base 3kV 60mA 30Vceo [DIP-6]
+$ENDCMP
+#
+$CMP 4N35S
+D Optocoup NPN+base 3kV 60mA 30Vceo [DIP-6-SMD]
+$ENDCMP
+#
+$CMP LED-0402
+D LED Red [0603]
+$ENDCMP
+#
+$CMP LED-0603
+D LED Red [0603]
+$ENDCMP
+#
+$CMP LED-0805
+D LED Red [0805]
+$ENDCMP
+#
+$CMP LED-3MM
+D LED Red [3mm]
+$ENDCMP
+#
+$CMP LED-5MM
+D LED Red [5mm]
+$ENDCMP
+#
+$CMP LED-LITEON-C155GEKT
+D LED.2 Red/Green 10mA [SMD-1210]
+$ENDCMP
+#
+#End Doc Library

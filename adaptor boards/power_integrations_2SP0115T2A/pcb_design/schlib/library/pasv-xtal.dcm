@@ -1,0 +1,42 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRYSTALG
+D Crystal, grounded
+F mod_pdf/XTAL-G-*
+$ENDCMP
+#
+$CMP RESON-MURATA-CSTCE
+D Resonator Ceramic 8-20MHz [SMD]
+$ENDCMP
+#
+$CMP RESON-MURATA-CSTCR
+D Resonator Ceramic 4-7.99MHz [SMD]
+$ENDCMP
+#
+$CMP XTAL-ABRACON-ABM2
+D Crystal, SMD HC-49/US
+$ENDCMP
+#
+$CMP XTAL-ABRACON-ABM3B
+D Crystal, grounded
+F mod_pdf/XTAL-G-*
+$ENDCMP
+#
+$CMP XTAL-ABRACON-ABM8G
+D Crystal, grounded
+F mod_pdf/XTAL-G-*
+$ENDCMP
+#
+$CMP XTAL-CITIZEN-CM130
+D Watch crystal
+$ENDCMP
+#
+$CMP XTAL-FOX-FX135A
+D Crystal, SMD HC-49/US
+$ENDCMP
+#
+$CMP XTAL-HC49US-SMD
+D Crystal, SMD HC-49/US
+$ENDCMP
+#
+#End Doc Library

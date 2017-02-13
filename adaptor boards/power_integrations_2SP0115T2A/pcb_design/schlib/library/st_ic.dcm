@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24CXX-DIP
+D I2C EEPROM
+F mod_pdf/DIP-8.pdf
+$ENDCMP
+#
+$CMP 24CXX-SOIC
+D I2C EEPROM
+F mod_pdf/SOIC127P600X175-8.pdf
+$ENDCMP
+#
+$CMP 250XX-SOIC
+D SPI EEPROM
+$ENDCMP
+#
+#End Doc Library

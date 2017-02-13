@@ -1,0 +1,139 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ANTENNA
+D Generic Antenna
+$ENDCMP
+#
+$CMP BATTERY-LONG
+D Battery, many cells
+$ENDCMP
+#
+$CMP BATTERY-SHORT
+D Battery, few cells
+$ENDCMP
+#
+$CMP BEAD
+D Ferrite bead
+$ENDCMP
+#
+$CMP C
+D Capacitor
+$ENDCMP
+#
+$CMP CMBEAD
+D Common-mode ferrite bead
+$ENDCMP
+#
+$CMP CMCHOKE
+D Common-mode choke
+$ENDCMP
+#
+$CMP CPOL
+D Capacitor, polarized
+$ENDCMP
+#
+$CMP CRYSTAL
+D Crystal
+$ENDCMP
+#
+$CMP CRYSTALG
+D Crystal, grounded
+$ENDCMP
+#
+$CMP CVAR
+D Capacitor, variable
+$ENDCMP
+#
+$CMP FUSE
+D Fuse
+$ENDCMP
+#
+$CMP GDT
+D Gas discharge tube
+$ENDCMP
+#
+$CMP L
+D Inductor
+$ENDCMP
+#
+$CMP LAMP
+D Incandescent lamp
+$ENDCMP
+#
+$CMP LCURVE
+D Inductor, curved style
+$ENDCMP
+#
+$CMP LCURVEDOT
+D Inductor, curved style w/dot
+$ENDCMP
+#
+$CMP LDOT
+D Inductor, w/dot
+$ENDCMP
+#
+$CMP LFERR
+D Inductor, ferrite core
+$ENDCMP
+#
+$CMP NEON
+D Neon lamp
+$ENDCMP
+#
+$CMP POT
+D Potentiometer
+$ENDCMP
+#
+$CMP POT-DUAL
+D Potentiometer, dual
+$ENDCMP
+#
+$CMP POT-TRIM
+D Potentiometer, preset/trim
+$ENDCMP
+#
+$CMP R
+D Resistor
+$ENDCMP
+#
+$CMP RHEO
+D Rheostat
+$ENDCMP
+#
+$CMP SPEAKER
+D Speaker
+$ENDCMP
+#
+$CMP THERMISTOR
+D Thermistor
+$ENDCMP
+#
+$CMP THERMOCOUP
+D Thermocouple
+$ENDCMP
+#
+$CMP TRANS-2
+D Transformer, two windings
+$ENDCMP
+#
+$CMP TRANS-2CT
+D Transformer, two windings, both tapped
+$ENDCMP
+#
+$CMP TRANS-3
+D Transformer, three windings
+$ENDCMP
+#
+$CMP TRANS-3-1CT
+D Transformer, three windings, one tapped
+$ENDCMP
+#
+$CMP TRANS-4
+D Transformer, four windings
+$ENDCMP
+#
+$CMP VARISTOR
+D Varistor
+$ENDCMP
+#
+#End Doc Library

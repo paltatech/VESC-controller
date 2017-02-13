@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BMP280
+D Sensor Pressure Barometric I2C SPI [LGA-8]
+$ENDCMP
+#
+$CMP BNO055
+D Sensor Orientation Absolute 9-axis I2C UART [LGA-28]
+$ENDCMP
+#
+#End Doc Library

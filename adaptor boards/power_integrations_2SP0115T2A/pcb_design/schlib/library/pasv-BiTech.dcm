@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L-BITECH-HM78D-1210
+D SMD coupled inductor
+$ENDCMP
+#
+$CMP L-BITECH-HM78D-128
+D SMD coupled inductor
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2210K
+D Reg LDO 300mA [SOT23-5]
+$ENDCMP
+#
+$CMP AP3012
+D Reg Boost in:16V AdjV 500mA 1.5MHz [SOT-23-5]
+$ENDCMP
+#
+$CMP AP3211
+D Reg Buck in:18V AdjV 1.5A 1.4MHz [SOT-23-6]
+$ENDCMP
+#
+$CMP ZXCT1107
+D CSAmp 650kHz 2% gm=4mS [SOT-23 Alt1]
+$ENDCMP
+#
+$CMP ZXCT1109
+D CSAmp 650kHz 2% gm=4mS [SOT-23 Alt2]
+$ENDCMP
+#
+$CMP ZXCT1110
+D CSAmp 650kHz 2% gm=4mS [SOT-23-5]
+$ENDCMP
+#
+#End Doc Library
