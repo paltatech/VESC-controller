@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 14
+Sheet 14 14
 Title "Monitor logic"
 Date "2017-02-22"
 Rev "0.2"
@@ -1303,8 +1303,6 @@ Text HLabel 7800 3250 0    60   Input ~ 0
 ~FAULT_IN
 Text HLabel 9300 3250 2    60   Input ~ 0
 ~FAULT
-Text Notes 9550 3850 0    60   ~ 0
-Should I protect every output?\nThey are all exposed to ESD \nand a latchup event
 Wire Wire Line
 	9400 1700 7900 1700
 Wire Wire Line

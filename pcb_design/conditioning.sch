@@ -1263,9 +1263,9 @@ F 3 "" H 450 50  60  0000 C CNN
 	1    4100 5450
 	1    0    0    -1  
 $EndComp
-Text HLabel 3150 2450 0    60   Input ~ 0
-V_phase+
 Text HLabel 3150 2650 0    60   Input ~ 0
+V_phase+
+Text HLabel 3150 2450 0    60   Input ~ 0
 V_phase-
 Text HLabel 5000 5700 0    60   Input ~ 0
 Power_good
@@ -1279,13 +1279,13 @@ Text HLabel 3200 5150 0    60   Input ~ 0
 PWM_T
 Text HLabel 3200 5250 0    60   Input ~ 0
 PWM_B
-Text HLabel 3150 3850 0    60   Input ~ 0
+Text HLabel 3150 4050 0    60   Input ~ 0
 I_phase+
 Text HLabel 6650 3950 2    60   Output ~ 0
 I_phase
 Text HLabel 8400 5500 2    60   Output ~ 0
 ~OC_Fault
-Text HLabel 3150 4050 0    60   Input ~ 0
+Text HLabel 3150 3850 0    60   Input ~ 0
 I_phase-
 Text Notes 7100 4800 0    100  ~ 20
 Overcurrent protection
@@ -1554,7 +1554,11 @@ Connection ~ 5350 4400
 Connection ~ 8550 3150
 NoConn ~ 10300 5450
 Text Notes 6050 2900 0    40   ~ 8
-Gain:\n2.7v/2 * 2.4(gain) =3.24v
+2.7v/2 * 2.4(gain) =3.24v
 Text Notes 2600 2950 0    60   ~ 12
 https://www.partsim.com/simulator#72915
+Text Notes 4950 4000 0    30   ~ 0
+use 0.1% resistors
+Text Notes 3000 4250 0    30   ~ 0
+remove 2k resistor if\nusing ISB-425-A-800\ncurrent sensor
 $EndSCHEMATC

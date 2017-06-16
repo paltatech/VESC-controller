@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 11 14
 Title "Differential to single ended"
 Date "2017-02-22"
 Rev "0.2"
@@ -1259,9 +1259,9 @@ DD 57 04 00 00 00 E0 3A 8F FF 2A 51 68 FC D5 F3 B7 D4 EC CF 1D 1B C3 8D C4 00 A0
 D1 68 57 2D 1A 00 3F 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 4500 4000 0    60   Input ~ 0
-IN+
 Text HLabel 4500 4200 0    60   Input ~ 0
+IN+
+Text HLabel 4500 4000 0    60   Input ~ 0
 IN-
 Text HLabel 7500 4100 2    60   Output ~ 0
 OUT
