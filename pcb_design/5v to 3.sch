@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 14
+Sheet 11 15
 Title "5v to 3.3v conditioning"
 Date "2017-02-22"
 Rev "0.2"

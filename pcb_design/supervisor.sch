@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 14 15
 Title "Monitor logic"
 Date "2017-02-22"
 Rev "0.2"
@@ -1261,29 +1261,29 @@ Text HLabel 1650 7050 0    60   Input ~ 0
 ~OC_Fault_W
 Text HLabel 6850 6450 0    60   Input ~ 0
 ~FAULT
-Text HLabel 9400 1700 2    60   Input ~ 0
+Text HLabel 9400 1300 2    60   Input ~ 0
 V_phase_U
-Text HLabel 7900 1700 0    60   Output ~ 0
+Text HLabel 7900 1300 0    60   Output ~ 0
 V_phase_U
-Text HLabel 9400 1800 2    60   Input ~ 0
+Text HLabel 9400 1400 2    60   Input ~ 0
 V_phase_V_in
-Text HLabel 9400 1900 2    60   Input ~ 0
+Text HLabel 9400 1500 2    60   Input ~ 0
 V_phase_W
-Text HLabel 7900 1800 0    60   Output ~ 0
+Text HLabel 7900 1400 0    60   Output ~ 0
 V_phase_V
-Text HLabel 7900 1900 0    60   Output ~ 0
+Text HLabel 7900 1500 0    60   Output ~ 0
 V_phase_W
-Text HLabel 9400 2100 2    60   Input ~ 0
+Text HLabel 9400 1700 2    60   Input ~ 0
 I_phase_U
-Text HLabel 7900 2100 0    60   Output ~ 0
+Text HLabel 7900 1700 0    60   Output ~ 0
 I_phase_U
-Text HLabel 9400 2200 2    60   Input ~ 0
+Text HLabel 9400 1800 2    60   Input ~ 0
 I_phase_V_in
-Text HLabel 9400 2300 2    60   Input ~ 0
+Text HLabel 9400 1900 2    60   Input ~ 0
 I_phase_W_in
-Text HLabel 7900 2200 0    60   Output ~ 0
+Text HLabel 7900 1800 0    60   Output ~ 0
 I_phase_V
-Text HLabel 7900 2300 0    60   Output ~ 0
+Text HLabel 7900 1900 0    60   Output ~ 0
 I_phase_W
 Text Notes 1750 1250 0    160  ~ 32
 PWM overlap elimination
@@ -1304,17 +1304,17 @@ Text HLabel 7800 3250 0    60   Input ~ 0
 Text HLabel 9300 3250 2    60   Input ~ 0
 ~FAULT
 Wire Wire Line
+	9400 1300 7900 1300
+Wire Wire Line
+	9400 1400 7900 1400
+Wire Wire Line
+	7900 1500 9400 1500
+Wire Wire Line
 	9400 1700 7900 1700
 Wire Wire Line
 	9400 1800 7900 1800
 Wire Wire Line
 	7900 1900 9400 1900
-Wire Wire Line
-	9400 2100 7900 2100
-Wire Wire Line
-	9400 2200 7900 2200
-Wire Wire Line
-	7900 2300 9400 2300
 Wire Wire Line
 	3250 2250 3400 2250
 Wire Wire Line
@@ -1578,4 +1578,22 @@ Connection ~ 5500 6700
 Connection ~ 8300 3250
 Connection ~ 7900 3250
 Connection ~ 9100 3250
+Wire Wire Line
+	7900 2100 9400 2100
+Wire Wire Line
+	7900 2200 9400 2200
+Wire Wire Line
+	7900 2300 9400 2300
+Text HLabel 7900 2300 0    60   Input ~ 0
+TEMP_W
+Text HLabel 7900 2200 0    60   Input ~ 0
+TEMP_V
+Text HLabel 7900 2100 0    60   Input ~ 0
+TEMP_U
+Text HLabel 9400 2100 2    60   Output ~ 0
+TEMP_U
+Text HLabel 9400 2200 2    60   Output ~ 0
+TEMP_V
+Text HLabel 9400 2300 2    60   Output ~ 0
+TEMP_W
 $EndSCHEMATC

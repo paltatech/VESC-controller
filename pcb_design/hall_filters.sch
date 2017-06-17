@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 14
+Sheet 4 15
 Title "Hall sensor conditioning"
 Date "2017-02-22"
 Rev "0.2"

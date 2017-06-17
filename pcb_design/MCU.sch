@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 14
+Sheet 13 15
 Title "VESC 6.4"
 Date "2017-02-22"
 Rev "0.2"
@@ -2761,7 +2761,7 @@ PWM_VB
 Text HLabel 3650 3900 0    60   Output ~ 0
 PWM_UB
 Text HLabel 3650 2000 0    60   Input ~ 0
-SCK_ADC_EXT
+TEMP_V
 Text HLabel 3650 3800 0    60   Input ~ 0
 ~FAULT
 Text HLabel 3650 2500 0    60   Output ~ 0
@@ -2793,9 +2793,9 @@ LED_RED
 Text HLabel 6150 2200 2    60   Output ~ 0
 LED_GREEN
 Text HLabel 3650 2100 0    60   Input ~ 0
-MISO_ADC_EXT2
+TEMP_W
 Text HLabel 3650 2200 0    60   Output ~ 0
-TX_SCL_MOSI
+PA6_TX
 Text HLabel 3650 1800 0    60   Input ~ 0
 ADC_TEMP
 Text Notes 9050 1700 0    40   ~ 0
@@ -2840,8 +2840,6 @@ Text HLabel 6150 2950 2    60   Output ~ 0
 SPI3_NSS
 Text HLabel 3650 3100 0    60   Input ~ 0
 PB5
-Text HLabel 3650 1900 0    60   Input ~ 0
-RX_SDA_NSS
 Wire Wire Line
 	6150 5200 6350 5200
 Wire Wire Line
@@ -3010,4 +3008,6 @@ Text Notes 2050 4650 0    50   ~ 0
 \n| VESC-controller\n\n| PB12 (could enable BRK)\n| PA15 (resolver)\n| PB2\n| PC5 (AN15)\n| PB0 (AN8)\n| PC14
 Text Notes 750  3950 0    60   ~ 12
 Changes for board support package
+Text HLabel 3650 1900 0    60   Input ~ 0
+TEMP_U
 $EndSCHEMATC

@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 14
+Sheet 3 15
 Title "Isolated CAN BUS"
 Date "2017-02-22"
 Rev "0.2"

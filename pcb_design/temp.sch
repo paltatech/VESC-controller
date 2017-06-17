@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 2 15
 Title "Controller temperature sensing"
 Date "2017-02-22"
 Rev "0.2"
