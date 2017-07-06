@@ -495,4 +495,6 @@ Connection ~ 6950 4350
 Connection ~ 8300 2950
 Connection ~ 8200 3300
 Connection ~ 8500 3300
+Text Notes 5650 4800 0    30   ~ 0
+A regular CAN PHY + 2 optos is equally\neffective. It just needs more components
 $EndSCHEMATC
