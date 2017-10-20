@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:Abracon
 LIBS:ActiveSemi
 LIBS:Altera
@@ -114,6 +114,82 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 7400 3450 700  500 
+U 589B4343
+F0 "V_phase_U" 40
+F1 "phase_voltage_sensor.sch" 40
+F2 "Vin+" I R 8100 3650 40 
+F3 "Vin-" I R 8100 3750 40 
+F4 "Vout+" O L 7400 3650 40 
+F5 "Vout-" O L 7400 3750 40 
+F6 "VDD1" I L 7400 3550 40 
+F7 "GND1" I L 7400 3850 40 
+F8 "GND2" I R 8100 3850 40 
+F9 "VDD2" I R 8100 3550 40 
+$EndSheet
+$Sheet
+S 10000 1400 700  550 
+U 589CF239
+F0 "V_BUS" 40
+F1 "phase_voltage_sensor.sch" 40
+F2 "Vin+" I R 10700 1600 40 
+F3 "Vin-" I R 10700 1700 40 
+F4 "Vout+" O L 10000 1600 40 
+F5 "Vout-" O L 10000 1700 40 
+F6 "VDD1" I L 10000 1500 40 
+F7 "GND1" I L 10000 1800 40 
+F8 "GND2" I R 10700 1800 40 
+F9 "VDD2" I R 10700 1500 40 
+$EndSheet
+$Sheet
+S 7400 5950 700  500 
+U 589D1961
+F0 "V_phase_V" 40
+F1 "phase_voltage_sensor.sch" 40
+F2 "Vin+" I R 8100 6150 40 
+F3 "Vin-" I R 8100 6250 40 
+F4 "Vout+" O L 7400 6150 40 
+F5 "Vout-" O L 7400 6250 40 
+F6 "VDD1" I L 7400 6050 40 
+F7 "GND1" I L 7400 6350 40 
+F8 "GND2" I R 8100 6350 40 
+F9 "VDD2" I R 8100 6050 40 
+$EndSheet
+$Sheet
+S 7400 8500 700  500 
+U 589D4558
+F0 "V_phase_W" 40
+F1 "phase_voltage_sensor.sch" 40
+F2 "Vin+" I R 8100 8700 40 
+F3 "Vin-" I R 8100 8800 40 
+F4 "Vout+" O L 7400 8700 40 
+F5 "Vout-" O L 7400 8800 40 
+F6 "VDD1" I L 7400 8600 40 
+F7 "GND1" I L 7400 8900 40 
+F8 "GND2" I R 8100 8900 40 
+F9 "VDD2" I R 8100 8600 40 
+$EndSheet
+$Sheet
+S 10000 1050 700  200 
+U 589DB170
+F0 "vbus sensor supply" 50
+F1 "isolated_5v.sch" 50
+F2 "VDD1" I L 10000 1100 40 
+F3 "GND1" I L 10000 1200 40 
+F4 "GND2" I R 10700 1200 40 
+F5 "VDD2" I R 10700 1100 40 
+$EndSheet
+$Sheet
+S 7400 4150 700  200 
+U 589DEB44
+F0 "phases supply" 50
+F1 "isolated_5v.sch" 50
+F2 "VDD1" I L 7400 4200 40 
+F3 "GND1" I L 7400 4300 40 
+F4 "GND2" I R 8100 4300 40 
+F5 "VDD2" I R 8100 4200 40 
+$EndSheet
 $Comp
 L GND #PWR01
 U 1 1 58876637
@@ -132,17 +208,15 @@ P 5250 3500
 F 0 "J1" H 5250 3000 60  0000 C CNN
 F 1 "GATE_DRIVER_CONN_U" H 5250 4000 60  0000 C CNN
 F 2 "conn-100mil:CONN-100MIL-M-2x8" H 5350 3500 60  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 5350 3500 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/87606.pdf" H 5350 3500 60  0001 C CNN
 F 4 "Amphenol FCI" H -4600 1150 50  0001 C CNN "MFR"
-F 5 "67997-216HLF" H -4600 1150 50  0001 C CNN "MPN"
+F 5 "87606-308LF" H -4600 1150 50  0001 C CNN "MPN"
 F 6 "Digikey" H -4600 1150 50  0001 C CNN "SPR"
-F 7 "609-3238-ND" H -4600 1150 50  0001 C CNN "SPN"
+F 7 "609-3554-ND" H -4600 1150 50  0001 C CNN "SPN"
 F 8 "" H -4600 1150 50  0001 C CNN "SPURL"
 	1    5250 3500
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4550 3850 0    40   Input ~ 0
-~FAULT_U
 $Comp
 L 2SP0115T_conector P1
 U 1 1 589B36B0
@@ -150,8 +224,12 @@ P 10700 3200
 F 0 "P1" H 10700 3937 60  0000 C CNN
 F 1 "2SP0115T_conector" H 10700 3831 60  0000 C CNN
 F 2 "conn-100mil:CONN-100MIL-F-2x10" H 4750 -250 60  0001 C CNN
-F 3 "" H 4750 -250 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/75869.pdf" H 4750 -250 60  0001 C CNN
 F 4 "75869-104LF" H 10700 3200 60  0001 C CNN "MPN"
+F 5 "Amphenol FCI" H 0   0   50  0001 C CNN "MFR"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "609-1776-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10700 3200
 	1    0    0    -1  
 $EndComp
@@ -166,32 +244,6 @@ F 3 "" H 2550 -350 60  0000 C CNN
 	1    11250 3750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10250 2750
-NoConn ~ 10250 2850
-NoConn ~ 10250 3550
-NoConn ~ 10250 3650
-Text GLabel 9900 3150 0    40   Input ~ 0
-~FAULT_U
-Text Notes 3950 3350 0    40   ~ 8
-tune the controller\nto output 15v
-NoConn ~ 4550 3750
-NoConn ~ 4550 3650
-NoConn ~ 4550 3550
-NoConn ~ 5900 3350
-$Sheet
-S 7400 3450 700  500 
-U 589B4343
-F0 "V_phase_U" 40
-F1 "phase_voltage_sensor.sch" 40
-F2 "Vin+" I R 8100 3650 40 
-F3 "Vin-" I R 8100 3750 40 
-F4 "Vout+" O L 7400 3650 40 
-F5 "Vout-" O L 7400 3750 40 
-F6 "VDD1" I L 7400 3550 40 
-F7 "GND1" I L 7400 3850 40 
-F8 "GND2" I R 8100 3850 40 
-F9 "VDD2" I R 8100 3550 40 
-$EndSheet
 $Comp
 L LM1117IMP-v.v U1
 U 1 1 589C8496
@@ -199,8 +251,13 @@ P 6100 1600
 F 0 "U1" H 6100 1875 50  0000 C CNN
 F 1 "LM1117IMP-v.v" H 6100 1784 50  0000 C CNN
 F 2 "smd-semi:SOT-223" H 1850 -400 50  0001 C CNN
-F 3 "" H 1850 -100 60  0000 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 1850 -100 60  0001 C CNN
 F 4 "IC TI LM1117IMP-v.v" H 1850 -500 60  0001 C CNN "BOM"
+F 5 "NCV1117ST50T3G" H 6100 1600 60  0001 C CNN "MPN"
+F 6 "ON Semiconductor" H 0   0   50  0001 C CNN "MFR"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "NCV1117ST50T3GOSCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6100 1600
 	1    0    0    -1  
 $EndComp
@@ -209,10 +266,15 @@ L C-0805 C1
 U 1 1 589C86A9
 P 5200 1700
 F 0 "C1" H 5312 1746 50  0000 L CNN
-F 1 "10uF" H 5312 1655 50  0000 L CNN
+F 1 "22uF" H 5312 1655 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC2012X70" H 800 250 50  0001 C CNN
-F 3 "" H 790 225 60  0000 C CNN
+F 3 "" H 790 225 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0805]" H 1600 800 60  0001 C CNN "BOM"
+F 5 "TDK Corporation" H 0   0   50  0001 C CNN "MFR"
+F 6 "C2012X5R1V226M125AC" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "445-14428-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    5200 1700
 	-1   0    0    -1  
 $EndComp
@@ -221,10 +283,15 @@ L C-0805 C4
 U 1 1 589C871F
 P 7000 1700
 F 0 "C4" H 7113 1746 50  0000 L CNN
-F 1 "10uF" H 7113 1655 50  0000 L CNN
+F 1 "22uF" H 7113 1655 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC2012X70" H 2600 250 50  0001 C CNN
-F 3 "" H 2590 225 60  0000 C CNN
+F 3 "" H 2590 225 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0805]" H 3400 800 60  0001 C CNN "BOM"
+F 5 "TDK Corporation" H 0   0   50  0001 C CNN "MFR"
+F 6 "C2012X5R1V226M125AC" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "445-14428-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7000 1700
 	1    0    0    -1  
 $EndComp
@@ -235,8 +302,13 @@ P 5400 1700
 F 0 "C2" H 5513 1746 50  0000 L CNN
 F 1 "100nF" H 5513 1655 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 1100 450 50  0001 C CNN
-F 3 "" H 1090 425 60  0000 C CNN
+F 3 "" H 1090 425 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 1900 1000 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    5400 1700
 	1    0    0    -1  
 $EndComp
@@ -258,8 +330,13 @@ P 6800 1700
 F 0 "C3" H 6912 1746 50  0000 L CNN
 F 1 "100nF" H 6912 1655 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 2500 450 50  0001 C CNN
-F 3 "" H 2490 425 60  0000 C CNN
+F 3 "" H 2490 425 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 3300 1000 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6800 1700
 	-1   0    0    -1  
 $EndComp
@@ -358,7 +435,12 @@ P 10750 4450
 F 0 "J8" H 10869 4345 50  0000 L CNN
 F 1 "current sensor" H 10869 4254 50  0000 L CNN
 F 2 "w_conn_jst-ph:b4b-ph-kl" H 2750 -450 50  0001 C CNN
-F 3 "" H 2750 -450 50  0000 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2750 -450 50  0001 C CNN
+F 4 "JST Sales America Inc." H 0   0   50  0001 C CNN "MFR"
+F 5 "B4B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "455-1706-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10750 4450
 	1    0    0    -1  
 $EndComp
@@ -391,8 +473,13 @@ P 10350 4450
 F 0 "C5" V 10300 4550 50  0000 C CNN
 F 1 "100nF" V 10450 4300 50  0000 C CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 6050 3200 50  0001 C CNN
-F 3 "" H 6040 3175 60  0000 C CNN
+F 3 "" H 6040 3175 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 6850 3750 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10350 4450
 	0    1    -1   0   
 $EndComp
@@ -407,20 +494,6 @@ F 3 "" H 5500 0   60  0000 C CNN
 	1    10250 4450
 	0    1    1    0   
 $EndComp
-$Sheet
-S 10000 1400 700  550 
-U 589CF239
-F0 "V_BUS" 40
-F1 "phase_voltage_sensor.sch" 40
-F2 "Vin+" I R 10700 1600 40 
-F3 "Vin-" I R 10700 1700 40 
-F4 "Vout+" O L 10000 1600 40 
-F5 "Vout-" O L 10000 1700 40 
-F6 "VDD1" I L 10000 1500 40 
-F7 "GND1" I L 10000 1800 40 
-F8 "GND2" I R 10700 1800 40 
-F9 "VDD2" I R 10700 1500 40 
-$EndSheet
 $Comp
 L CONN-100MIL-F-1x4 J4
 U 1 1 589CA6A2
@@ -428,7 +501,12 @@ P 9550 1500
 F 0 "J4" H 9669 1395 50  0000 L CNN
 F 1 "VBUS" H 9669 1304 50  0000 L CNN
 F 2 "w_conn_jst-ph:b4b-ph-kl" H 1550 -3400 50  0001 C CNN
-F 3 "" H 1550 -3400 50  0000 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1550 -3400 50  0001 C CNN
+F 4 "JST Sales America Inc." H 0   0   50  0001 C CNN "MFR"
+F 5 "B4B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "455-1706-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    9550 1500
 	-1   0    0    -1  
 $EndComp
@@ -450,17 +528,15 @@ P 5250 6000
 F 0 "J2" H 5250 5500 60  0000 C CNN
 F 1 "GATE_DRIVER_CONN_V" H 5250 6500 60  0000 C CNN
 F 2 "conn-100mil:CONN-100MIL-M-2x8" H 5350 6000 60  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 5350 6000 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/87606.pdf" H 5350 6000 60  0001 C CNN
 F 4 "Amphenol FCI" H -4600 3650 50  0001 C CNN "MFR"
-F 5 "67997-216HLF" H -4600 3650 50  0001 C CNN "MPN"
+F 5 "87606-308LF" H -4600 3650 50  0001 C CNN "MPN"
 F 6 "Digikey" H -4600 3650 50  0001 C CNN "SPR"
-F 7 "609-3238-ND" H -4600 3650 50  0001 C CNN "SPN"
+F 7 "609-3554-ND" H -4600 3650 50  0001 C CNN "SPN"
 F 8 "" H -4600 3650 50  0001 C CNN "SPURL"
 	1    5250 6000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4550 6350 0    40   Input ~ 0
-~FAULT_V
 $Comp
 L 2SP0115T_conector P2
 U 1 1 589D193C
@@ -468,7 +544,12 @@ P 10700 5700
 F 0 "P2" H 10700 6437 60  0000 C CNN
 F 1 "2SP0115T_conector" H 10700 6331 60  0000 C CNN
 F 2 "conn-100mil:CONN-100MIL-F-2x10" H 4750 2250 60  0001 C CNN
-F 3 "" H 4750 2250 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/75869.pdf" H 4750 2250 60  0001 C CNN
+F 4 "Amphenol FCI" H 0   0   50  0001 C CNN "MFR"
+F 5 "75869-104LF" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "609-1776-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10700 5700
 	1    0    0    -1  
 $EndComp
@@ -483,32 +564,6 @@ F 3 "" H 2550 2150 60  0000 C CNN
 	1    11250 6250
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10250 5250
-NoConn ~ 10250 5350
-NoConn ~ 10250 6050
-NoConn ~ 10250 6150
-Text GLabel 9900 5650 0    40   Input ~ 0
-~FAULT_V
-Text Notes 3950 5850 0    40   ~ 8
-tune the controller\nto output 15v
-NoConn ~ 4550 6250
-NoConn ~ 4550 6150
-NoConn ~ 4550 6050
-NoConn ~ 5900 5850
-$Sheet
-S 7400 5950 700  500 
-U 589D1961
-F0 "V_phase_V" 40
-F1 "phase_voltage_sensor.sch" 40
-F2 "Vin+" I R 8100 6150 40 
-F3 "Vin-" I R 8100 6250 40 
-F4 "Vout+" O L 7400 6150 40 
-F5 "Vout-" O L 7400 6250 40 
-F6 "VDD1" I L 7400 6050 40 
-F7 "GND1" I L 7400 6350 40 
-F8 "GND2" I R 8100 6350 40 
-F9 "VDD2" I R 8100 6050 40 
-$EndSheet
 $Comp
 L +5 #PWR022
 U 1 1 589D1967
@@ -549,7 +604,12 @@ P 10750 6950
 F 0 "J9" H 10869 6845 50  0000 L CNN
 F 1 "current sensor" H 10869 6754 50  0000 L CNN
 F 2 "w_conn_jst-ph:b4b-ph-kl" H 2750 2050 50  0001 C CNN
-F 3 "" H 2750 2050 50  0000 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2750 2050 50  0001 C CNN
+F 4 "JST Sales America Inc." H 0   0   50  0001 C CNN "MFR"
+F 5 "B4B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "455-1706-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10750 6950
 	1    0    0    -1  
 $EndComp
@@ -582,8 +642,13 @@ P 10350 6950
 F 0 "C6" V 10300 7050 50  0000 C CNN
 F 1 "100nF" V 10450 6800 50  0000 C CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 6050 5700 50  0001 C CNN
-F 3 "" H 6040 5675 60  0000 C CNN
+F 3 "" H 6040 5675 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 6850 6250 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10350 6950
 	0    1    -1   0   
 $EndComp
@@ -616,17 +681,15 @@ P 5250 8550
 F 0 "J3" H 5250 8050 60  0000 C CNN
 F 1 "GATE_DRIVER_CONN_W" H 5250 9050 60  0000 C CNN
 F 2 "conn-100mil:CONN-100MIL-M-2x8" H 5350 8550 60  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 5350 8550 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/87606.pdf" H 5350 8550 60  0001 C CNN
 F 4 "Amphenol FCI" H -4600 6200 50  0001 C CNN "MFR"
-F 5 "67997-216HLF" H -4600 6200 50  0001 C CNN "MPN"
+F 5 "87606-308LF" H -4600 6200 50  0001 C CNN "MPN"
 F 6 "Digikey" H -4600 6200 50  0001 C CNN "SPR"
-F 7 "609-3238-ND" H -4600 6200 50  0001 C CNN "SPN"
+F 7 "609-3554-ND" H -4600 6200 50  0001 C CNN "SPN"
 F 8 "" H -4600 6200 50  0001 C CNN "SPURL"
 	1    5250 8550
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4550 8900 0    40   Input ~ 0
-~FAULT_W
 $Comp
 L 2SP0115T_conector P3
 U 1 1 589D4533
@@ -634,7 +697,12 @@ P 10700 8250
 F 0 "P3" H 10700 8987 60  0000 C CNN
 F 1 "2SP0115T_conector" H 10700 8881 60  0000 C CNN
 F 2 "conn-100mil:CONN-100MIL-F-2x10" H 4750 4800 60  0001 C CNN
-F 3 "" H 4750 4800 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/75869.pdf" H 4750 4800 60  0001 C CNN
+F 4 "Amphenol FCI" H 0   0   50  0001 C CNN "MFR"
+F 5 "75869-104LF" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "609-1776-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10700 8250
 	1    0    0    -1  
 $EndComp
@@ -649,32 +717,6 @@ F 3 "" H 2550 4700 60  0000 C CNN
 	1    11250 8800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10250 7800
-NoConn ~ 10250 7900
-NoConn ~ 10250 8600
-NoConn ~ 10250 8700
-Text GLabel 9900 8200 0    40   Input ~ 0
-~FAULT_W
-Text Notes 3950 8400 0    40   ~ 8
-tune the controller\nto output 15v
-NoConn ~ 4550 8800
-NoConn ~ 4550 8700
-NoConn ~ 4550 8600
-NoConn ~ 5900 8400
-$Sheet
-S 7400 8500 700  500 
-U 589D4558
-F0 "V_phase_W" 40
-F1 "phase_voltage_sensor.sch" 40
-F2 "Vin+" I R 8100 8700 40 
-F3 "Vin-" I R 8100 8800 40 
-F4 "Vout+" O L 7400 8700 40 
-F5 "Vout-" O L 7400 8800 40 
-F6 "VDD1" I L 7400 8600 40 
-F7 "GND1" I L 7400 8900 40 
-F8 "GND2" I R 8100 8900 40 
-F9 "VDD2" I R 8100 8600 40 
-$EndSheet
 $Comp
 L +5 #PWR032
 U 1 1 589D455E
@@ -715,7 +757,12 @@ P 10750 9500
 F 0 "J10" H 10869 9395 50  0000 L CNN
 F 1 "current sensor" H 10869 9304 50  0000 L CNN
 F 2 "w_conn_jst-ph:b4b-ph-kl" H 2750 4600 50  0001 C CNN
-F 3 "" H 2750 4600 50  0000 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2750 4600 50  0001 C CNN
+F 4 "JST Sales America Inc." H 0   0   50  0001 C CNN "MFR"
+F 5 "B4B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "455-1706-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10750 9500
 	1    0    0    -1  
 $EndComp
@@ -748,8 +795,13 @@ P 10350 9500
 F 0 "C7" V 10300 9600 50  0000 C CNN
 F 1 "100nF" V 10450 9350 50  0000 C CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 6050 8250 50  0001 C CNN
-F 3 "" H 6040 8225 60  0000 C CNN
+F 3 "" H 6040 8225 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 6850 8800 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    10350 9500
 	0    1    -1   0   
 $EndComp
@@ -764,483 +816,6 @@ F 3 "" H 5500 5050 60  0000 C CNN
 	1    10250 9500
 	0    1    1    0   
 $EndComp
-$Sheet
-S 10000 1050 700  200 
-U 589DB170
-F0 "vbus sensor supply" 50
-F1 "isolated_5v.sch" 50
-F2 "VDD1" I L 10000 1100 40 
-F3 "GND1" I L 10000 1200 40 
-F4 "GND2" I R 10700 1200 40 
-F5 "VDD2" I R 10700 1100 40 
-$EndSheet
-Wire Wire Line
-	4450 3150 4600 3150
-Wire Wire Line
-	4550 3150 4550 3250
-Wire Wire Line
-	4550 3250 4600 3250
-Wire Wire Line
-	4600 3450 4550 3450
-Wire Wire Line
-	4550 3450 4550 3350
-Wire Wire Line
-	4450 3350 4600 3350
-Wire Wire Line
-	4450 3350 4450 3400
-Wire Wire Line
-	4550 3550 4600 3550
-Wire Wire Line
-	4550 3650 4600 3650
-Wire Wire Line
-	4550 3750 4600 3750
-Wire Wire Line
-	4550 3850 4600 3850
-Connection ~ 4550 3150
-Connection ~ 4550 3350
-Wire Wire Line
-	11150 2750 11250 2750
-Wire Wire Line
-	11250 2750 11250 3750
-Wire Wire Line
-	11150 3650 11250 3650
-Connection ~ 11250 3650
-Wire Wire Line
-	11150 3550 11250 3550
-Connection ~ 11250 3550
-Wire Wire Line
-	11150 3450 11250 3450
-Connection ~ 11250 3450
-Wire Wire Line
-	11150 3350 11250 3350
-Connection ~ 11250 3350
-Wire Wire Line
-	11150 3250 11250 3250
-Connection ~ 11250 3250
-Wire Wire Line
-	11150 3150 11250 3150
-Connection ~ 11250 3150
-Wire Wire Line
-	11150 3050 11250 3050
-Connection ~ 11250 3050
-Wire Wire Line
-	11150 2950 11250 2950
-Connection ~ 11250 2950
-Wire Wire Line
-	11150 2850 11250 2850
-Connection ~ 11250 2850
-Wire Wire Line
-	10250 3350 10050 3350
-Wire Wire Line
-	10050 3350 10050 3150
-Wire Wire Line
-	9900 3150 10250 3150
-Connection ~ 10050 3150
-Wire Wire Line
-	9900 2950 10250 2950
-Wire Wire Line
-	10050 3050 10250 3050
-Connection ~ 10050 2950
-Wire Wire Line
-	10250 3450 8900 3450
-Wire Wire Line
-	8900 3450 8900 3150
-Wire Wire Line
-	6450 1650 6500 1650
-Wire Wire Line
-	6500 1650 6500 1550
-Wire Wire Line
-	6450 1550 7100 1550
-Wire Wire Line
-	6800 1550 6800 1600
-Connection ~ 6500 1550
-Wire Wire Line
-	7000 1550 7000 1600
-Connection ~ 6800 1550
-Wire Wire Line
-	6800 1850 6800 1800
-Wire Wire Line
-	7000 1850 7000 1800
-Wire Wire Line
-	4950 1550 5750 1550
-Wire Wire Line
-	5400 1550 5400 1600
-Wire Wire Line
-	5200 1550 5200 1600
-Connection ~ 5400 1550
-Connection ~ 5200 1550
-Wire Wire Line
-	5200 1850 5200 1800
-Wire Wire Line
-	5400 1850 5400 1800
-Connection ~ 7000 1550
-Wire Wire Line
-	7300 3550 7400 3550
-Wire Wire Line
-	7400 3850 7300 3850
-Wire Wire Line
-	7300 3850 7300 3900
-Wire Wire Line
-	7400 3650 7000 3650
-Wire Wire Line
-	7000 3650 7000 3450
-Wire Wire Line
-	7000 3450 5900 3450
-Wire Wire Line
-	7400 3750 6900 3750
-Wire Wire Line
-	6900 3750 6900 3550
-Wire Wire Line
-	6900 3550 5900 3550
-Wire Wire Line
-	5950 3900 5950 3850
-Wire Wire Line
-	5950 3850 5900 3850
-Wire Wire Line
-	8600 4000 11900 4000
-Wire Wire Line
-	8600 4000 8600 3650
-Wire Wire Line
-	8600 3650 8100 3650
-Wire Wire Line
-	8100 3850 8200 3850
-Wire Wire Line
-	8200 3750 8200 3900
-Wire Wire Line
-	8100 3750 8200 3750
-Wire Wire Line
-	10550 4400 10550 4450
-Wire Wire Line
-	10450 4450 10700 4450
-Wire Wire Line
-	10700 4550 6650 4550
-Wire Wire Line
-	6650 4550 6650 3650
-Wire Wire Line
-	6650 3650 5900 3650
-Wire Wire Line
-	5900 3750 6550 3750
-Wire Wire Line
-	6550 3750 6550 4650
-Wire Wire Line
-	6550 4650 10700 4650
-Wire Wire Line
-	10650 4800 10650 4750
-Wire Wire Line
-	10650 4750 10700 4750
-Connection ~ 10550 4450
-Wire Wire Line
-	10250 3250 5900 3250
-Wire Wire Line
-	8900 3150 5900 3150
-Wire Wire Line
-	11900 1600 10700 1600
-Wire Wire Line
-	10700 1700 11900 1700
-Wire Wire Line
-	10700 1800 10800 1800
-Wire Wire Line
-	10800 1800 10800 1700
-Connection ~ 10800 1700
-Wire Wire Line
-	9600 1600 10000 1600
-Wire Wire Line
-	9600 1700 10000 1700
-Wire Wire Line
-	9600 1800 10000 1800
-Wire Wire Line
-	9600 1500 10000 1500
-Wire Wire Line
-	4450 5650 4600 5650
-Wire Wire Line
-	4550 5650 4550 5750
-Wire Wire Line
-	4550 5750 4600 5750
-Wire Wire Line
-	4600 5950 4550 5950
-Wire Wire Line
-	4550 5950 4550 5850
-Wire Wire Line
-	4450 5850 4600 5850
-Wire Wire Line
-	4450 5850 4450 5900
-Wire Wire Line
-	4550 6050 4600 6050
-Wire Wire Line
-	4550 6150 4600 6150
-Wire Wire Line
-	4550 6250 4600 6250
-Wire Wire Line
-	4550 6350 4600 6350
-Connection ~ 4550 5650
-Connection ~ 4550 5850
-Wire Wire Line
-	11150 5250 11250 5250
-Wire Wire Line
-	11250 5250 11250 6250
-Wire Wire Line
-	11150 6150 11250 6150
-Connection ~ 11250 6150
-Wire Wire Line
-	11150 6050 11250 6050
-Connection ~ 11250 6050
-Wire Wire Line
-	11150 5950 11250 5950
-Connection ~ 11250 5950
-Wire Wire Line
-	11150 5850 11250 5850
-Connection ~ 11250 5850
-Wire Wire Line
-	11150 5750 11250 5750
-Connection ~ 11250 5750
-Wire Wire Line
-	11150 5650 11250 5650
-Connection ~ 11250 5650
-Wire Wire Line
-	11150 5550 11250 5550
-Connection ~ 11250 5550
-Wire Wire Line
-	11150 5450 11250 5450
-Connection ~ 11250 5450
-Wire Wire Line
-	11150 5350 11250 5350
-Connection ~ 11250 5350
-Wire Wire Line
-	10250 5850 10050 5850
-Wire Wire Line
-	10050 5850 10050 5650
-Wire Wire Line
-	9900 5650 10250 5650
-Connection ~ 10050 5650
-Wire Wire Line
-	9900 5450 10250 5450
-Wire Wire Line
-	10050 5550 10250 5550
-Connection ~ 10050 5450
-Wire Wire Line
-	10250 5950 8900 5950
-Wire Wire Line
-	8900 5950 8900 5650
-Wire Wire Line
-	7300 6050 7400 6050
-Wire Wire Line
-	7400 6350 7300 6350
-Wire Wire Line
-	7300 6350 7300 6400
-Wire Wire Line
-	7400 6150 7000 6150
-Wire Wire Line
-	7000 6150 7000 5950
-Wire Wire Line
-	7000 5950 5900 5950
-Wire Wire Line
-	7400 6250 6900 6250
-Wire Wire Line
-	6900 6250 6900 6050
-Wire Wire Line
-	6900 6050 5900 6050
-Wire Wire Line
-	5950 6400 5950 6350
-Wire Wire Line
-	5950 6350 5900 6350
-Wire Wire Line
-	8600 6500 11900 6500
-Wire Wire Line
-	8600 6500 8600 6150
-Wire Wire Line
-	8600 6150 8100 6150
-Wire Wire Line
-	8100 6350 8200 6350
-Wire Wire Line
-	8200 6250 8200 6400
-Wire Wire Line
-	8100 6250 8200 6250
-Wire Wire Line
-	10550 6900 10550 6950
-Wire Wire Line
-	10450 6950 10700 6950
-Wire Wire Line
-	10700 7050 6650 7050
-Wire Wire Line
-	6650 7050 6650 6150
-Wire Wire Line
-	6650 6150 5900 6150
-Wire Wire Line
-	5900 6250 6550 6250
-Wire Wire Line
-	6550 6250 6550 7150
-Wire Wire Line
-	6550 7150 10700 7150
-Wire Wire Line
-	10650 7300 10650 7250
-Wire Wire Line
-	10650 7250 10700 7250
-Connection ~ 10550 6950
-Wire Wire Line
-	10250 5750 5900 5750
-Wire Wire Line
-	8900 5650 5900 5650
-Wire Wire Line
-	4450 8200 4600 8200
-Wire Wire Line
-	4550 8200 4550 8300
-Wire Wire Line
-	4550 8300 4600 8300
-Wire Wire Line
-	4600 8500 4550 8500
-Wire Wire Line
-	4550 8500 4550 8400
-Wire Wire Line
-	4450 8400 4600 8400
-Wire Wire Line
-	4450 8400 4450 8450
-Wire Wire Line
-	4550 8600 4600 8600
-Wire Wire Line
-	4550 8700 4600 8700
-Wire Wire Line
-	4550 8800 4600 8800
-Wire Wire Line
-	4550 8900 4600 8900
-Connection ~ 4550 8200
-Connection ~ 4550 8400
-Wire Wire Line
-	11150 7800 11250 7800
-Wire Wire Line
-	11250 7800 11250 8800
-Wire Wire Line
-	11150 8700 11250 8700
-Connection ~ 11250 8700
-Wire Wire Line
-	11150 8600 11250 8600
-Connection ~ 11250 8600
-Wire Wire Line
-	11150 8500 11250 8500
-Connection ~ 11250 8500
-Wire Wire Line
-	11150 8400 11250 8400
-Connection ~ 11250 8400
-Wire Wire Line
-	11150 8300 11250 8300
-Connection ~ 11250 8300
-Wire Wire Line
-	11150 8200 11250 8200
-Connection ~ 11250 8200
-Wire Wire Line
-	11150 8100 11250 8100
-Connection ~ 11250 8100
-Wire Wire Line
-	11150 8000 11250 8000
-Connection ~ 11250 8000
-Wire Wire Line
-	11150 7900 11250 7900
-Connection ~ 11250 7900
-Wire Wire Line
-	10250 8400 10050 8400
-Wire Wire Line
-	10050 8400 10050 8200
-Wire Wire Line
-	9900 8200 10250 8200
-Connection ~ 10050 8200
-Wire Wire Line
-	9900 8000 10250 8000
-Wire Wire Line
-	10050 8100 10250 8100
-Connection ~ 10050 8000
-Wire Wire Line
-	10250 8500 8900 8500
-Wire Wire Line
-	8900 8500 8900 8200
-Wire Wire Line
-	7300 8600 7400 8600
-Wire Wire Line
-	7400 8900 7300 8900
-Wire Wire Line
-	7300 8900 7300 8950
-Wire Wire Line
-	7400 8700 7000 8700
-Wire Wire Line
-	7000 8700 7000 8500
-Wire Wire Line
-	7000 8500 5900 8500
-Wire Wire Line
-	7400 8800 6900 8800
-Wire Wire Line
-	6900 8800 6900 8600
-Wire Wire Line
-	6900 8600 5900 8600
-Wire Wire Line
-	5950 8950 5950 8900
-Wire Wire Line
-	5950 8900 5900 8900
-Wire Wire Line
-	8600 9050 12100 9050
-Wire Wire Line
-	8600 9050 8600 8700
-Wire Wire Line
-	8600 8700 8100 8700
-Wire Wire Line
-	8100 8900 8200 8900
-Wire Wire Line
-	8200 8800 8200 8950
-Wire Wire Line
-	8200 8800 8100 8800
-Wire Wire Line
-	10550 9450 10550 9500
-Wire Wire Line
-	10450 9500 10700 9500
-Wire Wire Line
-	10700 9600 6650 9600
-Wire Wire Line
-	6650 9600 6650 8700
-Wire Wire Line
-	6650 8700 5900 8700
-Wire Wire Line
-	5900 8800 6550 8800
-Wire Wire Line
-	6550 8800 6550 9700
-Wire Wire Line
-	6550 9700 10700 9700
-Wire Wire Line
-	10650 9850 10650 9800
-Wire Wire Line
-	10650 9800 10700 9800
-Connection ~ 10550 9500
-Wire Wire Line
-	10250 8300 5900 8300
-Wire Wire Line
-	8900 8200 5900 8200
-Wire Wire Line
-	10700 1200 10950 1200
-Wire Wire Line
-	10950 1200 10950 1700
-Connection ~ 10950 1700
-Wire Wire Line
-	10700 1500 10850 1500
-Wire Wire Line
-	10850 1500 10850 1100
-Wire Wire Line
-	10850 1100 10700 1100
-Wire Wire Line
-	10000 1200 9900 1200
-Wire Wire Line
-	9900 1200 9900 1800
-Connection ~ 9900 1800
-Wire Wire Line
-	10000 1100 9850 1100
-Wire Wire Line
-	9850 1100 9850 1500
-Connection ~ 9850 1500
-$Sheet
-S 7400 4150 700  200 
-U 589DEB44
-F0 "phases supply" 50
-F1 "isolated_5v.sch" 50
-F2 "VDD1" I L 7400 4200 40 
-F3 "GND1" I L 7400 4300 40 
-F4 "GND2" I R 8100 4300 40 
-F5 "VDD2" I R 8100 4200 40 
-$EndSheet
 $Comp
 L GND #PWR038
 U 1 1 589E2807
@@ -1252,10 +827,6 @@ F 3 "" H 2550 -100 60  0000 C CNN
 	1    7300 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7400 4300 7300 4300
-Wire Wire Line
-	7300 4300 7300 4350
 $Comp
 L +5 #PWR039
 U 1 1 589E2C37
@@ -1267,8 +838,6 @@ F 3 "" H 3550 3050 60  0000 C CNN
 	1    7300 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 4200 7400 4200
 $Comp
 L ISOGND #PWR040
 U 1 1 589E2F5E
@@ -1280,10 +849,6 @@ F 3 "" H 100 100 60  0000 C CNN
 	1    8300 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8300 4350 8300 4300
-Wire Wire Line
-	8300 4300 8100 4300
 $Comp
 L +5A #PWR041
 U 1 1 589E37CE
@@ -1295,8 +860,6 @@ F 3 "" H 50  -50 60  0000 C CNN
 	1    8300 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8300 4200 8100 4200
 $Comp
 L ISOGND #PWR042
 U 1 1 589E3D02
@@ -1308,7 +871,6 @@ F 3 "" H 0   -350 60  0000 C CNN
 	1    8200 3900
 	1    0    0    -1  
 $EndComp
-Connection ~ 8200 3850
 $Comp
 L +5A #PWR043
 U 1 1 589E45DF
@@ -1320,8 +882,6 @@ F 3 "" H -50 -700 60  0000 C CNN
 	1    8200 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 3550 8100 3550
 $Comp
 L ISOGND #PWR044
 U 1 1 589E4B5A
@@ -1333,7 +893,6 @@ F 3 "" H 0   2150 60  0000 C CNN
 	1    8200 6400
 	1    0    0    -1  
 $EndComp
-Connection ~ 8200 6350
 $Comp
 L +5A #PWR045
 U 1 1 589E58C7
@@ -1345,8 +904,99 @@ F 3 "" H -50 1800 60  0000 C CNN
 	1    8200 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 6050 8100 6050
+$Comp
+L CONN-100MIL-M-1x4 J6
+U 1 1 589F1178
+P 12900 5600
+F 0 "J6" H 13019 5495 50  0000 L CNN
+F 1 "Phoenix 1757268 5.08mm" H 13019 5404 50  0000 L CNN
+F 2 "w_conn_screw:mstba_2,5%2f4-g-5,08" H -50 -550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1757268.pdf" H -50 -550 50  0001 C CNN
+F 4 "1757268" H 12900 5600 60  0001 C CNN "mfg#"
+F 5 "Phoenix Contact" H 0   0   50  0001 C CNN "MFR"
+F 6 "1757268" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "277-1108-ND" H 0   0   50  0001 C CNN "SPN"
+	1    12900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ISOGND #PWR046
+U 1 1 589F45A9
+P 8200 8950
+F 0 "#PWR046" H 8250 9000 30  0001 C CNN
+F 1 "ISOGND" H 0   4700 30  0001 C CNN
+F 2 "" H 0   4700 60  0000 C CNN
+F 3 "" H 0   4700 60  0000 C CNN
+	1    8200 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ISOGND #PWR047
+U 1 1 589F5329
+P 12800 5950
+F 0 "#PWR047" H 12850 6000 30  0001 C CNN
+F 1 "ISOGND" H 4600 1700 30  0001 C CNN
+F 2 "" H 4600 1700 60  0000 C CNN
+F 3 "" H 4600 1700 60  0000 C CNN
+	1    12800 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN-100MIL-F-1x2 J5
+U 1 1 589F77F8
+P 12550 1600
+F 0 "J5" H 12669 1595 50  0000 L CNN
+F 1 "CONN-100MIL-F-1x2" H 12669 1504 50  0000 L CNN
+F 2 "w_conn_screw:mstba_2,5%2f2-g-5,08" H 600 0   50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Plugs%20and%20Headers.pdf" H 600 0   50  0001 C CNN
+F 4 "Phoenix Contact" H 600 0   50  0001 C CNN "MFR"
+F 5 "1923869" H 600 0   50  0001 C CNN "MPN"
+F 6 "Digikey" H 600 0   50  0001 C CNN "SPR"
+F 7 "277-6570-ND" H 600 0   50  0001 C CNN "SPN"
+	1    12550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR048
+U 1 1 589F9245
+P 9750 1850
+F 0 "#PWR048" H 5000 -2600 30  0001 C CNN
+F 1 "GND" H 5000 -2670 30  0001 C CNN
+F 2 "" H 5000 -2600 60  0000 C CNN
+F 3 "" H 5000 -2600 60  0000 C CNN
+	1    9750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5A #PWR049
+U 1 1 589FE444
+P 8200 8600
+F 0 "#PWR049" H 8250 8650 30  0001 C CNN
+F 1 "+5A" H 8200 8733 50  0000 C CNN
+F 2 "" H -50 4350 60  0000 C CNN
+F 3 "" H -50 4350 60  0000 C CNN
+	1    8200 8600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 3850 0    40   Input ~ 0
+~FAULT_U
+Text GLabel 9900 3150 0    40   Input ~ 0
+~FAULT_U
+Text Notes 3950 3350 0    40   ~ 8
+tune the controller\nto output 15v
+Text GLabel 4550 6350 0    40   Input ~ 0
+~FAULT_V
+Text GLabel 9900 5650 0    40   Input ~ 0
+~FAULT_V
+Text Notes 3950 5850 0    40   ~ 8
+tune the controller\nto output 15v
+Text GLabel 4550 8900 0    40   Input ~ 0
+~FAULT_W
+Text GLabel 9900 8200 0    40   Input ~ 0
+~FAULT_W
+Text Notes 3950 8400 0    40   ~ 8
+tune the controller\nto output 15v
 Text Label 9200 4550 0    30   ~ 0
 I_phase_U+
 Text Label 9200 4650 0    30   ~ 0
@@ -1363,103 +1013,10 @@ Text Label 9650 1600 0    40   ~ 0
 vbus+
 Text Label 9650 1700 0    40   ~ 0
 vbus-
-$Comp
-L CONN-100MIL-M-1x4 J6
-U 1 1 589F1178
-P 12900 5600
-F 0 "J6" H 13019 5495 50  0000 L CNN
-F 1 "CONN-100MIL-M-1x4" H 13019 5404 50  0000 L CNN
-F 2 "w_conn_screw:mstba_2,5%2f4-g-5,08" H -50 -550 50  0001 C CNN
-F 3 "" H -50 -550 50  0000 C CNN
-F 4 "1757268" H 12900 5600 60  0001 C CNN "mfg#"
-	1    12900 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12100 9050 12100 5800
-Wire Wire Line
-	12100 5800 12850 5800
-Wire Wire Line
-	11900 6500 11900 5700
-Wire Wire Line
-	11900 5700 12850 5700
-Wire Wire Line
-	12850 5600 11900 5600
-Wire Wire Line
-	11900 5600 11900 4000
-$Comp
-L ISOGND #PWR046
-U 1 1 589F45A9
-P 8200 8950
-F 0 "#PWR046" H 8250 9000 30  0001 C CNN
-F 1 "ISOGND" H 0   4700 30  0001 C CNN
-F 2 "" H 0   4700 60  0000 C CNN
-F 3 "" H 0   4700 60  0000 C CNN
-	1    8200 8950
-	1    0    0    -1  
-$EndComp
-Connection ~ 8200 8900
-$Comp
-L ISOGND #PWR047
-U 1 1 589F5329
-P 12800 5950
-F 0 "#PWR047" H 12850 6000 30  0001 C CNN
-F 1 "ISOGND" H 4600 1700 30  0001 C CNN
-F 2 "" H 4600 1700 60  0000 C CNN
-F 3 "" H 4600 1700 60  0000 C CNN
-	1    12800 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12800 5950 12800 5900
-Wire Wire Line
-	12800 5900 12850 5900
-$Comp
-L CONN-100MIL-F-1x2 J5
-U 1 1 589F77F8
-P 11950 1600
-F 0 "J5" H 12069 1595 50  0000 L CNN
-F 1 "CONN-100MIL-F-1x2" H 12069 1504 50  0000 L CNN
-F 2 "w_conn_screw:mstba_2,5%2f2-g-5,08" H 0   0   50  0001 C CNN
-F 3 "" H 0   0   50  0000 C CNN
-	1    11950 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR048
-U 1 1 589F9245
-P 9750 1850
-F 0 "#PWR048" H 5000 -2600 30  0001 C CNN
-F 1 "GND" H 5000 -2670 30  0001 C CNN
-F 2 "" H 5000 -2600 60  0000 C CNN
-F 3 "" H 5000 -2600 60  0000 C CNN
-	1    9750 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 1850 9750 1800
-Connection ~ 9750 1800
-$Comp
-L +5A #PWR049
-U 1 1 589FE444
-P 8200 8600
-F 0 "#PWR049" H 8250 8650 30  0001 C CNN
-F 1 "+5A" H 8200 8733 50  0000 C CNN
-F 2 "" H -50 4350 60  0000 C CNN
-F 3 "" H -50 4350 60  0000 C CNN
-	1    8200 8600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 8600 8100 8600
 Text GLabel 4450 3150 0    50   Input ~ 0
 15v_U
 Text GLabel 9900 2950 0    50   Input ~ 0
 15v_U
-Wire Wire Line
-	10050 3050 10050 2950
-Wire Wire Line
-	10050 5550 10050 5450
 Text GLabel 9900 5450 0    50   Input ~ 0
 15v_V
 Text GLabel 4450 5650 0    50   Input ~ 0
@@ -1468,8 +1025,698 @@ Text GLabel 4450 8200 0    50   Input ~ 0
 15v_W
 Text GLabel 9900 8000 0    50   Input ~ 0
 15v_W
-Wire Wire Line
-	10050 8000 10050 8100
 Text GLabel 4950 1550 0    50   Input ~ 0
 15v_V
+NoConn ~ 10250 2750
+NoConn ~ 10250 2850
+NoConn ~ 10250 3550
+NoConn ~ 10250 3650
+NoConn ~ 4550 3750
+NoConn ~ 4550 3650
+NoConn ~ 4550 3550
+NoConn ~ 5900 3350
+NoConn ~ 10250 5250
+NoConn ~ 10250 5350
+NoConn ~ 10250 6050
+NoConn ~ 10250 6150
+NoConn ~ 4550 6250
+NoConn ~ 4550 6150
+NoConn ~ 4550 6050
+NoConn ~ 5900 5850
+NoConn ~ 10250 7800
+NoConn ~ 10250 7900
+NoConn ~ 10250 8600
+NoConn ~ 10250 8700
+NoConn ~ 4550 8800
+NoConn ~ 4550 8700
+NoConn ~ 4550 8600
+NoConn ~ 5900 8400
+Text Notes 7250 1550 0    40   ~ 0
+ripple: 17mV
+Wire Wire Line
+	8800 8300 5900 8300
+Wire Wire Line
+	8800 8500 8800 8300
+Wire Wire Line
+	10250 8500 8800 8500
+Wire Wire Line
+	10250 8300 8900 8300
+Wire Wire Line
+	8800 5750 5900 5750
+Wire Wire Line
+	8800 5950 8800 5750
+Wire Wire Line
+	10250 5950 8800 5950
+Wire Wire Line
+	10250 5750 8900 5750
+Wire Wire Line
+	8800 3250 5900 3250
+Wire Wire Line
+	8800 3450 8800 3250
+Wire Wire Line
+	10250 3450 8800 3450
+Wire Wire Line
+	10250 3250 8900 3250
+Wire Notes Line
+	7250 1550 7100 1550
+Connection ~ 9750 1800
+Connection ~ 8200 8900
+Connection ~ 8200 6350
+Connection ~ 8200 3850
+Connection ~ 9850 1500
+Connection ~ 9900 1800
+Connection ~ 10950 1700
+Connection ~ 10550 9500
+Connection ~ 10050 8000
+Connection ~ 10050 8200
+Connection ~ 11250 7900
+Connection ~ 11250 8000
+Connection ~ 11250 8100
+Connection ~ 11250 8200
+Connection ~ 11250 8300
+Connection ~ 11250 8400
+Connection ~ 11250 8500
+Connection ~ 11250 8600
+Connection ~ 11250 8700
+Connection ~ 4550 8400
+Connection ~ 4550 8200
+Connection ~ 10550 6950
+Connection ~ 10050 5450
+Connection ~ 10050 5650
+Connection ~ 11250 5350
+Connection ~ 11250 5450
+Connection ~ 11250 5550
+Connection ~ 11250 5650
+Connection ~ 11250 5750
+Connection ~ 11250 5850
+Connection ~ 11250 5950
+Connection ~ 11250 6050
+Connection ~ 11250 6150
+Connection ~ 4550 5850
+Connection ~ 4550 5650
+Connection ~ 10800 1700
+Connection ~ 10550 4450
+Connection ~ 7000 1550
+Connection ~ 5200 1550
+Connection ~ 5400 1550
+Connection ~ 6800 1550
+Connection ~ 6500 1550
+Connection ~ 10050 2950
+Connection ~ 10050 3150
+Connection ~ 11250 2850
+Connection ~ 11250 2950
+Connection ~ 11250 3050
+Connection ~ 11250 3150
+Connection ~ 11250 3250
+Connection ~ 11250 3350
+Connection ~ 11250 3450
+Connection ~ 11250 3550
+Connection ~ 11250 3650
+Connection ~ 4550 3350
+Connection ~ 4550 3150
+Wire Wire Line
+	10050 8000 10050 8100
+Wire Wire Line
+	10050 5550 10050 5450
+Wire Wire Line
+	10050 3050 10050 2950
+Wire Wire Line
+	8200 8600 8100 8600
+Wire Wire Line
+	9750 1850 9750 1800
+Wire Wire Line
+	12800 5900 12850 5900
+Wire Wire Line
+	12800 5950 12800 5900
+Wire Wire Line
+	11900 5600 11900 4000
+Wire Wire Line
+	12850 5600 11900 5600
+Wire Wire Line
+	11900 5700 12850 5700
+Wire Wire Line
+	11900 6500 11900 5700
+Wire Wire Line
+	12100 5800 12850 5800
+Wire Wire Line
+	12100 9050 12100 5800
+Wire Wire Line
+	8200 6050 8100 6050
+Wire Wire Line
+	8200 3550 8100 3550
+Wire Wire Line
+	8300 4200 8100 4200
+Wire Wire Line
+	8300 4300 8100 4300
+Wire Wire Line
+	8300 4350 8300 4300
+Wire Wire Line
+	7300 4200 7400 4200
+Wire Wire Line
+	7300 4300 7300 4350
+Wire Wire Line
+	7400 4300 7300 4300
+Wire Wire Line
+	9850 1100 9850 1500
+Wire Wire Line
+	10000 1100 9850 1100
+Wire Wire Line
+	9900 1800 9900 1200
+Wire Wire Line
+	9900 1200 10000 1200
+Wire Wire Line
+	10850 1100 10700 1100
+Wire Wire Line
+	10850 1100 10850 1500
+Wire Wire Line
+	10850 1500 10700 1500
+Wire Wire Line
+	10950 1700 10950 1200
+Wire Wire Line
+	10950 1200 10700 1200
+Wire Wire Line
+	8900 8200 5900 8200
+Wire Wire Line
+	10650 9800 10700 9800
+Wire Wire Line
+	10650 9850 10650 9800
+Wire Wire Line
+	6550 9700 10700 9700
+Wire Wire Line
+	6550 8800 6550 9700
+Wire Wire Line
+	5900 8800 6550 8800
+Wire Wire Line
+	6650 8700 5900 8700
+Wire Wire Line
+	6650 9600 6650 8700
+Wire Wire Line
+	10700 9600 6650 9600
+Wire Wire Line
+	10450 9500 10700 9500
+Wire Wire Line
+	10550 9450 10550 9500
+Wire Wire Line
+	8200 8800 8100 8800
+Wire Wire Line
+	8200 8800 8200 8950
+Wire Wire Line
+	8100 8900 8200 8900
+Wire Wire Line
+	8600 8700 8100 8700
+Wire Wire Line
+	8600 9050 8600 8700
+Wire Wire Line
+	8600 9050 12100 9050
+Wire Wire Line
+	5950 8900 5900 8900
+Wire Wire Line
+	5950 8950 5950 8900
+Wire Wire Line
+	6900 8600 5900 8600
+Wire Wire Line
+	6900 8800 6900 8600
+Wire Wire Line
+	7400 8800 6900 8800
+Wire Wire Line
+	7000 8500 5900 8500
+Wire Wire Line
+	7000 8700 7000 8500
+Wire Wire Line
+	7400 8700 7000 8700
+Wire Wire Line
+	7300 8900 7300 8950
+Wire Wire Line
+	7400 8900 7300 8900
+Wire Wire Line
+	7300 8600 7400 8600
+Wire Wire Line
+	8900 8300 8900 8200
+Wire Wire Line
+	10050 8100 10250 8100
+Wire Wire Line
+	9900 8000 10250 8000
+Wire Wire Line
+	9900 8200 10250 8200
+Wire Wire Line
+	10050 8400 10050 8200
+Wire Wire Line
+	10250 8400 10050 8400
+Wire Wire Line
+	11150 7900 11250 7900
+Wire Wire Line
+	11250 8000 11150 8000
+Wire Wire Line
+	11250 8100 11150 8100
+Wire Wire Line
+	11250 8200 11150 8200
+Wire Wire Line
+	11250 8300 11150 8300
+Wire Wire Line
+	11250 8400 11150 8400
+Wire Wire Line
+	11250 8500 11150 8500
+Wire Wire Line
+	11250 8600 11150 8600
+Wire Wire Line
+	11250 8700 11150 8700
+Wire Wire Line
+	11250 7800 11250 8800
+Wire Wire Line
+	11150 7800 11250 7800
+Wire Wire Line
+	4550 8900 4600 8900
+Wire Wire Line
+	4550 8800 4600 8800
+Wire Wire Line
+	4550 8700 4600 8700
+Wire Wire Line
+	4550 8600 4600 8600
+Wire Wire Line
+	4450 8400 4450 8450
+Wire Wire Line
+	4450 8400 4600 8400
+Wire Wire Line
+	4550 8500 4550 8400
+Wire Wire Line
+	4600 8500 4550 8500
+Wire Wire Line
+	4550 8300 4600 8300
+Wire Wire Line
+	4550 8200 4550 8300
+Wire Wire Line
+	4450 8200 4600 8200
+Wire Wire Line
+	8900 5650 5900 5650
+Wire Wire Line
+	10650 7250 10700 7250
+Wire Wire Line
+	10650 7300 10650 7250
+Wire Wire Line
+	6550 7150 10700 7150
+Wire Wire Line
+	6550 6250 6550 7150
+Wire Wire Line
+	5900 6250 6550 6250
+Wire Wire Line
+	6650 6150 5900 6150
+Wire Wire Line
+	6650 7050 6650 6150
+Wire Wire Line
+	10700 7050 6650 7050
+Wire Wire Line
+	10450 6950 10700 6950
+Wire Wire Line
+	10550 6900 10550 6950
+Wire Wire Line
+	8100 6250 8200 6250
+Wire Wire Line
+	8200 6250 8200 6400
+Wire Wire Line
+	8100 6350 8200 6350
+Wire Wire Line
+	8600 6150 8100 6150
+Wire Wire Line
+	8600 6500 8600 6150
+Wire Wire Line
+	8600 6500 11900 6500
+Wire Wire Line
+	5950 6350 5900 6350
+Wire Wire Line
+	5950 6400 5950 6350
+Wire Wire Line
+	6900 6050 5900 6050
+Wire Wire Line
+	6900 6250 6900 6050
+Wire Wire Line
+	7400 6250 6900 6250
+Wire Wire Line
+	7000 5950 5900 5950
+Wire Wire Line
+	7000 6150 7000 5950
+Wire Wire Line
+	7400 6150 7000 6150
+Wire Wire Line
+	7300 6350 7300 6400
+Wire Wire Line
+	7400 6350 7300 6350
+Wire Wire Line
+	7300 6050 7400 6050
+Wire Wire Line
+	8900 5750 8900 5650
+Wire Wire Line
+	10050 5550 10250 5550
+Wire Wire Line
+	9900 5450 10250 5450
+Wire Wire Line
+	9900 5650 10250 5650
+Wire Wire Line
+	10050 5850 10050 5650
+Wire Wire Line
+	10250 5850 10050 5850
+Wire Wire Line
+	11150 5350 11250 5350
+Wire Wire Line
+	11250 5450 11150 5450
+Wire Wire Line
+	11250 5550 11150 5550
+Wire Wire Line
+	11250 5650 11150 5650
+Wire Wire Line
+	11250 5750 11150 5750
+Wire Wire Line
+	11250 5850 11150 5850
+Wire Wire Line
+	11250 5950 11150 5950
+Wire Wire Line
+	11250 6050 11150 6050
+Wire Wire Line
+	11250 6150 11150 6150
+Wire Wire Line
+	11250 5250 11250 6250
+Wire Wire Line
+	11150 5250 11250 5250
+Wire Wire Line
+	4550 6350 4600 6350
+Wire Wire Line
+	4550 6250 4600 6250
+Wire Wire Line
+	4550 6150 4600 6150
+Wire Wire Line
+	4550 6050 4600 6050
+Wire Wire Line
+	4450 5850 4450 5900
+Wire Wire Line
+	4450 5850 4600 5850
+Wire Wire Line
+	4550 5950 4550 5850
+Wire Wire Line
+	4600 5950 4550 5950
+Wire Wire Line
+	4550 5750 4600 5750
+Wire Wire Line
+	4550 5650 4550 5750
+Wire Wire Line
+	4450 5650 4600 5650
+Wire Wire Line
+	9600 1500 10000 1500
+Wire Wire Line
+	9600 1800 10000 1800
+Wire Wire Line
+	9600 1700 10000 1700
+Wire Wire Line
+	9600 1600 10000 1600
+Wire Wire Line
+	10800 1800 10800 1700
+Wire Wire Line
+	10700 1800 10800 1800
+Wire Wire Line
+	10700 1700 12500 1700
+Wire Wire Line
+	12500 1600 10700 1600
+Wire Wire Line
+	8900 3150 5900 3150
+Wire Wire Line
+	10650 4750 10700 4750
+Wire Wire Line
+	10650 4800 10650 4750
+Wire Wire Line
+	6550 4650 10700 4650
+Wire Wire Line
+	6550 3750 6550 4650
+Wire Wire Line
+	5900 3750 6550 3750
+Wire Wire Line
+	6650 3650 5900 3650
+Wire Wire Line
+	6650 4550 6650 3650
+Wire Wire Line
+	10700 4550 6650 4550
+Wire Wire Line
+	10450 4450 10700 4450
+Wire Wire Line
+	10550 4400 10550 4450
+Wire Wire Line
+	8100 3750 8200 3750
+Wire Wire Line
+	8200 3750 8200 3900
+Wire Wire Line
+	8100 3850 8200 3850
+Wire Wire Line
+	8600 3650 8100 3650
+Wire Wire Line
+	8600 4000 8600 3650
+Wire Wire Line
+	11900 4000 8600 4000
+Wire Wire Line
+	5950 3850 5900 3850
+Wire Wire Line
+	5950 3900 5950 3850
+Wire Wire Line
+	6900 3550 5900 3550
+Wire Wire Line
+	6900 3750 6900 3550
+Wire Wire Line
+	7400 3750 6900 3750
+Wire Wire Line
+	7000 3450 5900 3450
+Wire Wire Line
+	7000 3650 7000 3450
+Wire Wire Line
+	7400 3650 7000 3650
+Wire Wire Line
+	7300 3850 7300 3900
+Wire Wire Line
+	7400 3850 7300 3850
+Wire Wire Line
+	7300 3550 7400 3550
+Wire Wire Line
+	5400 1850 5400 1800
+Wire Wire Line
+	5200 1850 5200 1800
+Wire Wire Line
+	5200 1550 5200 1600
+Wire Wire Line
+	5400 1550 5400 1600
+Wire Wire Line
+	4950 1550 5750 1550
+Wire Wire Line
+	7000 1850 7000 1800
+Wire Wire Line
+	6800 1850 6800 1800
+Wire Wire Line
+	7000 1550 7000 1600
+Wire Wire Line
+	6800 1550 6800 1600
+Wire Wire Line
+	6450 1550 7100 1550
+Wire Wire Line
+	6500 1650 6500 1550
+Wire Wire Line
+	6450 1650 6500 1650
+Wire Wire Line
+	8900 3250 8900 3150
+Wire Wire Line
+	10050 3050 10250 3050
+Wire Wire Line
+	9900 2950 10250 2950
+Wire Wire Line
+	9900 3150 10250 3150
+Wire Wire Line
+	10050 3350 10050 3150
+Wire Wire Line
+	10250 3350 10050 3350
+Wire Wire Line
+	11150 2850 11250 2850
+Wire Wire Line
+	11250 2950 11150 2950
+Wire Wire Line
+	11250 3050 11150 3050
+Wire Wire Line
+	11250 3150 11150 3150
+Wire Wire Line
+	11250 3250 11150 3250
+Wire Wire Line
+	11250 3350 11150 3350
+Wire Wire Line
+	11250 3450 11150 3450
+Wire Wire Line
+	11250 3550 11150 3550
+Wire Wire Line
+	11250 3650 11150 3650
+Wire Wire Line
+	11250 2750 11250 3750
+Wire Wire Line
+	11150 2750 11250 2750
+Wire Wire Line
+	4550 3850 4600 3850
+Wire Wire Line
+	4550 3750 4600 3750
+Wire Wire Line
+	4550 3650 4600 3650
+Wire Wire Line
+	4550 3550 4600 3550
+Wire Wire Line
+	4450 3350 4450 3400
+Wire Wire Line
+	4450 3350 4600 3350
+Wire Wire Line
+	4550 3450 4550 3350
+Wire Wire Line
+	4600 3450 4550 3450
+Wire Wire Line
+	4550 3250 4600 3250
+Wire Wire Line
+	4550 3150 4550 3250
+Wire Wire Line
+	4450 3150 4600 3150
+Text Notes 12850 2550 0    60   ~ 0
+Deadtime for infineon modules:\n\n0.82us on IGBT\n104ns x2 on gate drivers\n10ns on logic gates\n-----------\n1058 ns minimum deadtime required. Add some 30% as safety margin
+Text Notes 5600 2150 0    60   ~ 0
+this reg gets hot. Maybe\nuse a switching one.
+$Comp
+L R-2512 R2
+U 1 1 598B4625
+P 11450 1100
+F 0 "R2" V 11350 1100 50  0000 C CNN
+F 1 "20k" V 11450 1100 30  0000 C CNN
+F 2 "IPC7351-Nominal:RESC6432X70" H 11450 1100 50  0001 C CNN
+F 3 "" H 11450 1150 60  0000 C CNN
+F 4 "CRCW251220K0JNEG" H 11450 1100 60  0001 C CNN "MPN"
+F 5 "0" H 11450 1100 60  0001 C CNN "Exclude from BOM"
+F 6 "RES SMD 20k 5% [2512]" H 12200 1650 60  0001 C CNN "BOM"
+	1    11450 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L R-2512 R7
+U 1 1 598B62FE
+P 11700 1100
+F 0 "R7" V 11600 1100 50  0000 C CNN
+F 1 "20k" V 11700 1100 30  0000 C CNN
+F 2 "IPC7351-Nominal:RESC6432X70" H 11700 1100 50  0001 C CNN
+F 3 "" H 11700 1150 60  0000 C CNN
+F 4 "CRCW251220K0JNEG" H 11700 1100 60  0001 C CNN "MPN"
+F 5 "0" H 11700 1100 60  0001 C CNN "Exclude from BOM"
+F 6 "RES SMD 20k 5% [2512]" H 12450 1650 60  0001 C CNN "BOM"
+	1    11700 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L R-2512 R12
+U 1 1 598B6436
+P 11950 1100
+F 0 "R12" V 11850 1100 50  0000 C CNN
+F 1 "20k" V 11950 1100 30  0000 C CNN
+F 2 "IPC7351-Nominal:RESC6432X70" H 11950 1100 50  0001 C CNN
+F 3 "" H 11950 1150 60  0000 C CNN
+F 4 "CRCW251220K0JNEG" H 11950 1100 60  0001 C CNN "MPN"
+F 5 "0" H 11950 1100 60  0001 C CNN "Exclude from BOM"
+F 6 "RES SMD 20k 5% [2512]" H 12700 1650 60  0001 C CNN "BOM"
+	1    11950 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L R-2512 R17
+U 1 1 598B6570
+P 12200 1100
+F 0 "R17" V 12100 1100 50  0000 C CNN
+F 1 "20k" V 12200 1100 30  0000 C CNN
+F 2 "IPC7351-Nominal:RESC6432X70" H 12200 1100 50  0001 C CNN
+F 3 "" H 12200 1150 60  0000 C CNN
+F 4 "CRCW251220K0JNEG" H 12200 1100 60  0001 C CNN "MPN"
+F 5 "0" H 12200 1100 60  0001 C CNN "Exclude from BOM"
+F 6 "RES SMD 20k 5% [2512]" H 12950 1650 60  0001 C CNN "BOM"
+	1    12200 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12100 1100 12050 1100
+Wire Wire Line
+	11850 1100 11800 1100
+Wire Wire Line
+	11600 1100 11550 1100
+$Comp
+L NMOS Q1
+U 1 1 598B7A4C
+P 11250 1250
+F 0 "Q1" H 11377 1296 50  0000 L CNN
+F 1 "NMOS" H 11377 1205 50  0000 L CNN
+F 2 "" H 11250 1250 60  0000 C CNN
+F 3 "" H 11250 1250 60  0000 C CNN
+	1    11250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 1350 11300 1700
+Connection ~ 11300 1700
+Wire Wire Line
+	10850 1300 11200 1300
+Connection ~ 10850 1300
+Wire Wire Line
+	11300 1150 11300 1100
+Wire Wire Line
+	11300 1100 11350 1100
+Wire Wire Line
+	12300 1100 12350 1100
+Wire Wire Line
+	12350 1100 12350 1600
+Connection ~ 12350 1600
+Text Notes 11250 950  0    60   ~ 0
+While powered down\ndischarge the DC link cap
+$Comp
+L UAMMETER M1
+U 1 1 59E4BF8A
+P 13700 7800
+F 0 "M1" H 13830 7846 50  0000 L CNN
+F 1 "Current sensor part#" H 13830 7755 50  0000 L CNN
+F 2 "" H 13700 7950 60  0000 C CNN
+F 3 "" H 13700 7950 60  0000 C CNN
+F 4 "ISB-425-A-800" H 13700 7800 60  0001 C CNN "MPN"
+F 5 "0" H 13700 7800 60  0001 C CNN "Exclude from BOM"
+	1    13700 7800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13700 7650
+NoConn ~ 13700 7950
+$Comp
+L UAMMETER M2
+U 1 1 59E4CBD5
+P 13700 8200
+F 0 "M2" H 13830 8246 50  0000 L CNN
+F 1 "Current sensor part#" H 13830 8155 50  0000 L CNN
+F 2 "" H 13700 8350 60  0000 C CNN
+F 3 "" H 13700 8350 60  0000 C CNN
+F 4 "ISB-425-A-800" H 13700 8200 60  0001 C CNN "MPN"
+F 5 "0" H 13700 8200 60  0001 C CNN "Exclude from BOM"
+	1    13700 8200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13700 8050
+NoConn ~ 13700 8350
+$Comp
+L UAMMETER M3
+U 1 1 59E4CD24
+P 13700 8600
+F 0 "M3" H 13830 8646 50  0000 L CNN
+F 1 "Current sensor part#" H 13830 8555 50  0000 L CNN
+F 2 "" H 13700 8750 60  0000 C CNN
+F 3 "" H 13700 8750 60  0000 C CNN
+F 4 "ISB-425-A-800" H 13700 8600 60  0001 C CNN "MPN"
+F 5 "0" H 13700 8600 60  0001 C CNN "Exclude from BOM"
+	1    13700 8600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13700 8450
+NoConn ~ 13700 8750
+Wire Notes Line
+	13200 7500 15150 7500
+Wire Notes Line
+	15150 7500 15150 9000
+Wire Notes Line
+	15150 9000 13200 9000
+Wire Notes Line
+	13200 9000 13200 7500
+Text Notes 14050 8950 0    60   ~ 0
+Drawn just to have it\nincluded in BOM
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:Abracon
 LIBS:ActiveSemi
 LIBS:Altera
@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -114,22 +114,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3100 3950 0    60   Input ~ 0
-Vin+
-Text HLabel 4100 4550 0    60   Input ~ 0
-Vin-
-Text HLabel 6700 3950 2    60   Output ~ 0
-Vout+
-Text HLabel 6700 4250 2    60   Output ~ 0
-Vout-
-Text HLabel 7450 3450 2    60   Input ~ 0
-VDD1
-Text HLabel 7450 3750 2    60   Input ~ 0
-GND1
-Text HLabel 4550 3750 0    60   Input ~ 0
-GND2
-Text HLabel 4550 3450 0    60   Input ~ 0
-VDD2
 $Comp
 L C-1206 C20
 U 1 1 585AE04F
@@ -138,11 +122,16 @@ AR Path="/589CF239/585AE04F" Ref="C20"  Part="1"
 AR Path="/589B4343/585AE04F" Ref="C11"  Part="1" 
 AR Path="/589D1961/585AE04F" Ref="C29"  Part="1" 
 AR Path="/589D4558/585AE04F" Ref="C38"  Part="1" 
-F 0 "C29" H 4988 3554 50  0000 R CNN
+F 0 "C38" H 4988 3554 50  0000 R CNN
 F 1 "100nF" H 4988 3645 50  0000 R CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 5100 3600 50  0001 C CNN
-F 3 "" H 5090 3575 60  0000 C CNN
+F 3 "" H 5090 3575 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [1206]" H 5900 4150 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    5100 3600
 	1    0    0    1   
 $EndComp
@@ -154,24 +143,18 @@ AR Path="/589B4343/585AEFF8" Ref="U3"  Part="1"
 AR Path="/589CF239/585AEFF8" Ref="U6"  Part="1" 
 AR Path="/589D1961/585AEFF8" Ref="U9"  Part="1" 
 AR Path="/589D4558/585AEFF8" Ref="U12"  Part="1" 
-F 0 "U9" H 5900 4537 60  0000 C CNN
+F 0 "U12" H 5900 4537 60  0000 C CNN
 F 1 "AMC1301" H 5900 4431 60  0000 C CNN
 F 2 "IPC7351-Nominal:SOIC127P1032X265-8" H 5800 3200 60  0001 C CNN
-F 3 "" H 5900 3850 60  0001 C CNN
-F 4 "AMC1301DWVR" H 6000 3400 60  0001 C CNN "#mfg"
+F 3 "http://www.ti.com/lit/ds/symlink/amc1301.pdf" H 5900 3850 60  0001 C CNN
+F 4 "AMC1301DWVR" H 6000 3400 60  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 0   0   50  0001 C CNN "MFR"
+F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "296-44577-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    5900 3850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 3450 5100 3500
-Wire Wire Line
-	4550 3450 5300 3450
-Wire Wire Line
-	5100 3750 5100 3700
-Wire Wire Line
-	4550 3750 5300 3750
-Connection ~ 5100 3750
-Connection ~ 5100 3450
 $Comp
 L C-0603 C21
 U 1 1 585AF5E7
@@ -180,24 +163,19 @@ AR Path="/589CF239/585AF5E7" Ref="C21"  Part="1"
 AR Path="/589B4343/585AF5E7" Ref="C12"  Part="1" 
 AR Path="/589D1961/585AF5E7" Ref="C30"  Part="1" 
 AR Path="/589D4558/585AF5E7" Ref="C39"  Part="1" 
-F 0 "C30" H 5212 4146 50  0000 L CNN
+F 0 "C39" H 5212 4146 50  0000 L CNN
 F 1 "330pF" H 5212 4055 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 5100 4100 50  0001 C CNN
-F 3 "" H 5090 4075 60  0000 C CNN
+F 3 "" H 5090 4075 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 5900 4650 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GCM1885C1H331JA16D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-4964-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    5100 4100
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 3950 5300 3950
-Wire Wire Line
-	5100 3950 5100 4000
-Wire Wire Line
-	4800 4250 5300 4250
-Wire Wire Line
-	5100 4250 5100 4200
-Connection ~ 5100 3950
-Connection ~ 5100 4250
 $Comp
 L R-0603 R10
 U 1 1 585AF780
@@ -206,18 +184,19 @@ AR Path="/589CF239/585AF780" Ref="R10"  Part="1"
 AR Path="/589B4343/585AF780" Ref="R5"  Part="1" 
 AR Path="/589D1961/585AF780" Ref="R15"  Part="1" 
 AR Path="/589D4558/585AF780" Ref="R20"  Part="1" 
-F 0 "R15" V 4600 4250 50  0000 C CNN
+F 0 "R20" V 4600 4250 50  0000 C CNN
 F 1 "1k" V 4700 4250 30  0000 C CNN
 F 2 "IPC7351-Nominal:RESC1608X50" H 4700 4250 50  0001 C CNN
-F 3 "" H 4700 4300 60  0000 C CNN
+F 3 "" H 4700 4300 60  0001 C CNN
 F 4 "RES SMD 1k 5% [0603]" H 5450 4800 60  0001 C CNN "BOM"
+F 5 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 6 "RC0603FR-071KL" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "311-1.00KHRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    4700 4250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4600 4250 4400 4250
-Text Notes 950  4950 0    60   ~ 12
-=1000/(2000000+2000)*650*8.2 = 2.66V differential output at 650V
 $Comp
 L R-1206 R8
 U 1 1 585AF9C1
@@ -226,12 +205,17 @@ AR Path="/589CF239/585AF9C1" Ref="R8"  Part="1"
 AR Path="/589B4343/585AF9C1" Ref="R3"  Part="1" 
 AR Path="/589D1961/585AF9C1" Ref="R13"  Part="1" 
 AR Path="/589D4558/585AF9C1" Ref="R18"  Part="1" 
-F 0 "R13" V 4000 3950 50  0000 C CNN
-F 1 "1M" V 3900 3950 30  0000 C CNN
+F 0 "R18" V 4000 3950 50  0000 C CNN
+F 1 "500k" V 3900 3950 30  0000 C CNN
 F 2 "IPC7351-Nominal:RESC3216X60" H 3900 3950 50  0001 C CNN
-F 3 "" H 3900 4000 60  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_5.pdf" H 3900 4000 60  0001 C CNN
 F 4 "CHV1206-FX-1004ELF" H 3900 3950 60  0001 C CNN "#mfg"
 F 5 "RES SMD 1k 5% [1206]" H 4650 4500 60  0001 C CNN "BOM"
+F 6 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 7 "AC1206FR-071ML" H 0   0   50  0001 C CNN "MPN"
+F 8 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 9 "YAG3832CT-ND" H 0   0   50  0001 C CNN "SPN"
+F 10 "" H 0   0   50  0001 C CNN "SPURL"
 	1    3900 3950
 	0    1    1    0   
 $EndComp
@@ -243,12 +227,17 @@ AR Path="/589CF239/585AFB0A" Ref="R6"  Part="1"
 AR Path="/589B4343/585AFB0A" Ref="R1"  Part="1" 
 AR Path="/589D1961/585AFB0A" Ref="R11"  Part="1" 
 AR Path="/589D4558/585AFB0A" Ref="R16"  Part="1" 
-F 0 "R11" V 3700 3950 50  0000 C CNN
-F 1 "1M" V 3600 3950 30  0000 C CNN
+F 0 "R16" V 3700 3950 50  0000 C CNN
+F 1 "500k" V 3600 3950 30  0000 C CNN
 F 2 "IPC7351-Nominal:RESC3216X60" H 3600 3950 50  0001 C CNN
-F 3 "" H 3600 4000 60  0000 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_5.pdf" H 3600 4000 60  0001 C CNN
 F 4 "CHV1206-FX-1004ELF" H 3600 3950 60  0001 C CNN "#mfg"
 F 5 "RES SMD 1k 5% [1206]" H 4350 4500 60  0001 C CNN "BOM"
+F 6 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 7 "AC1206FR-071ML" H 0   0   50  0001 C CNN "MPN"
+F 8 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 9 "YAG3832CT-ND" H 0   0   50  0001 C CNN "SPN"
+F 10 "" H 0   0   50  0001 C CNN "SPURL"
 	1    3600 3950
 	0    1    1    0   
 $EndComp
@@ -260,28 +249,19 @@ AR Path="/589CF239/585AFCF2" Ref="R9"  Part="1"
 AR Path="/589B4343/585AFCF2" Ref="R4"  Part="1" 
 AR Path="/589D1961/585AFCF2" Ref="R14"  Part="1" 
 AR Path="/589D4558/585AFCF2" Ref="R19"  Part="1" 
-F 0 "R14" V 4300 4100 50  0000 C CNN
+F 0 "R19" V 4300 4100 50  0000 C CNN
 F 1 "1k" V 4400 4100 30  0000 C CNN
 F 2 "IPC7351-Nominal:RESC1608X50" H 4400 4100 50  0001 C CNN
-F 3 "" H 4400 4150 60  0000 C CNN
+F 3 "" H 4400 4150 60  0001 C CNN
 F 4 "RES SMD 1k 5% [0603]" H 5150 4650 60  0001 C CNN "BOM"
+F 5 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 6 "RC0603FR-071KL" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "311-1.00KHRCT-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    4400 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 3950 4400 4000
-Wire Wire Line
-	4400 4200 4400 4550
-Connection ~ 4400 4250
-Wire Wire Line
-	4400 4550 4100 4550
-Connection ~ 4400 3950
-Wire Wire Line
-	3800 3950 3700 3950
-Text Notes 3200 4300 0    40   ~ 0
-These particular 1206\nresistors are rated at 800V each.\nPut slots though
-Text Notes 900  1550 0    260  ~ 52
-0-650V phase voltage measurement\nusing isolation amplifier
 $Comp
 L C-1206 C22
 U 1 1 585B1E88
@@ -290,22 +270,19 @@ AR Path="/589CF239/585B1E88" Ref="C22"  Part="1"
 AR Path="/589B4343/585B1E88" Ref="C13"  Part="1" 
 AR Path="/589D1961/585B1E88" Ref="C31"  Part="1" 
 AR Path="/589D4558/585B1E88" Ref="C40"  Part="1" 
-F 0 "C31" H 6813 3646 50  0000 L CNN
+F 0 "C40" H 6813 3646 50  0000 L CNN
 F 1 "100nF" H 6813 3555 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 6700 3600 50  0001 C CNN
-F 3 "" H 6690 3575 60  0000 C CNN
+F 3 "" H 6690 3575 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 7500 4150 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    6700 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6700 3500 6700 3450
-Wire Wire Line
-	6500 3450 7450 3450
-Wire Wire Line
-	6700 3700 6700 3750
-Wire Wire Line
-	6500 3750 7450 3750
 $Comp
 L C-1206 C23
 U 1 1 585B2111
@@ -314,26 +291,41 @@ AR Path="/589CF239/585B2111" Ref="C23"  Part="1"
 AR Path="/589B4343/585B2111" Ref="C14"  Part="1" 
 AR Path="/589D1961/585B2111" Ref="C32"  Part="1" 
 AR Path="/589D4558/585B2111" Ref="C41"  Part="1" 
-F 0 "C32" H 7263 3646 50  0000 L CNN
+F 0 "C41" H 7263 3646 50  0000 L CNN
 F 1 "2.2uF" H 7263 3555 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 7150 3600 50  0001 C CNN
-F 3 "" H 7140 3575 60  0000 C CNN
+F 3 "" H 7140 3575 60  0001 C CNN
 F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 7950 4150 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
+F 6 "GRM188R71A225KE15D" H 0   0   50  0001 C CNN "MPN"
+F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 8 "490-4520-1-ND" H 0   0   50  0001 C CNN "SPN"
+F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    7150 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 3750 7150 3700
-Connection ~ 6700 3750
-Wire Wire Line
-	7150 3450 7150 3500
-Connection ~ 6700 3450
-Connection ~ 7150 3750
-Connection ~ 7150 3450
-Wire Wire Line
-	6700 3950 6500 3950
-Wire Wire Line
-	6700 4250 6500 4250
+$Comp
+L R-1206 R22
+U 1 1 589DB82A
+P 3300 3950
+AR Path="/589CF239/589DB82A" Ref="R22"  Part="1" 
+AR Path="/589B4343/589DB82A" Ref="R21"  Part="1" 
+AR Path="/589D1961/589DB82A" Ref="R23"  Part="1" 
+AR Path="/589D4558/589DB82A" Ref="R24"  Part="1" 
+F 0 "R24" V 3400 3950 50  0000 C CNN
+F 1 "500k" V 3300 3950 30  0000 C CNN
+F 2 "IPC7351-Nominal:RESC3216X60" H 3300 3950 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_5.pdf" H 3300 4000 60  0001 C CNN
+F 4 "CHV1206-FX-1004ELF" H 3300 3950 60  0001 C CNN "#mfg"
+F 5 "RES SMD 1k 5% [1206]" H 4050 4500 60  0001 C CNN "BOM"
+F 6 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 7 "AC1206FR-071ML" H 0   0   50  0001 C CNN "MPN"
+F 8 "Digikey" H 0   0   50  0001 C CNN "SPR"
+F 9 "YAG3832CT-ND" H 0   0   50  0001 C CNN "SPN"
+F 10 "" H 0   0   50  0001 C CNN "SPURL"
+	1    3300 3950
+	0    1    1    0   
+$EndComp
 $Bitmap
 Pos 1300 3850
 Scale 1,000000
@@ -5360,10 +5352,6 @@ FB 24 84 10 42 08 21 75 87 B2 4F 42 08 21 84 10 52 77 28 FB 24 84 10 42 08 21 75
 EF B8 E5 04 55 55 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Label 5100 3950 0    30   ~ 0
-VIN+
-Text Label 5100 4250 0    30   ~ 0
-VIN-
 $Bitmap
 Pos 9200 6000
 Scale 1,000000
@@ -7057,25 +7045,88 @@ E0 01 00 00 00 80 4C 10 F0 00 00 00 00 40 26 08 78 00 00 00 00 20 13 04 3C 00 00
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L R-1206 R22
-U 1 1 589DB82A
-P 3300 3950
-AR Path="/589CF239/589DB82A" Ref="R22"  Part="1" 
-AR Path="/589B4343/589DB82A" Ref="R21"  Part="1" 
-AR Path="/589D1961/589DB82A" Ref="R23"  Part="1" 
-AR Path="/589D4558/589DB82A" Ref="R24"  Part="1" 
-F 0 "R23" V 3400 3950 50  0000 C CNN
-F 1 "1M" V 3300 3950 30  0000 C CNN
-F 2 "IPC7351-Nominal:RESC3216X60" H 3300 3950 50  0001 C CNN
-F 3 "" H 3300 4000 60  0000 C CNN
-F 4 "CHV1206-FX-1004ELF" H 3300 3950 60  0001 C CNN "#mfg"
-F 5 "RES SMD 1k 5% [1206]" H 4050 4500 60  0001 C CNN "BOM"
-	1    3300 3950
-	0    1    1    0   
-$EndComp
+Text HLabel 3100 3950 0    60   Input ~ 0
+Vin+
+Text HLabel 4100 4550 0    60   Input ~ 0
+Vin-
+Text HLabel 6700 3950 2    60   Output ~ 0
+Vout+
+Text HLabel 6700 4250 2    60   Output ~ 0
+Vout-
+Text HLabel 7450 3450 2    60   Input ~ 0
+VDD1
+Text HLabel 7450 3750 2    60   Input ~ 0
+GND1
+Text HLabel 4550 3750 0    60   Input ~ 0
+GND2
+Text HLabel 4550 3450 0    60   Input ~ 0
+VDD2
+Text Notes 950  4950 0    60   ~ 12
+=909/(1500000+909)*415*8.2 = 2.03V differential output at 415V (linear range). Can measure up to 496v with less linearity
+Text Notes 3200 4300 0    40   ~ 0
+These particular 1206\nresistors are rated at 800V each.\nPut slots though
+Text Notes 900  1550 0    260  ~ 52
+0-650V phase voltage measurement\nusing isolation amplifier
+Text Label 5100 3950 0    30   ~ 0
+VIN+
+Text Label 5100 4250 0    30   ~ 0
+VIN-
+Wire Wire Line
+	5100 3450 5100 3500
+Wire Wire Line
+	4550 3450 5300 3450
+Wire Wire Line
+	5100 3750 5100 3700
+Wire Wire Line
+	4550 3750 5300 3750
+Wire Wire Line
+	4000 3950 5300 3950
+Wire Wire Line
+	5100 3950 5100 4000
+Wire Wire Line
+	4800 4250 5300 4250
+Wire Wire Line
+	5100 4250 5100 4200
+Wire Wire Line
+	4600 4250 4400 4250
+Wire Wire Line
+	4400 3950 4400 4000
+Wire Wire Line
+	4400 4200 4400 4550
+Wire Wire Line
+	4400 4550 4100 4550
+Wire Wire Line
+	3800 3950 3700 3950
+Wire Wire Line
+	6700 3500 6700 3450
+Wire Wire Line
+	6500 3450 7450 3450
+Wire Wire Line
+	6700 3700 6700 3750
+Wire Wire Line
+	6500 3750 7450 3750
+Wire Wire Line
+	7150 3750 7150 3700
+Wire Wire Line
+	7150 3450 7150 3500
+Wire Wire Line
+	6700 3950 6500 3950
+Wire Wire Line
+	6700 4250 6500 4250
 Wire Wire Line
 	3500 3950 3400 3950
 Wire Wire Line
 	3200 3950 3100 3950
+Connection ~ 5100 3750
+Connection ~ 5100 3450
+Connection ~ 5100 3950
+Connection ~ 5100 4250
+Connection ~ 4400 4250
+Connection ~ 4400 3950
+Connection ~ 6700 3750
+Connection ~ 6700 3450
+Connection ~ 7150 3750
+Connection ~ 7150 3450
+Text Notes 2700 4750 0    60   ~ 0
+Protoypes had 0.5M and 1k//10k = 909ohm
 $EndSCHEMATC
