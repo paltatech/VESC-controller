@@ -535,7 +535,7 @@ F 0 "C18" V 3850 6250 50  0000 C CNN
 F 1 "100nF" V 3941 6250 50  0000 C CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 4100 6250 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4090 6225 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 4900 6800 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 4900 6800 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -597,7 +597,7 @@ F 0 "C21" H 5737 4504 50  0000 R CNN
 F 1 "100nF" H 5737 4595 50  0000 R CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 5850 4550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5840 4525 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 6650 5100 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 6650 5100 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -647,7 +647,7 @@ F 0 "C20" H 5737 3154 50  0000 R CNN
 F 1 "100nF" H 5737 3245 50  0000 R CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 5850 3200 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5840 3175 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 6650 3750 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 6650 3750 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -664,7 +664,7 @@ F 0 "C19" H 5737 1904 50  0000 R CNN
 F 1 "100nF" H 5737 1995 50  0000 R CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 5850 1950 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5840 1925 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 6650 2500 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 6650 2500 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -770,19 +770,19 @@ $EndComp
 $Comp
 L R-0603 R123
 U 1 1 589012E3
-P 8100 3250
-F 0 "R123" V 8200 3200 50  0000 L CNN
-F 1 "22R" V 8100 3200 30  0000 L CNN
-F 2 "IPC7351-Nominal:RESC1608X50" H 8100 3250 50  0001 C CNN
-F 3 "" H 8100 3300 60  0001 C CNN
-F 4 "RC0603FR-0722RL" H 8100 3250 60  0001 C CNN "mfg#"
-F 5 "RES SMD 22 1% [0603]" H 8850 3800 60  0001 C CNN "BOM"
-F 6 "Yageo" H 0   0   50  0001 C CNN "MFR"
-F 7 "RC0603FR-0722RL" H 0   0   50  0001 C CNN "MPN"
-F 8 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 9 "311-22.0HRCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 10 "" H 0   0   50  0001 C CNN "SPURL"
-	1    8100 3250
+P 7800 3250
+F 0 "R123" V 7900 3200 50  0000 L CNN
+F 1 "22R" V 7800 3200 30  0000 L CNN
+F 2 "IPC7351-Nominal:RESC1608X50" H 7800 3250 50  0001 C CNN
+F 3 "" H 7800 3300 60  0001 C CNN
+F 4 "" H 7800 3250 60  0001 C CNN "mfg#"
+F 5 "RES SMD 22 1% [0603]" H 8550 3800 60  0001 C CNN "BOM"
+F 6 "Yageo" H -300 0   50  0001 C CNN "MFR"
+F 7 "RC0603FR-0722RL" H -300 0   50  0001 C CNN "MPN"
+F 8 "Digikey" H -300 0   50  0001 C CNN "SPR"
+F 9 "311-22.0HRCT-ND" H -300 0   50  0001 C CNN "SPN"
+F 10 "" H -300 0   50  0001 C CNN "SPURL"
+	1    7800 3250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -836,33 +836,33 @@ $EndComp
 $Comp
 L R-0603 R138
 U 1 1 589403B1
-P 7900 3050
-F 0 "R138" V 8000 3000 50  0000 L CNN
-F 1 "10k" V 7900 3000 30  0000 L CNN
-F 2 "IPC7351-Nominal:RESC1608X50" H 7900 3050 50  0001 C CNN
-F 3 "" H 7900 3100 60  0001 C CNN
-F 4 "RES SMD 1k 5% [0603]" H 8650 3600 60  0001 C CNN "BOM"
-F 5 "Yageo" H 0   0   50  0001 C CNN "MFR"
-F 6 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "MPN"
-F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 8 "311-10.0KHRCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 9 "" H 0   0   50  0001 C CNN "SPURL"
-	1    7900 3050
+P 7600 3050
+F 0 "R138" V 7700 3000 50  0000 L CNN
+F 1 "10k" V 7600 3000 30  0000 L CNN
+F 2 "IPC7351-Nominal:RESC1608X50" H 7600 3050 50  0001 C CNN
+F 3 "" H 7600 3100 60  0001 C CNN
+F 4 "RES SMD 1k 5% [0603]" H 8350 3600 60  0001 C CNN "BOM"
+F 5 "Yageo" H -300 0   50  0001 C CNN "MFR"
+F 6 "RC0603FR-0710KL" H -300 0   50  0001 C CNN "MPN"
+F 7 "Digikey" H -300 0   50  0001 C CNN "SPR"
+F 8 "311-10.0KHRCT-ND" H -300 0   50  0001 C CNN "SPN"
+F 9 "" H -300 0   50  0001 C CNN "SPURL"
+	1    7600 3050
 	-1   0    0    1   
 $EndComp
 $Comp
 L +3.3 #PWR?
 U 1 1 589406F0
-P 7900 2950
+P 7600 2950
 AR Path="/5886DA84/589406F0" Ref="#PWR?"  Part="1" 
 AR Path="/588C2790/589406F0" Ref="#PWR?"  Part="1" 
 AR Path="/588C4E84/589406F0" Ref="#PWR?"  Part="1" 
 AR Path="/5888D059/589406F0" Ref="#PWR0225"  Part="1" 
-F 0 "#PWR0225" H 7950 3000 30  0001 C CNN
-F 1 "+3.3" H 7900 3083 50  0000 C CNN
-F 2 "" H 50  -2150 60  0000 C CNN
-F 3 "" H 50  -2150 60  0000 C CNN
-	1    7900 2950
+F 0 "#PWR0225" H 7650 3000 30  0001 C CNN
+F 1 "+3.3" H 7600 3083 50  0000 C CNN
+F 2 "" H -250 -2150 60  0000 C CNN
+F 3 "" H -250 -2150 60  0000 C CNN
+	1    7600 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1299,7 +1299,7 @@ Text Notes 5900 5900 0    100  ~ 20
 If FAULT, or OCP, or RESET is triggered,\nRESET driver
 Text Notes 2050 3700 0    15   ~ 0
 pulldowns to assert\nMCU pins in high-Z state\nduring boot
-Text HLabel 7800 3250 0    60   Input ~ 0
+Text HLabel 7500 3250 0    60   Input ~ 0
 ~FAULT_IN
 Text HLabel 9300 3250 2    60   Input ~ 0
 ~FAULT
@@ -1534,17 +1534,17 @@ Wire Wire Line
 Wire Wire Line
 	5500 5900 5500 6000
 Wire Wire Line
-	7800 3250 8000 3250
+	7500 3250 7700 3250
 Wire Wire Line
 	8500 4000 8500 4050
 Wire Wire Line
-	8200 3250 9300 3250
+	7900 3250 9300 3250
 Wire Wire Line
 	8400 3750 8300 3750
 Wire Wire Line
 	8300 3750 8300 3250
 Wire Wire Line
-	7900 3150 7900 3250
+	7600 3150 7600 3250
 Wire Wire Line
 	9100 3150 9100 3250
 Wire Wire Line
@@ -1576,7 +1576,7 @@ Connection ~ 5600 2400
 Connection ~ 5600 1500
 Connection ~ 5500 6700
 Connection ~ 8300 3250
-Connection ~ 7900 3250
+Connection ~ 7600 3250
 Connection ~ 9100 3250
 Wire Wire Line
 	7900 2100 9400 2100
@@ -1629,4 +1629,45 @@ F 3 "" H -4450 2400 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2100 6350 2100 6500
+$Comp
+L C-0603 C?
+U 1 1 59879DD5
+P 8000 3500
+AR Path="/5886DA84/59879DD5" Ref="C?"  Part="1" 
+AR Path="/588C2790/59879DD5" Ref="C?"  Part="1" 
+AR Path="/588C4E84/59879DD5" Ref="C?"  Part="1" 
+AR Path="/5888D059/59879DD5" Ref="C93"  Part="1" 
+F 0 "C93" H 8100 3500 50  0000 L CNN
+F 1 "220pF" H 8000 3400 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 8000 3500 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7990 3475 60  0001 C CNN
+F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 8800 4050 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 3450 -450 50  0001 C CNN "MFR"
+F 6 "GRM1885C1H221JA01D" H 3450 -450 50  0001 C CNN "MPN"
+F 7 "Digikey" H 3450 -450 50  0001 C CNN "SPR"
+F 8 "490-1435-1-ND" H 3450 -450 50  0001 C CNN "SPN"
+F 9 "" H 3450 -450 50  0001 C CNN "SPURL"
+	1    8000 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3400 8000 3250
+Connection ~ 8000 3250
+$Comp
+L GND #PWR?
+U 1 1 59879F0A
+P 8000 3750
+AR Path="/5886DA84/59879F0A" Ref="#PWR?"  Part="1" 
+AR Path="/588C2790/59879F0A" Ref="#PWR?"  Part="1" 
+AR Path="/588C4E84/59879F0A" Ref="#PWR?"  Part="1" 
+AR Path="/5888D059/59879F0A" Ref="#PWR0238"  Part="1" 
+F 0 "#PWR0238" H 8000 3750 30  0001 C CNN
+F 1 "GND" H 8000 3680 30  0001 C CNN
+F 2 "" H 8000 3750 60  0000 C CNN
+F 3 "" H 8000 3750 60  0000 C CNN
+	1    8000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3750 8000 3600
 $EndSCHEMATC

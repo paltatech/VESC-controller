@@ -288,8 +288,8 @@ F 0 "C4" H 5213 4196 50  0000 L CNN
 F 1 "2.2uF" H 5213 4105 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 5100 4150 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5090 4125 60  0001 C CNN
-F 4 "GRM188R71H472KA01D" H 5100 4150 60  0001 C CNN "mfg#"
-F 5 "CAP MLCC 4.7nF X7R 50V 10% [0603]" H 5900 4700 60  0001 C CNN "BOM"
+F 4 "" H 5100 4150 60  0001 C CNN "mfg#"
+F 5 "CAP MLCC 100pF C0G 50V 5% [0603]" H 5900 4700 60  0001 C CNN "BOM"
 F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 7 "GRM188R71A225KE15D" H 0   0   50  0001 C CNN "MPN"
 F 8 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -452,4 +452,6 @@ Connection ~ 4900 3850
 Connection ~ 5100 3850
 Connection ~ 6950 3750
 Connection ~ 7450 3850
+Text Notes 1450 1950 0    260  ~ 52
+HAL and temp sensors protection
 $EndSCHEMATC

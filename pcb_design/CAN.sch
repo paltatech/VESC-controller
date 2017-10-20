@@ -138,6 +138,7 @@ F 5 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
 F 7 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
 F 8 "" H 0   0   50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100nF C0G 50V 5% [0603]" H 0   0   60  0001 C CNN "BOM"
 	1    4000 4050
 	1    0    0    -1  
 $EndComp
@@ -211,7 +212,7 @@ F 0 "C1" H 7362 3196 50  0000 L CNN
 F 1 "100nF" H 7362 3105 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 7250 3150 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7240 3125 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 8050 3700 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 8050 3700 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -245,7 +246,7 @@ F 0 "C35" V 7350 4150 50  0000 L CNN
 F 1 "100nF" V 7450 4100 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 7300 4050 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7290 4025 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 8100 4600 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 8100 4600 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"

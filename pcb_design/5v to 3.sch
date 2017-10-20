@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 15
+Sheet 10 15
 Title "5v to 3.3v conditioning"
 Date "2017-02-22"
 Rev "0.2"
@@ -214,8 +214,8 @@ F 0 "C15" H 4763 4046 50  0000 L CNN
 F 1 "100nF" H 4763 3955 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 4650 4000 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4640 3975 60  0001 C CNN
-F 4 "GRM188R71H472KA01D" H 4650 4000 60  0001 C CNN "mfg#"
-F 5 "CAP MLCC 4.7nF X7R 50V 10% [0603]" H 5450 4550 60  0001 C CNN "BOM"
+F 4 "" H 4650 4000 60  0001 C CNN "mfg#"
+F 5 "CAP MLCC 100nF C0G 50V 5% [0603]" H 5450 4550 60  0001 C CNN "BOM"
 F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 7 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 8 "Digikey" H 0   0   50  0001 C CNN "SPR"

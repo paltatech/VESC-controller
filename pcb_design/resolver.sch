@@ -104,7 +104,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 12 15
 Title ""
 Date "2017-02-22"
 Rev "0.2"
@@ -194,7 +194,7 @@ F 0 "C74" H 4563 2196 50  0000 L CNN
 F 1 "100nF" H 4563 2105 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H -50 -550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H -60 -575 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 750 0   60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 750 0   60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -211,7 +211,7 @@ F 0 "C73" H 4362 2196 50  0000 L CNN
 F 1 "100nF" H 4362 2105 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H -250 -550 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H -260 -575 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 550 0   60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 550 0   60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -294,7 +294,7 @@ F 0 "C77" H 5712 2346 50  0000 L CNN
 F 1 "100nF" H 5712 2255 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 1100 -400 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1090 -425 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 1900 150 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 1900 150 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -569,7 +569,7 @@ F 0 "C82" H 8612 3246 50  0000 L CNN
 F 1 "100nF" H 8612 3155 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 4000 500 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3990 475 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 4800 1050 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 4800 1050 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -693,7 +693,7 @@ F 0 "C81" H 8412 4996 50  0000 L CNN
 F 1 "100nF" H 8412 4905 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 3800 2250 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3790 2225 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 4600 2800 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 4600 2800 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -766,7 +766,7 @@ F 0 "C85" H 10712 4496 50  0000 L CNN
 F 1 "100nF" H 10712 4405 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 6100 1750 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6090 1725 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 6900 2300 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 6900 2300 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -935,7 +935,7 @@ F 0 "C75" H 2162 4496 50  0000 L CNN
 F 1 "100nF" H 2162 4405 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H -2450 1750 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H -2460 1725 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H -1650 2300 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H -1650 2300 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -1062,7 +1062,7 @@ F 0 "C87" H 9212 6446 50  0000 L CNN
 F 1 "100nF" H 9212 6355 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 4600 3700 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4590 3675 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 5400 4250 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 5400 4250 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -1123,7 +1123,7 @@ F 0 "C86" H 8012 6446 50  0000 L CNN
 F 1 "100nF" H 8012 6355 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 3400 3700 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3390 3675 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 4200 4250 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 4200 4250 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -1265,7 +1265,7 @@ Resolver interface
 Text Notes 8000 1300 0    150  ~ 30
 Buffer
 Text Notes 7600 5550 0    30   ~ 0
-This is an alternative buffer suggested here:\nhttp://www.analog.com/en/analog-dialogue/articles/precision-rtdc-measures-angular-position-and-velocity.html\nIts more expensive, but much simpler and smaller
+This is an alternative buffer suggested here:\nhttp://www.analog.com/en/analog-dialogue/articles/precision-rtdc-measures-angular-position-and-velocity.html\nIt seems to invert the signal...\nIts more expensive, but much simpler and smaller
 Text Notes 2900 2900 0    40   ~ 0
 RESET line requires\na voltage monitor
 Text Label 6150 3300 0    20   ~ 0

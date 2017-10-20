@@ -117,458 +117,466 @@ $EndDescr
 $Comp
 L GND #PWR0192
 U 1 1 572D84DC
-P 7900 1450
-F 0 "#PWR0192" H 7900 1200 50  0001 C CNN
-F 1 "GND" H 7900 1300 50  0000 C CNN
-F 2 "" H 7900 1450 60  0000 C CNN
-F 3 "" H 7900 1450 60  0000 C CNN
-	1    7900 1450
+P 8200 1900
+F 0 "#PWR0192" H 8200 1650 50  0001 C CNN
+F 1 "GND" H 8200 1750 50  0000 C CNN
+F 2 "" H 8200 1900 60  0000 C CNN
+F 3 "" H 8200 1900 60  0000 C CNN
+	1    8200 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C17
 U 1 1 572D84DD
-P 6850 1600
-F 0 "C17" H 6875 1700 50  0000 L CNN
-F 1 "15pF" H 6650 1500 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 6888 1450 30  0001 C CNN
-F 3 "http://psearch.murata.com/capacitor/product/GCM1885C1H150JA16%23.pdf" H 6850 1600 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GCM1885C1H150JA16D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-4957-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    6850 1600
+P 7150 2050
+F 0 "C17" H 7175 2150 50  0000 L CNN
+F 1 "15pF" H 6950 1950 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 7188 1900 30  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GCM1885C1H150JA16%23.pdf" H 7150 2050 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GCM1885C1H150JA16D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-4957-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+	1    7150 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C33
 U 1 1 572D84DE
-P 7600 1600
-F 0 "C33" H 7625 1700 50  0000 L CNN
-F 1 "15pF" H 7625 1500 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 7638 1450 30  0001 C CNN
-F 3 "http://psearch.murata.com/capacitor/product/GCM1885C1H150JA16%23.pdf" H 7600 1600 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GCM1885C1H150JA16D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-4957-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    7600 1600
+P 7900 2050
+F 0 "C33" H 7925 2150 50  0000 L CNN
+F 1 "15pF" H 7925 1950 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 7938 1900 30  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GCM1885C1H150JA16%23.pdf" H 7900 2050 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GCM1885C1H150JA16D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-4957-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+	1    7900 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0193
 U 1 1 572D84DF
-P 7250 1950
-F 0 "#PWR0193" H 7250 1700 50  0001 C CNN
-F 1 "GND" H 7250 1850 50  0000 C CNN
-F 2 "" H 7250 1950 60  0000 C CNN
-F 3 "" H 7250 1950 60  0000 C CNN
-	1    7250 1950
+P 7550 2400
+F 0 "#PWR0193" H 7550 2150 50  0001 C CNN
+F 1 "GND" H 7550 2300 50  0000 C CNN
+F 2 "" H 7550 2400 60  0000 C CNN
+F 3 "" H 7550 2400 60  0000 C CNN
+	1    7550 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0194
 U 1 1 572D84E0
-P 6800 2400
-F 0 "#PWR0194" H 6800 2150 50  0001 C CNN
-F 1 "GND" H 6800 2300 50  0000 C CNN
-F 2 "" H 6800 2400 60  0000 C CNN
-F 3 "" H 6800 2400 60  0000 C CNN
-	1    6800 2400
+P 7100 2850
+F 0 "#PWR0194" H 7100 2600 50  0001 C CNN
+F 1 "GND" H 7100 2750 50  0000 C CNN
+F 2 "" H 7100 2850 60  0000 C CNN
+F 3 "" H 7100 2850 60  0000 C CNN
+	1    7100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C32
 U 1 1 572D84E1
-P 7250 2800
-F 0 "C32" H 7275 2900 50  0000 L CNN
-F 1 "100nF" H 7275 2700 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 7288 2650 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7250 2800 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    7250 2800
+P 7550 3250
+F 0 "C32" H 7575 3350 50  0000 L CNN
+F 1 "100nF" H 7575 3150 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 7588 3100 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7550 3250 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GRM188R71E104KA01D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-1524-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100nF C0G 50V 5% [0603]" H 300 450 60  0001 C CNN "BOM"
+	1    7550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0195
 U 1 1 572D84E2
-P 7250 3050
-F 0 "#PWR0195" H 7250 2800 50  0001 C CNN
-F 1 "GND" H 7250 2900 50  0000 C CNN
-F 2 "" H 7250 3050 60  0000 C CNN
-F 3 "" H 7250 3050 60  0000 C CNN
-	1    7250 3050
+P 7550 3500
+F 0 "#PWR0195" H 7550 3250 50  0001 C CNN
+F 1 "GND" H 7550 3350 50  0000 C CNN
+F 2 "" H 7550 3500 60  0000 C CNN
+F 3 "" H 7550 3500 60  0000 C CNN
+	1    7550 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0196
 U 1 1 572D84E3
-P 7050 5800
-F 0 "#PWR0196" H 7050 5550 50  0001 C CNN
-F 1 "GND" H 7050 5650 50  0000 C CNN
-F 2 "" H 7050 5800 60  0000 C CNN
-F 3 "" H 7050 5800 60  0000 C CNN
-	1    7050 5800
+P 7350 6250
+F 0 "#PWR0196" H 7350 6000 50  0001 C CNN
+F 1 "GND" H 7350 6100 50  0000 C CNN
+F 2 "" H 7350 6250 60  0000 C CNN
+F 3 "" H 7350 6250 60  0000 C CNN
+	1    7350 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0197
 U 1 1 572D84E4
-P 6350 4850
-F 0 "#PWR0197" H 6350 4600 50  0001 C CNN
-F 1 "GND" H 6350 4750 50  0000 C CNN
-F 2 "" H 6350 4850 60  0000 C CNN
-F 3 "" H 6350 4850 60  0000 C CNN
-	1    6350 4850
+P 6650 5300
+F 0 "#PWR0197" H 6650 5050 50  0001 C CNN
+F 1 "GND" H 6650 5200 50  0000 C CNN
+F 2 "" H 6650 5300 60  0000 C CNN
+F 3 "" H 6650 5300 60  0000 C CNN
+	1    6650 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C30
 U 1 1 572D84E5
-P 6800 5250
-F 0 "C30" H 6825 5350 50  0000 L CNN
-F 1 "100nF" H 6825 5150 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 6838 5100 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6800 5250 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    6800 5250
+P 7100 5700
+F 0 "C30" H 7125 5800 50  0000 L CNN
+F 1 "100nF" H 7125 5600 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 7138 5550 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7100 5700 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GRM188R71E104KA01D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-1524-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100nF C0G 50V 5% [0603]" H 300 450 60  0001 C CNN "BOM"
+	1    7100 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C31
 U 1 1 572D84E6
-P 7050 5250
-F 0 "C31" H 7075 5350 50  0000 L CNN
-F 1 "2.2uF" H 7075 5150 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 7088 5100 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7050 5250 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GRM188R71A225KE15D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-4520-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    7050 5250
+P 7350 5700
+F 0 "C31" H 7375 5800 50  0000 L CNN
+F 1 "2.2uF" H 7375 5600 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 7388 5550 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7350 5700 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GRM188R71A225KE15D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-4520-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100pF C0G 50V 5% [0603]" H 300 450 60  0001 C CNN "BOM"
+	1    7350 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C28
 U 1 1 572D84E7
-P 6600 5850
-F 0 "C28" H 6625 5950 50  0000 L CNN
-F 1 "2.2uF" V 6650 5600 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 6638 5700 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6600 5850 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GRM188R71A225KE15D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-4520-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    6600 5850
+P 6900 6300
+F 0 "C28" H 6925 6400 50  0000 L CNN
+F 1 "2.2uF" V 6950 6050 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 6938 6150 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6900 6300 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GRM188R71A225KE15D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-4520-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100pF C0G 50V 5% [0603]" H 300 450 60  0001 C CNN "BOM"
+	1    6900 6300
 	0    1    1    0   
 $EndComp
 $Comp
 L C C29
 U 1 1 572D84E8
-P 6600 6100
-F 0 "C29" H 6625 6200 50  0000 L CNN
-F 1 "2.2uF" V 6650 5850 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 6638 5950 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6600 6100 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GRM188R71A225KE15D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-4520-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    6600 6100
+P 6900 6550
+F 0 "C29" H 6925 6650 50  0000 L CNN
+F 1 "2.2uF" V 6950 6300 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 6938 6400 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6900 6550 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GRM188R71A225KE15D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-4520-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100pF C0G 50V 5% [0603]" H 300 450 60  0001 C CNN "BOM"
+	1    6900 6550
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR0198
 U 1 1 572D84E9
-P 8900 1650
-F 0 "#PWR0198" H 8900 1400 50  0001 C CNN
-F 1 "GND" H 8900 1550 50  0000 C CNN
-F 2 "" H 8900 1650 60  0000 C CNN
-F 3 "" H 8900 1650 60  0000 C CNN
-	1    8900 1650
+P 9200 2100
+F 0 "#PWR0198" H 9200 1850 50  0001 C CNN
+F 1 "GND" H 9200 2000 50  0000 C CNN
+F 2 "" H 9200 2100 60  0000 C CNN
+F 3 "" H 9200 2100 60  0000 C CNN
+	1    9200 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C34
 U 1 1 572D84EA
-P 9100 1350
-F 0 "C34" H 9125 1450 50  0000 L CNN
-F 1 "100nF" H 9125 1250 40  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 9138 1200 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9100 1350 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 9100 1350 60  0001 C CNN "BOM"
-F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 6 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
-F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 8 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 9 "" H 0   0   50  0001 C CNN "SPURL"
-	1    9100 1350
+P 9400 1800
+F 0 "C34" H 9425 1900 50  0000 L CNN
+F 1 "100nF" H 9425 1700 40  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 9438 1650 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9400 1800 60  0001 C CNN
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 9400 1800 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 6 "GRM188R71E104KA01D" H 300 450 50  0001 C CNN "MPN"
+F 7 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 8 "490-1524-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 9 "" H 300 450 50  0001 C CNN "SPURL"
+	1    9400 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C10
 U 1 1 572D84EB
-P 9350 1350
-F 0 "C10" H 9375 1450 50  0000 L CNN
-F 1 "100nF" H 9375 1250 40  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 9388 1200 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9350 1350 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    9350 1350
+P 9650 1800
+F 0 "C10" H 9675 1900 50  0000 L CNN
+F 1 "100nF" H 9675 1700 40  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 9688 1650 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9650 1800 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GRM188R71E104KA01D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-1524-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100nF C0G 50V 5% [0603]" H 300 450 60  0001 C CNN "BOM"
+	1    9650 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C11
 U 1 1 572D84EC
-P 9600 1350
-F 0 "C11" H 9625 1450 50  0000 L CNN
-F 1 "100nF" H 9625 1250 40  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 9638 1200 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9600 1350 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    9600 1350
+P 9900 1800
+F 0 "C11" H 9925 1900 50  0000 L CNN
+F 1 "100nF" H 9925 1700 40  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 9938 1650 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9900 1800 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GRM188R71E104KA01D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-1524-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100nF C0G 50V 5% [0603]" H 300 450 60  0001 C CNN "BOM"
+	1    9900 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C12
 U 1 1 572D84ED
-P 9850 1350
-F 0 "C12" H 9875 1450 50  0000 L CNN
-F 1 "100nF" H 9875 1250 40  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 9888 1200 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9850 1350 60  0001 C CNN
-F 4 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 5 "GRM188R71E104KA01D" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "490-1524-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    9850 1350
+P 10150 1800
+F 0 "C12" H 10175 1900 50  0000 L CNN
+F 1 "100nF" H 10175 1700 40  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1608X55" H 10188 1650 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 10150 1800 60  0001 C CNN
+F 4 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 5 "GRM188R71E104KA01D" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "490-1524-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+F 9 "CAP MLCC 100nF C0G 50V 5% [0603]" H 300 450 60  0001 C CNN "BOM"
+	1    10150 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L STM32F40X_LQFP64 U1
 U 1 1 572D84EE
-P 4900 3650
-F 0 "U1" H 4850 5950 60  0000 C CNN
-F 1 "STM32F40X_LQFP64" H 4900 1300 60  0000 C CNN
-F 2 "IPC7351-Nominal:QFP50P1200X1200X100-64" H 4900 3650 60  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/ef/92/76/6d/bb/c2/4f/f7/DM00037051.pdf/files/DM00037051.pdf/jcr:content/translations/en.DM00037051.pdf" H 4900 3650 60  0001 C CNN
-F 4 "STMicroelectronics" H 0   0   50  0001 C CNN "MFR"
-F 5 "STM32F405RGT6" H 0   0   50  0001 C CNN "MPN"
-F 6 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 7 "497-11767-ND" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    4900 3650
+P 5200 4100
+F 0 "U1" H 5150 6400 60  0000 C CNN
+F 1 "STM32F40X_LQFP64" H 5200 1750 60  0000 C CNN
+F 2 "IPC7351-Nominal:QFP50P1200X1200X100-64" H 5200 4100 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/ef/92/76/6d/bb/c2/4f/f7/DM00037051.pdf/files/DM00037051.pdf/jcr:content/translations/en.DM00037051.pdf" H 5200 4100 60  0001 C CNN
+F 4 "STMicroelectronics" H 300 450 50  0001 C CNN "MFR"
+F 5 "STM32F405RGT6" H 300 450 50  0001 C CNN "MPN"
+F 6 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 7 "497-11767-ND" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+	1    5200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L XTAL-ABRACON-ABM3B X2
 U 1 1 588E380B
-P 7250 1800
-F 0 "X2" V 7450 1800 50  0000 C CNN
-F 1 "ABM3B - 8MHz" V 7350 1800 40  0000 C CNN
-F 2 "IPC7351-Nominal:OSCCC320X500X150" H 7250 1650 60  0001 C CNN
-F 3 "http://www.abracon.com/Resonators/abm3b.pdf" H 7450 1850 60  0001 C CNN
-F 4 "ABM3B-8.000MHZ-10-1UT" H 7250 1800 60  0001 C CNN "mfg#"
-F 5 "Abracon LLC" H 0   0   50  0001 C CNN "MFR"
-F 6 "ABM3B-8.000MHZ-10-1UT" H 0   0   50  0001 C CNN "MPN"
-F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 8 "535-9721-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 9 "" H 0   0   50  0001 C CNN "SPURL"
-	1    7250 1800
+P 7550 2250
+F 0 "X2" V 7750 2250 50  0000 C CNN
+F 1 "ABM3B - 8MHz" V 7650 2250 40  0000 C CNN
+F 2 "IPC7351-Nominal:OSCCC320X500X150" H 7550 2100 60  0001 C CNN
+F 3 "http://www.abracon.com/Resonators/abm3b.pdf" H 7750 2300 60  0001 C CNN
+F 4 "ABM3B-8.000MHZ-10-1UT" H 7550 2250 60  0001 C CNN "mfg#"
+F 5 "Abracon LLC" H 300 450 50  0001 C CNN "MFR"
+F 6 "ABM3B-8.000MHZ-10-1UT" H 300 450 50  0001 C CNN "MPN"
+F 7 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 8 "535-9721-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 9 "" H 300 450 50  0001 C CNN "SPURL"
+	1    7550 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L BEAD-0805 E4
 U 1 1 588F431A
-P 7500 5000
-F 0 "E4" H 7500 5225 50  0000 C CNN
-F 1 "BEAD-220ohm@100khz" H 7500 5134 50  0000 C CNN
-F 2 "IPC7351-Nominal:INDC2012X130" H 7500 4900 50  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0100BLM21P.pdf" H 7500 5050 60  0001 C CNN
-F 4 "BEAD SMD 100 @0MHz 1A [0805]" H 7500 4800 60  0001 C CNN "BOM"
-F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
-F 6 "BLM21PG221SN1D" H 0   0   50  0001 C CNN "MPN"
-F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 8 "490-1054-1-ND" H 0   0   50  0001 C CNN "SPN"
-F 9 "" H 0   0   50  0001 C CNN "SPURL"
-	1    7500 5000
+P 7800 5450
+F 0 "E4" H 7800 5675 50  0000 C CNN
+F 1 "BEAD-220ohm@100khz" H 7800 5584 50  0000 C CNN
+F 2 "IPC7351-Nominal:INDC2012X130" H 7800 5350 50  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0110S0100BLM21P.pdf" H 7800 5500 60  0001 C CNN
+F 4 "BEAD SMD 100 @0MHz 1A [0805]" H 7800 5250 60  0001 C CNN "BOM"
+F 5 "Murata Electronics North America" H 300 450 50  0001 C CNN "MFR"
+F 6 "BLM21PG221SN1D" H 300 450 50  0001 C CNN "MPN"
+F 7 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 8 "490-1054-1-ND" H 300 450 50  0001 C CNN "SPN"
+F 9 "" H 300 450 50  0001 C CNN "SPURL"
+	1    7800 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3 #PWR0199
 U 1 1 588B6A3F
-P 8900 1050
-F 0 "#PWR0199" H 0   100 30  0001 C CNN
-F 1 "+3.3" H 8900 1183 50  0000 C CNN
-F 2 "" H 0   50  60  0000 C CNN
-F 3 "" H 0   50  60  0000 C CNN
-	1    8900 1050
+P 9200 1500
+F 0 "#PWR0199" H 300 550 30  0001 C CNN
+F 1 "+3.3" H 9200 1633 50  0000 C CNN
+F 2 "" H 300 500 60  0000 C CNN
+F 3 "" H 300 500 60  0000 C CNN
+	1    9200 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3 #PWR0200
 U 1 1 588B6C25
-P 6350 3950
-F 0 "#PWR0200" H 6400 4000 30  0001 C CNN
-F 1 "+3.3" H 6350 4083 50  0000 C CNN
-F 2 "" H 0   50  60  0000 C CNN
-F 3 "" H 0   50  60  0000 C CNN
-	1    6350 3950
+P 6650 4400
+F 0 "#PWR0200" H 6700 4450 30  0001 C CNN
+F 1 "+3.3" H 6650 4533 50  0000 C CNN
+F 2 "" H 300 500 60  0000 C CNN
+F 3 "" H 300 500 60  0000 C CNN
+	1    6650 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3 #PWR0201
 U 1 1 588B6CC6
-P 8050 4950
-F 0 "#PWR0201" H 8100 5000 30  0001 C CNN
-F 1 "+3.3" H 8050 5083 50  0000 C CNN
-F 2 "" H 400 50  60  0000 C CNN
-F 3 "" H 400 50  60  0000 C CNN
-	1    8050 4950
+P 8350 5400
+F 0 "#PWR0201" H 8400 5450 30  0001 C CNN
+F 1 "+3.3" H 8350 5533 50  0000 C CNN
+F 2 "" H 700 500 60  0000 C CNN
+F 3 "" H 700 500 60  0000 C CNN
+	1    8350 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3 #PWR0202
 U 1 1 588B6D3A
-P 6350 5200
-F 0 "#PWR0202" H 6400 5250 30  0001 C CNN
-F 1 "+3.3" H 6350 5333 50  0000 C CNN
-F 2 "" H -1300 300 60  0000 C CNN
-F 3 "" H -1300 300 60  0000 C CNN
-	1    6350 5200
+P 6650 5650
+F 0 "#PWR0202" H 6700 5700 30  0001 C CNN
+F 1 "+3.3" H 6650 5783 50  0000 C CNN
+F 2 "" H -1000 750 60  0000 C CNN
+F 3 "" H -1000 750 60  0000 C CNN
+	1    6650 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3A #PWR0203
 U 1 1 588B9943
-P 6900 4950
-F 0 "#PWR0203" H 6950 5000 30  0001 C CNN
-F 1 "+3.3A" H 6900 5083 50  0000 C CNN
-F 2 "" H -900 -500 60  0000 C CNN
-F 3 "" H -900 -500 60  0000 C CNN
-	1    6900 4950
+P 7200 5400
+F 0 "#PWR0203" H 7250 5450 30  0001 C CNN
+F 1 "+3.3A" H 7200 5533 50  0000 C CNN
+F 2 "" H -600 -50 60  0000 C CNN
+F 3 "" H -600 -50 60  0000 C CNN
+	1    7200 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN-100MIL-M-1x5 J9
 U 1 1 5892AE40
-P 8450 2850
-F 0 "J9" H 8569 2695 50  0000 L CNN
-F 1 "SWD" H 8569 2604 50  0000 L CNN
-F 2 "conn-100mil:CONN-100MIL-M-1x5" H -100 -550 50  0001 C CNN
-F 3 "" H -100 -550 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "MFR"
-F 5 "" H 0   0   50  0001 C CNN "MPN"
-F 6 "" H 0   0   50  0001 C CNN "SPR"
-F 7 "" H 0   0   50  0001 C CNN "SPN"
-F 8 "" H 0   0   50  0001 C CNN "SPURL"
-	1    8450 2850
+P 8750 3300
+F 0 "J9" H 8869 3145 50  0000 L CNN
+F 1 "SWD" H 8869 3054 50  0000 L CNN
+F 2 "conn-100mil:CONN-100MIL-M-1x5" H 200 -100 50  0001 C CNN
+F 3 "" H 200 -100 50  0001 C CNN
+F 4 "" H 300 450 50  0001 C CNN "MFR"
+F 5 "" H 300 450 50  0001 C CNN "MPN"
+F 6 "" H 300 450 50  0001 C CNN "SPR"
+F 7 "" H 300 450 50  0001 C CNN "SPN"
+F 8 "" H 300 450 50  0001 C CNN "SPURL"
+	1    8750 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3 #PWR0204
 U 1 1 5892B530
-P 8350 2850
-F 0 "#PWR0204" H -550 1900 30  0001 C CNN
-F 1 "+3.3" H 8350 2983 50  0000 C CNN
-F 2 "" H -550 1850 60  0000 C CNN
-F 3 "" H -550 1850 60  0000 C CNN
-	1    8350 2850
+P 8650 3300
+F 0 "#PWR0204" H -250 2350 30  0001 C CNN
+F 1 "+3.3" H 8650 3433 50  0000 C CNN
+F 2 "" H -250 2300 60  0000 C CNN
+F 3 "" H -250 2300 60  0000 C CNN
+	1    8650 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0205
 U 1 1 5892B905
-P 8350 3050
-F 0 "#PWR0205" H 8350 2800 50  0001 C CNN
-F 1 "GND" V 8350 2900 50  0000 C CNN
-F 2 "" H 8350 3050 60  0000 C CNN
-F 3 "" H 8350 3050 60  0000 C CNN
-	1    8350 3050
+P 8650 3500
+F 0 "#PWR0205" H 8650 3250 50  0001 C CNN
+F 1 "GND" V 8650 3350 50  0000 C CNN
+F 2 "" H 8650 3500 60  0000 C CNN
+F 3 "" H 8650 3500 60  0000 C CNN
+	1    8650 3500
 	0    1    1    0   
 $EndComp
 $Comp
 L R-0603 R122
 U 1 1 588E0131
-P 6800 2250
-F 0 "R122" H 6850 2100 50  0000 L CNN
-F 1 "1k" H 6900 2200 50  0000 L CNN
-F 2 "IPC7351-Nominal:RESC1608X50" H 400 50  50  0001 C CNN
-F 3 "" H 400 100 60  0001 C CNN
-F 4 "RES SMD 1k 5% [0603]" H 1150 600 60  0001 C CNN "BOM"
-F 5 "Yageo" H 0   0   50  0001 C CNN "MFR"
-F 6 "RC0603FR-071KL" H 0   0   50  0001 C CNN "MPN"
-F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 8 "311-1.00KHRCT-ND" H 0   0   50  0001 C CNN "SPN"
-F 9 "" H 0   0   50  0001 C CNN "SPURL"
-	1    6800 2250
+P 7100 2700
+F 0 "R122" H 7150 2550 50  0000 L CNN
+F 1 "1k" H 7200 2650 50  0000 L CNN
+F 2 "IPC7351-Nominal:RESC1608X50" H 700 500 50  0001 C CNN
+F 3 "" H 700 550 60  0001 C CNN
+F 4 "RES SMD 1k 5% [0603]" H 1450 1050 60  0001 C CNN "BOM"
+F 5 "Yageo" H 300 450 50  0001 C CNN "MFR"
+F 6 "RC0603FR-071KL" H 300 450 50  0001 C CNN "MPN"
+F 7 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 8 "311-1.00KHRCT-ND" H 300 450 50  0001 C CNN "SPN"
+F 9 "" H 300 450 50  0001 C CNN "SPURL"
+	1    7100 2700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L +3.3 #PWR0206
 U 1 1 588E04AA
-P 7500 2350
-F 0 "#PWR0206" H -1400 1400 30  0001 C CNN
-F 1 "+3.3" H 7500 2450 50  0000 C CNN
-F 2 "" H -1400 1350 60  0000 C CNN
-F 3 "" H -1400 1350 60  0000 C CNN
-	1    7500 2350
+P 7800 2800
+F 0 "#PWR0206" H -1100 1850 30  0001 C CNN
+F 1 "+3.3" H 7800 2900 50  0000 C CNN
+F 2 "" H -1100 1800 60  0000 C CNN
+F 3 "" H -1100 1800 60  0000 C CNN
+	1    7800 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #PWR0207
 U 1 1 5893E14A
-P 6650 4950
-F 0 "#PWR0207" H 6700 5000 50  0001 C CNN
-F 1 "PWR_FLAG" H -200 200 50  0001 C CNN
-F 2 "" H -200 200 60  0000 C CNN
-F 3 "" H -200 200 60  0000 C CNN
-	1    6650 4950
+P 6950 5400
+F 0 "#PWR0207" H 7000 5450 50  0001 C CNN
+F 1 "PWR_FLAG" H 100 650 50  0001 C CNN
+F 2 "" H 100 650 60  0000 C CNN
+F 3 "" H 100 650 60  0000 C CNN
+	1    6950 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L PUSH SW1
 U 1 1 58963AE7
-P 7250 2350
-F 0 "SW1" H 7250 2450 50  0000 C CNN
-F 1 "BOOTLOADER" H 7250 2300 30  0000 C CNN
-F 2 "paltatech:SMD-Switch_B3U-1000-B" H 7250 2486 60  0001 C CNN
-F 3 "http://www.omron.com/ecb/products/pdf/en-b3u.pdf" H 50  0   60  0001 C CNN
-F 4 "B3U-1000P" H 7250 2350 60  0001 C CNN "mfg#"
-F 5 "Omron Electronics Inc-EMC Div" H 0   0   50  0001 C CNN "MFR"
-F 6 "B3U-1000P" H 0   0   50  0001 C CNN "MPN"
-F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
-F 8 "SW1020CT-ND" H 0   0   50  0001 C CNN "SPN"
-F 9 "" H 0   0   50  0001 C CNN "SPURL"
-	1    7250 2350
+P 7550 2800
+F 0 "SW1" H 7550 2900 50  0000 C CNN
+F 1 "BOOTLOADER" H 7550 2750 30  0000 C CNN
+F 2 "paltatech:SMD-Switch_B3U-1000-B" H 7550 2936 60  0001 C CNN
+F 3 "http://www.omron.com/ecb/products/pdf/en-b3u.pdf" H 350 450 60  0001 C CNN
+F 4 "B3U-1000P" H 7550 2800 60  0001 C CNN "mfg#"
+F 5 "Omron Electronics Inc-EMC Div" H 300 450 50  0001 C CNN "MFR"
+F 6 "B3U-1000P" H 300 450 50  0001 C CNN "MPN"
+F 7 "Digikey" H 300 450 50  0001 C CNN "SPR"
+F 8 "SW1020CT-ND" H 300 450 50  0001 C CNN "SPN"
+F 9 "" H 300 450 50  0001 C CNN "SPURL"
+	1    7550 2800
 	1    0    0    -1  
 $EndComp
 $Bitmap
-Pos 1700 6650
+Pos 1800 6550
 Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 6A 00 00 02 41 08 02 00 00 00 79 DB 0E 
@@ -2736,278 +2744,280 @@ F2 F2 F2 73 E7 CE C5 C5 C5 E1 0B 57 EC ED ED 03 03 03 03 02 02 4C 4C 4C 54 DD 34
 47 45 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 3650 2600 0    60   BiDi ~ 0
+Text HLabel 3950 3050 0    60   BiDi ~ 0
 USB_D-
-Text HLabel 3650 2700 0    60   BiDi ~ 0
+Text HLabel 3950 3150 0    60   BiDi ~ 0
 USB_D+
-Text HLabel 3650 3200 0    60   Output ~ 0
+Text HLabel 3950 3650 0    60   Output ~ 0
 PWM_AUX
-Text HLabel 3650 4900 0    60   Input ~ 0
+Text HLabel 3950 5350 0    60   Input ~ 0
 HALL_1
-Text HLabel 3650 5000 0    60   Input ~ 0
+Text HLabel 3950 5450 0    60   Input ~ 0
 HALL_2
-Text HLabel 3650 5100 0    60   Input ~ 0
+Text HLabel 3950 5550 0    60   Input ~ 0
 HALL_3
-Text HLabel 3650 3600 0    60   Output ~ 0
+Text HLabel 3950 4050 0    60   Output ~ 0
 TX_SCL_MOSI
-Text HLabel 3650 3700 0    60   3State ~ 0
+Text HLabel 3950 4150 0    60   3State ~ 0
 RX_SDA_NSS
-Text HLabel 3650 4700 0    60   Input ~ 0
+Text HLabel 3950 5150 0    60   Input ~ 0
 TEMP_MOTOR
-Text HLabel 3650 4100 0    60   Output ~ 0
+Text HLabel 3950 4550 0    60   Output ~ 0
 PWM_WB
-Text HLabel 3650 4000 0    60   Output ~ 0
+Text HLabel 3950 4450 0    60   Output ~ 0
 PWM_VB
-Text HLabel 3650 3900 0    60   Output ~ 0
+Text HLabel 3950 4350 0    60   Output ~ 0
 PWM_UB
-Text HLabel 3650 2000 0    60   Input ~ 0
+Text HLabel 3950 2450 0    60   Input ~ 0
 TEMP_V
-Text HLabel 3650 3800 0    60   Input ~ 0
+Text HLabel 3950 4250 0    60   Input ~ 0
 ~FAULT
-Text HLabel 3650 2500 0    60   Output ~ 0
+Text HLabel 3950 2950 0    60   Output ~ 0
 PWM_WT
-Text HLabel 3650 2400 0    60   Output ~ 0
+Text HLabel 3950 2850 0    60   Output ~ 0
 PWM_VT
-Text HLabel 3650 2300 0    60   Output ~ 0
+Text HLabel 3950 2750 0    60   Output ~ 0
 PWM_UT
-Text HLabel 3650 1700 0    60   Input ~ 0
+Text HLabel 3950 2150 0    60   Input ~ 0
 V_phase_W
-Text HLabel 3650 1600 0    60   Input ~ 0
+Text HLabel 3950 2050 0    60   Input ~ 0
 V_phase_V
-Text HLabel 3650 1500 0    60   Input ~ 0
+Text HLabel 3950 1950 0    60   Input ~ 0
 V_phase_U
-Text HLabel 3650 4400 0    60   Input ~ 0
+Text HLabel 3950 4850 0    60   Input ~ 0
 I_phase_V
-Text HLabel 3650 4300 0    60   Input ~ 0
+Text HLabel 3950 4750 0    60   Input ~ 0
 I_phase_U
-Text HLabel 3650 4600 0    60   Input ~ 0
+Text HLabel 3950 5050 0    60   Input ~ 0
 V_BUS
-Text HLabel 6150 1500 2    50   Output ~ 0
+Text HLabel 6450 1950 2    50   Output ~ 0
 ~DRIVER_RESET
-Text HLabel 3650 3400 0    60   Input ~ 0
+Text HLabel 3950 3850 0    60   Input ~ 0
 CAN_RX
-Text HLabel 3650 3500 0    60   Output ~ 0
+Text HLabel 3950 3950 0    60   Output ~ 0
 CAN_TX
-Text HLabel 3650 3000 0    60   Output ~ 0
+Text HLabel 3950 3450 0    60   Output ~ 0
 LED_RED
-Text HLabel 6150 2200 2    60   Output ~ 0
+Text HLabel 6450 2650 2    60   Output ~ 0
 LED_GREEN
-Text HLabel 3650 2100 0    60   Input ~ 0
+Text HLabel 3950 2550 0    60   Input ~ 0
 TEMP_W
-Text HLabel 3650 2200 0    60   Output ~ 0
+Text HLabel 3950 2650 0    60   Output ~ 0
 PA6_TX
-Text HLabel 3650 1800 0    60   Input ~ 0
+Text HLabel 3950 2250 0    60   Input ~ 0
 ADC_TEMP
-Text Notes 9050 1700 0    40   ~ 0
+Text Notes 9350 2150 0    40   ~ 0
 Bypass, place next to VDD pins
-Text HLabel 3650 4500 0    60   Input ~ 0
+Text HLabel 3950 4950 0    60   Input ~ 0
 I_phase_W
-Text HLabel 3650 5400 0    60   Input ~ 0
+Text HLabel 3950 5850 0    60   Input ~ 0
 SPI3_MISO
-Text HLabel 3650 5300 0    60   Output ~ 0
+Text HLabel 3950 5750 0    60   Output ~ 0
 SPI3_SCK
-Text HLabel 3650 5200 0    60   Input ~ 0
+Text HLabel 3950 5650 0    60   Input ~ 0
 PC9
-Text HLabel 3650 4800 0    60   Input ~ 0
+Text HLabel 3950 5250 0    60   Input ~ 0
 ADC_15
-Text HLabel 3650 3300 0    60   Input ~ 0
+Text HLabel 3950 3750 0    60   Input ~ 0
 PB7
-Text HLabel 3650 5800 0    60   Input ~ 0
+Text HLabel 3950 6250 0    60   Input ~ 0
 PD2
-Text HLabel 6150 3050 2    60   Input ~ 0
+Text HLabel 6450 3500 2    60   Input ~ 0
 PB3
-Text HLabel 6150 3150 2    60   Input ~ 0
+Text HLabel 6450 3600 2    60   Input ~ 0
 PB4
-Text Label 6150 2850 0    50   ~ 0
+Text Label 6450 3300 0    50   ~ 0
 SWCLK
-Text Label 6150 2750 0    50   ~ 0
+Text Label 6450 3200 0    50   ~ 0
 SWDIO
-Text Label 8100 3150 2    50   ~ 0
+Text Label 8400 3600 2    50   ~ 0
 SWDIO
-Text Label 8100 2950 2    50   ~ 0
+Text Label 8400 3400 2    50   ~ 0
 SWCLK
-Text Label 8100 3250 2    50   ~ 0
+Text Label 8400 3700 2    50   ~ 0
 NRST
-Text Notes 3300 3850 2    40   ~ 0
+Text Notes 3600 4300 2    40   ~ 0
 vesc vanilla uses PB7!
-Text HLabel 3650 2900 0    60   Output ~ 0
+Text HLabel 3950 3350 0    60   Output ~ 0
 ADC_8
-Text Notes 6000 2400 0    30   ~ 0
+Text Notes 6300 2850 0    30   ~ 0
 remember it should be\npulled down if you want\nto enter bootloader
-Text HLabel 3650 5500 0    60   Input ~ 0
+Text HLabel 3950 5950 0    60   Input ~ 0
 PC12
-Text HLabel 6150 2950 2    60   Output ~ 0
+Text HLabel 6450 3400 2    60   Output ~ 0
 SPI3_NSS
-Text HLabel 3650 3100 0    60   Input ~ 0
+Text HLabel 3950 3550 0    60   Input ~ 0
 PB5
 Wire Wire Line
-	6150 5200 6350 5200
+	6450 5650 6650 5650
 Wire Wire Line
-	7050 5000 7050 5150
+	7350 5450 7350 5600
 Wire Wire Line
-	6550 5000 7400 5000
+	6850 5450 7700 5450
 Wire Wire Line
-	6800 5150 6800 5000
+	7100 5600 7100 5450
 Wire Wire Line
-	6550 5400 6150 5400
+	6850 5850 6450 5850
 Wire Wire Line
-	6350 3950 6350 4400
+	6650 4400 6650 4850
 Wire Wire Line
-	6800 2350 6800 2400
+	7100 2800 7100 2850
 Wire Wire Line
-	7900 1400 7900 1450
+	8200 1850 8200 1900
 Wire Wire Line
-	7600 1400 7600 1500
+	7900 1850 7900 1950
 Wire Wire Line
-	6850 1400 7900 1400
+	7150 1850 8200 1850
 Wire Wire Line
-	6850 1400 6850 1500
+	7150 1850 7150 1950
 Wire Wire Line
-	6850 1700 6850 1800
+	7150 2150 7150 2250
 Wire Wire Line
-	7350 1800 7600 1800
+	7650 2250 7900 2250
 Wire Wire Line
-	7600 1700 7600 2150
+	7900 2150 7900 2600
 Wire Wire Line
-	6950 2150 6950 1900
+	7250 2600 7250 2350
 Wire Wire Line
-	6950 1900 6150 1900
+	7250 2350 6450 2350
 Wire Wire Line
-	6150 1800 7150 1800
+	6450 2250 7450 2250
 Wire Wire Line
-	6150 4100 6350 4100
+	6450 4550 6650 4550
 Wire Wire Line
-	6350 4200 6150 4200
+	6650 4650 6450 4650
 Wire Wire Line
-	6350 4300 6150 4300
+	6650 4750 6450 4750
 Wire Wire Line
-	6350 4400 6150 4400
+	6650 4850 6450 4850
 Wire Wire Line
-	6150 4800 6350 4800
+	6450 5250 6650 5250
 Wire Wire Line
-	6150 4700 6350 4700
+	6450 5150 6650 5150
 Wire Wire Line
-	6350 4700 6350 4850
+	6650 5150 6650 5300
 Wire Wire Line
-	6550 5000 6550 5400
+	6850 5450 6850 5850
 Wire Wire Line
-	7050 5350 7050 5800
+	7350 5800 7350 6250
 Wire Wire Line
-	6300 6100 6500 6100
+	6600 6550 6800 6550
 Wire Wire Line
-	6300 5800 6300 6100
+	6600 6250 6600 6550
 Wire Wire Line
-	6150 5800 6300 5800
+	6450 6250 6600 6250
 Wire Wire Line
-	6400 5850 6500 5850
+	6700 6300 6800 6300
 Wire Wire Line
-	6400 5700 6400 5850
+	6700 6150 6700 6300
 Wire Wire Line
-	6150 5700 6400 5700
+	6450 6150 6700 6150
 Wire Wire Line
-	6150 5500 7050 5500
+	6450 5950 7350 5950
 Wire Wire Line
-	6800 5350 6800 6100
+	7100 5800 7100 6550
 Wire Wire Line
-	6800 5850 6700 5850
+	7100 6300 7000 6300
 Wire Wire Line
-	6800 6100 6700 6100
+	7100 6550 7000 6550
 Wire Wire Line
-	9600 1600 9600 1450
+	9900 2050 9900 1900
 Wire Wire Line
-	9350 1600 9350 1450
+	9650 2050 9650 1900
 Wire Wire Line
-	9100 1450 9100 1600
+	9400 1900 9400 2050
 Wire Wire Line
-	9100 1100 9100 1250
+	9400 1550 9400 1700
 Wire Wire Line
-	9350 1100 9350 1250
+	9650 1550 9650 1700
 Wire Wire Line
-	9600 1100 9600 1250
+	9900 1550 9900 1700
 Wire Wire Line
-	9850 1100 9850 1250
+	10150 1550 10150 1700
 Wire Wire Line
-	8900 1100 9850 1100
+	9200 1550 10150 1550
 Wire Wire Line
-	8900 1050 8900 1100
+	9200 1500 9200 1550
 Wire Wire Line
-	9850 1600 9850 1450
+	10150 2050 10150 1900
 Wire Wire Line
-	8900 1600 9850 1600
+	9200 2050 10150 2050
 Wire Wire Line
-	8900 1650 8900 1600
+	9200 2100 9200 2050
 Wire Wire Line
-	6150 2500 7650 2500
+	6450 2950 7950 2950
 Wire Wire Line
-	7250 2500 7250 2700
+	7550 2950 7550 3150
 Wire Wire Line
-	7600 2150 6950 2150
+	7900 2600 7250 2600
 Wire Wire Line
-	7250 1950 7250 1900
+	7550 2400 7550 2350
 Wire Wire Line
-	7250 3050 7250 2900
+	7550 3500 7550 3350
 Wire Wire Line
-	7600 5000 8050 5000
+	7900 5450 8350 5450
 Wire Wire Line
-	8050 5000 8050 4950
+	8350 5450 8350 5400
 Wire Wire Line
-	6900 4950 6900 5000
+	7200 5400 7200 5450
 Wire Wire Line
-	8350 2850 8400 2850
+	8650 3300 8700 3300
 Wire Wire Line
-	8100 3150 8400 3150
+	8400 3600 8700 3600
 Wire Wire Line
-	8400 2950 8100 2950
+	8700 3400 8400 3400
 Wire Wire Line
-	8350 3050 8400 3050
+	8650 3500 8700 3500
 Wire Wire Line
-	8400 3250 7650 3250
+	8700 3700 7950 3700
 Wire Wire Line
-	7650 3250 7650 2500
+	7950 3700 7950 2950
 Wire Wire Line
-	6150 2100 6900 2100
+	6450 2550 7200 2550
 Wire Wire Line
-	6800 2100 6800 2150
+	7100 2550 7100 2600
 Wire Wire Line
-	6900 2100 6900 2350
+	7200 2550 7200 2800
 Wire Wire Line
-	6900 2350 7100 2350
+	7200 2800 7400 2800
 Wire Wire Line
-	7500 2350 7400 2350
+	7800 2800 7700 2800
 Wire Wire Line
-	6650 4950 6650 5000
-Connection ~ 7050 5500
-Connection ~ 6800 5000
-Connection ~ 7600 1400
-Connection ~ 6850 1800
-Connection ~ 7600 1800
-Connection ~ 6350 4100
-Connection ~ 6350 4200
-Connection ~ 6350 4300
-Connection ~ 6350 4800
-Connection ~ 6800 5500
-Connection ~ 6800 5850
-Connection ~ 9600 1600
-Connection ~ 9350 1600
-Connection ~ 9100 1600
-Connection ~ 9100 1100
-Connection ~ 9350 1100
-Connection ~ 9600 1100
-Connection ~ 7050 5000
-Connection ~ 7250 2500
-Connection ~ 6900 5000
-Connection ~ 6800 2100
-Connection ~ 6650 5000
-NoConn ~ 6150 1600
-NoConn ~ 3650 5600
-Text Notes 750  4650 0    50   ~ 0
+	6950 5400 6950 5450
+Connection ~ 7350 5950
+Connection ~ 7100 5450
+Connection ~ 7900 1850
+Connection ~ 7150 2250
+Connection ~ 7900 2250
+Connection ~ 6650 4550
+Connection ~ 6650 4650
+Connection ~ 6650 4750
+Connection ~ 6650 5250
+Connection ~ 7100 5950
+Connection ~ 7100 6300
+Connection ~ 9900 2050
+Connection ~ 9650 2050
+Connection ~ 9400 2050
+Connection ~ 9400 1550
+Connection ~ 9650 1550
+Connection ~ 9900 1550
+Connection ~ 7350 5450
+Connection ~ 7550 2950
+Connection ~ 7200 5450
+Connection ~ 7100 2550
+Connection ~ 6950 5450
+NoConn ~ 6450 2050
+NoConn ~ 3950 6050
+Text Notes 1050 5100 0    50   ~ 0
 \nPIN \n----------------------------------\nFAULT \nSPI_CS\nLED_GREEN\nACCEL\nREGEN\nGATE DRIVER RST
-Text Notes 1450 4650 0    50   ~ 0
+Text Notes 1750 5100 0    50   ~ 0
 \n| VESC Vanilla\n\n| PB7\n| PC9  (drv)\n| PB0\n| -\n| -\n| -
-Text Notes 2050 4650 0    50   ~ 0
+Text Notes 2350 5100 0    50   ~ 0
 \n| VESC-controller\n\n| PB12 (could enable BRK)\n| PA15 (resolver)\n| PB2\n| PC5 (AN15)\n| PB0 (AN8)\n| PC14
-Text Notes 750  3950 0    60   ~ 12
+Text Notes 1050 4400 0    60   ~ 12
 Changes for board support package
-Text HLabel 3650 1900 0    60   Input ~ 0
+Text HLabel 3950 2350 0    60   Input ~ 0
 TEMP_U
+Text Notes 1150 1200 0    260  ~ 52
+STM32F405 MCU
 $EndSCHEMATC

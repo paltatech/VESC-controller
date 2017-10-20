@@ -193,6 +193,7 @@ F 5 "RC0603FR-071KL" H -850 -1850 50  0001 C CNN "MPN"
 F 6 "Digikey" H -850 -1850 50  0001 C CNN "SPR"
 F 7 "311-1.00KHRCT-ND" H -850 -1850 50  0001 C CNN "SPN"
 F 8 "" H -850 -1850 50  0001 C CNN "SPURL"
+F 9 "RES SMD 1k 5% [0603]" H 0   0   60  0001 C CNN "BOM"
 	1    5150 4800
 	1    0    0    1   
 $EndComp
@@ -209,6 +210,7 @@ F 5 "RC0603FR-071KL" H -850 -2850 50  0001 C CNN "MPN"
 F 6 "Digikey" H -850 -2850 50  0001 C CNN "SPR"
 F 7 "311-1.00KHRCT-ND" H -850 -2850 50  0001 C CNN "SPN"
 F 8 "" H -850 -2850 50  0001 C CNN "SPURL"
+F 9 "RES SMD 1k 5% [0603]" H 0   0   60  0001 C CNN "BOM"
 	1    5150 3800
 	1    0    0    1   
 $EndComp
@@ -422,4 +424,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 3350 5050 3650
 Connection ~ 5050 3650
+Text Notes 1650 2000 0    260  ~ 52
+Protected, 1A Open drain outputs
 $EndSCHEMATC

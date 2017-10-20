@@ -205,4 +205,6 @@ Wire Wire Line
 	4150 4050 4150 4150
 Connection ~ 4400 4150
 Connection ~ 4400 3750
+Text Notes 1600 2050 0    260  ~ 52
+PCB temperature sensor
 $EndSCHEMATC

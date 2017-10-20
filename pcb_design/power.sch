@@ -360,7 +360,7 @@ F 0 "C42" H 3412 2746 50  0000 L CNN
 F 1 "180nF" H 3412 2655 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 3300 2700 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3290 2675 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 4100 3250 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 180nF X7R 50V 5% [0603]" H 4100 3250 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 0   0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E184KA88D" H 0   0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 0   0   50  0001 C CNN "SPR"
@@ -862,7 +862,7 @@ F 0 "C51" H 9262 6096 50  0000 L CNN
 F 1 "100nF" H 9262 6005 50  0000 L CNN
 F 2 "IPC7351-Nominal:CAPC1608X55" H 9150 6050 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 9140 6025 60  0001 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 9950 6600 60  0001 C CNN "BOM"
+F 4 "CAP MLCC 100nF C0G 50V 5% [0603]" H 9950 6600 60  0001 C CNN "BOM"
 F 5 "Murata Electronics North America" H 200 0   50  0001 C CNN "MFR"
 F 6 "GRM188R71E104KA01D" H 200 0   50  0001 C CNN "MPN"
 F 7 "Digikey" H 200 0   50  0001 C CNN "SPR"
@@ -1448,8 +1448,6 @@ Connection ~ 1200 2050
 Connection ~ 1550 2050
 Connection ~ 1550 2400
 NoConn ~ 3450 6350
-Text Notes 4900 2150 0    30   ~ 0
-^ this footprint was horribly wrong
 $Comp
 L 1SMA59xxBT3G DZ3
 U 1 1 5944E88B
