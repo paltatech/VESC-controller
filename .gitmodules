@@ -1,0 +1,6 @@
+[submodule "adaptor boards/120v_powerpass/pcb_design/120v_powerstage/schlib"]
+	path = adaptor boards/120v_powerpass/pcb_design/120v_powerstage/schlib
+	url = git@github.com:cpavlina/kicad-schlib
+[submodule "adaptor boards/120v_powerpass/pcb_design/120v_powerstage/pcblib"]
+	path = adaptor boards/120v_powerpass/pcb_design/120v_powerstage/pcblib
+	url = git@github.com:cpavlina/kicad-pcblib
